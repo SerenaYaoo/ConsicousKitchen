@@ -1,0 +1,2809 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' inline='true' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clean Data - Strawberry Farms by County  copy' name='excel-direct.1rp5dyj0bxg3wf143u8rm09iqiat'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/serenayao/Desktop/Clean Data - Strawberry Farms by County  copy.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1rp5dyj0bxg3wf143u8rm09iqiat' name='All Farms' table='[&apos;All Farms$&apos;]' type='table'>
+          <columns gridOrigin='A1:S152:no:A1:S152:0' header='yes' outcome='2'>
+            <column datatype='string' name='Certification' ordinal='0' />
+            <column datatype='string' name='USDA Region' ordinal='1' />
+            <column datatype='string' name='County' ordinal='2' />
+            <column datatype='string' name='Farm Name' ordinal='3' />
+            <column datatype='integer' name='Certified Acres' ordinal='4' />
+            <column datatype='string' name='Farm Owner' ordinal='5' />
+            <column datatype='string' name='Con_FName' ordinal='6' />
+            <column datatype='string' name='Con_LName' ordinal='7' />
+            <column datatype='string' name='Email' ordinal='8' />
+            <column datatype='string' name='Phone' ordinal='9' />
+            <column datatype='string' name='Farm Address' ordinal='10' />
+            <column datatype='string' name='Website' ordinal='11' />
+            <column datatype='string' name='Additional Information' ordinal='12' />
+            <column datatype='string' name='Organic Certificate' ordinal='13' />
+            <column datatype='string' name='GAP Certified' ordinal='14' />
+            <column datatype='string' name='CK Verified?' ordinal='15' />
+            <column datatype='string' name='Outreach' ordinal='16' />
+            <column datatype='real' name='Latitude' ordinal='17' />
+            <column datatype='real' name='Longitude' ordinal='18' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S152:no:A1:S152:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Certification</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Certification]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Certification</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>USDA Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[USDA Region]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>USDA Region</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Farm Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Farm Name]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Farm Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Certified Acres</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Certified Acres]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Certified Acres</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Farm Owner</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Farm Owner]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Farm Owner</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Con_FName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Con_FName]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Con_FName</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Con_LName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Con_LName]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Con_LName</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Email</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Email]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Email</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Phone</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Phone]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Phone</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Farm Address</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Farm Address]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Farm Address</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Website</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Website]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Website</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional Information</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Additional Information]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Additional Information</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Organic Certificate</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Organic Certificate]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Organic Certificate</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GAP Certified</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GAP Certified]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>GAP Certified</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CK Verified?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CK Verified?]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>CK Verified?</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Outreach</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Outreach]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Outreach</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[All Farms]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='CK Verified' datatype='string' name='[CK Verified?]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='%null%' value='No' />
+          <alias key='&quot;yes&quot;' value='Yes' />
+        </aliases>
+      </column>
+      <column caption='Certifications' datatype='string' name='[Calculation_1937744168778252289]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF NOT ISNULL([GAP Certified]) AND [CK Verified?] = &quot;yes&quot; THEN &quot;GAP Certified, CK Verified&quot;&#10;ELSEIF NOT ISNULL([GAP Certified]) THEN &quot;GAP Certified&quot;&#10;ELSEIF [CK Verified?] = &quot;Yes&quot; THEN &quot;CK Verified&quot;&#10;ELSE &quot;&quot;&#10;END' />
+      </column>
+      <column caption='Acreage' datatype='integer' name='[Certified Acres]' role='measure' type='quantitative' />
+      <column caption='Con FName' datatype='string' name='[Con_FName]' role='dimension' type='nominal' />
+      <column caption='Con LName' datatype='string' name='[Con_LName]' role='dimension' type='nominal' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[Farm Name]' role='dimension' type='nominal' />
+      <column caption='Contact' datatype='string' name='[Farm Owner]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='All Farms' datatype='table' name='[__tableau_internal_object_id__].[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]' role='measure' type='quantitative' />
+      <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Latitude]' derivation='None' name='[none:Latitude:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Longitude]' derivation='None' name='[none:Longitude:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Certifications,County,Farm Name,Farm Owner)' hidden='true' name='[Action (Certifications,County,Farm Name,Farm Owner)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Calculation_1937744168778252289]' />
+          <groupfilter function='level-members' level='[County]' />
+          <groupfilter function='level-members' level='[Farm Name]' />
+          <groupfilter function='level-members' level='[Farm Owner]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (County,Latitude,Longitude)' hidden='true' name='[Action (County,Latitude,Longitude)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[County]' />
+          <groupfilter function='level-members' level='[none:Latitude:ok]' />
+          <groupfilter function='level-members' level='[none:Longitude:ok]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Desktop/CK Dashboard.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/27/2025 03:59:55 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='All Farms (Clean Data - Strawberry Farms by County  copy)' increment-value='%null%' refresh-type='create' rows-inserted='151' timestamp-start='2025-03-27 03:59:54.209' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Certification</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Certification]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Certification</remote-alias>
+              <ordinal>0</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>USDA Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[USDA Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>USDA Region</remote-alias>
+              <ordinal>1</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>County</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[County]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>County</remote-alias>
+              <ordinal>2</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Farm Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Farm Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Farm Name</remote-alias>
+              <ordinal>3</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>151</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Certified Acres</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Certified Acres]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Certified Acres</remote-alias>
+              <ordinal>4</ordinal>
+              <family>All Farms</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>87</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Farm Owner</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Farm Owner]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Farm Owner</remote-alias>
+              <ordinal>5</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>146</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Con_FName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Con_FName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Con_FName</remote-alias>
+              <ordinal>6</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>130</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Con_LName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Con_LName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Con_LName</remote-alias>
+              <ordinal>7</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>128</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Email</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Email]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Email</remote-alias>
+              <ordinal>8</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>69</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Phone</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Phone]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Phone</remote-alias>
+              <ordinal>9</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>145</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Farm Address</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Farm Address]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Farm Address</remote-alias>
+              <ordinal>10</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>150</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Website</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Website]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Website</remote-alias>
+              <ordinal>11</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Additional Information</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Additional Information]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Additional Information</remote-alias>
+              <ordinal>12</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Organic Certificate</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Organic Certificate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Organic Certificate</remote-alias>
+              <ordinal>13</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GAP Certified</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GAP Certified]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GAP Certified</remote-alias>
+              <ordinal>14</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CK Verified?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CK Verified?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CK Verified?</remote-alias>
+              <ordinal>15</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Outreach</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Outreach]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Outreach</remote-alias>
+              <ordinal>16</ordinal>
+              <family>All Farms</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latitude</remote-alias>
+              <ordinal>17</ordinal>
+              <family>All Farms</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>143</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Longitude</remote-alias>
+              <ordinal>18</ordinal>
+              <family>All Farms</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>143</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:County:nk]' palette='gray_warm_10_0' type='palette'>
+            <map to='#59504e'>
+              <bucket>&quot;Yolo County&quot;</bucket>
+            </map>
+            <map to='#5e5553'>
+              <bucket>&quot;Ventura County County&quot;</bucket>
+            </map>
+            <map to='#645a58'>
+              <bucket>&quot;Ventura County&quot;</bucket>
+            </map>
+            <map to='#6a605e'>
+              <bucket>&quot;Sonoma County&quot;</bucket>
+            </map>
+            <map to='#6f6563'>
+              <bucket>&quot;Santa Cruz County County&quot;</bucket>
+            </map>
+            <map to='#756b69'>
+              <bucket>&quot;Santa Cruz County&quot;</bucket>
+            </map>
+            <map to='#7a726f'>
+              <bucket>&quot;Santa Clara County&quot;</bucket>
+            </map>
+            <map to='#807875'>
+              <bucket>&quot;Santa Barbara County County&quot;</bucket>
+            </map>
+            <map to='#867d7a'>
+              <bucket>&quot;Santa Barbara County&quot;</bucket>
+            </map>
+            <map to='#8c8380'>
+              <bucket>&quot;San Mateo County&quot;</bucket>
+            </map>
+            <map to='#928986'>
+              <bucket>&quot;San Luis Obispo County County&quot;</bucket>
+            </map>
+            <map to='#98908c'>
+              <bucket>&quot;San Luis Obispo County&quot;</bucket>
+            </map>
+            <map to='#9d9591'>
+              <bucket>&quot;San Diego County&quot;</bucket>
+            </map>
+            <map to='#a39a97'>
+              <bucket>&quot;San Benito County&quot;</bucket>
+            </map>
+            <map to='#aaa19e'>
+              <bucket>&quot;Sacramento County&quot;</bucket>
+            </map>
+            <map to='#b0a7a4'>
+              <bucket>&quot;Placer County&quot;</bucket>
+            </map>
+            <map to='#b6adaa'>
+              <bucket>&quot;Orange County&quot;</bucket>
+            </map>
+            <map to='#bcb4b0'>
+              <bucket>&quot;Monterey County County&quot;</bucket>
+            </map>
+            <map to='#c2bab6'>
+              <bucket>&quot;Monterey County&quot;</bucket>
+            </map>
+            <map to='#c8c0bc'>
+              <bucket>&quot;Madera County&quot;</bucket>
+            </map>
+            <map to='#cfc6c2'>
+              <bucket>&quot;Humboldt County&quot;</bucket>
+            </map>
+            <map to='#d5cdc9'>
+              <bucket>&quot;Butte County&quot;</bucket>
+            </map>
+            <map to='#dcd4d0'>
+              <bucket>&quot;Alameda County&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+        <semantic-value key='[County].[Name]' value='%null%' />
+        <semantic-value key='[State].[Name]' value='&quot;California&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='All Farms' id='All Farms_E03B7FEA1BE4466EAF8FE0F77052DFB7'>
+            <properties context=''>
+              <relation connection='excel-direct.1rp5dyj0bxg3wf143u8rm09iqiat' name='All Farms' table='[&apos;All Farms$&apos;]' type='table'>
+                <columns gridOrigin='A1:S152:no:A1:S152:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Certification' ordinal='0' />
+                  <column datatype='string' name='USDA Region' ordinal='1' />
+                  <column datatype='string' name='County' ordinal='2' />
+                  <column datatype='string' name='Farm Name' ordinal='3' />
+                  <column datatype='integer' name='Certified Acres' ordinal='4' />
+                  <column datatype='string' name='Farm Owner' ordinal='5' />
+                  <column datatype='string' name='Con_FName' ordinal='6' />
+                  <column datatype='string' name='Con_LName' ordinal='7' />
+                  <column datatype='string' name='Email' ordinal='8' />
+                  <column datatype='string' name='Phone' ordinal='9' />
+                  <column datatype='string' name='Farm Address' ordinal='10' />
+                  <column datatype='string' name='Website' ordinal='11' />
+                  <column datatype='string' name='Additional Information' ordinal='12' />
+                  <column datatype='string' name='Organic Certificate' ordinal='13' />
+                  <column datatype='string' name='GAP Certified' ordinal='14' />
+                  <column datatype='string' name='CK Verified?' ordinal='15' />
+                  <column datatype='string' name='Outreach' ordinal='16' />
+                  <column datatype='real' name='Latitude' ordinal='17' />
+                  <column datatype='real' name='Longitude' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_1D1C4D6A271B429F87FE9F5BA47AB09B]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 4' type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 4' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+            <column caption='CK Verified' datatype='string' name='[CK Verified?]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='%null%' value='No' />
+                <alias key='&quot;yes&quot;' value='Yes' />
+              </aliases>
+            </column>
+            <column caption='Certifications' datatype='string' name='[Calculation_1937744168778252289]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF NOT ISNULL([GAP Certified]) AND [CK Verified?] = &quot;yes&quot; THEN &quot;GAP Certified, CK Verified&quot;&#10;ELSEIF NOT ISNULL([GAP Certified]) THEN &quot;GAP Certified&quot;&#10;ELSEIF [CK Verified?] = &quot;Yes&quot; THEN &quot;CK Verified&quot;&#10;ELSE &quot;&quot;&#10;END' />
+            </column>
+            <column datatype='string' name='[Certification]' role='dimension' type='nominal' />
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='string' name='[Email]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Farm Address]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Farm Name]' role='dimension' type='nominal' />
+            <column caption='Contact' datatype='string' name='[Farm Owner]' role='dimension' type='nominal' />
+            <column datatype='string' name='[GAP Certified]' role='dimension' type='nominal' />
+            <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[Phone]' role='dimension' type='nominal' />
+            <column-instance column='[Certification]' derivation='Attribute' name='[attr:Certification:nk]' pivot='key' type='nominal' />
+            <column-instance column='[County]' derivation='Attribute' name='[attr:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Email]' derivation='Attribute' name='[attr:Email:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Farm Address]' derivation='Attribute' name='[attr:Farm Address:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Farm Name]' derivation='Attribute' name='[attr:Farm Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Farm Owner]' derivation='Attribute' name='[attr:Farm Owner:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Phone]' derivation='Attribute' name='[attr:Phone:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1937744168778252289]' derivation='None' name='[none:Calculation_1937744168778252289:nk]' pivot='key' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Latitude]' derivation='None' name='[none:Latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Longitude]' derivation='None' name='[none:Longitude:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]'>
+            <groupfilter function='level-members' level='[attr:County:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Name:nk]'>
+            <groupfilter function='level-members' level='[attr:Farm Name:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Calculation_1937744168778252289:nk]'>
+            <groupfilter function='level-members' level='[none:Calculation_1937744168778252289:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:County:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]</column>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Calculation_1937744168778252289:nk]</column>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]</column>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Longitude:qk]' field-type='quantitative' max='-12673036.755045017' min='-13907132.401024777' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk]' field-type='quantitative' max='4756284.9765209323' min='3792657.4353213124' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='1' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk]' field-type='quantitative' fold='true' max='4756284.9765209323' min='3792657.4353213124' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='1' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Longitude:qk]' field-type='quantitative' fold='true' max='-12673036.755045017' min='-13907132.401024777' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+            <format attr='enabled' id='tunnel-street-low' value='false' />
+            <format attr='enabled' id='tunnel-street_limited-low' value='false' />
+            <format attr='enabled' id='tunnel-track-case' value='false' />
+            <format attr='enabled' id='tunnel-service-link-case' value='false' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='false' />
+            <format attr='enabled' id='tunnel-street-case' value='false' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='false' />
+            <format attr='enabled' id='tunnel-primary-case' value='false' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='false' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='false' />
+            <format attr='enabled' id='tunnel-trunk-case' value='false' />
+            <format attr='enabled' id='tunnel-motorway-case' value='false' />
+            <format attr='enabled' id='tunnel-construction' value='false' />
+            <format attr='enabled' id='tunnel-path' value='false' />
+            <format attr='enabled' id='tunnel-cycleway-piste' value='false' />
+            <format attr='enabled' id='tunnel-steps' value='false' />
+            <format attr='enabled' id='tunnel-trunk_link' value='false' />
+            <format attr='enabled' id='tunnel-motorway_link' value='false' />
+            <format attr='enabled' id='tunnel-pedestrian' value='false' />
+            <format attr='enabled' id='tunnel-track' value='false' />
+            <format attr='enabled' id='tunnel-service-link' value='false' />
+            <format attr='enabled' id='tunnel-street_limited' value='false' />
+            <format attr='enabled' id='tunnel-street' value='false' />
+            <format attr='enabled' id='tunnel-secondary-tertiary' value='false' />
+            <format attr='enabled' id='tunnel-primary' value='false' />
+            <format attr='enabled' id='tunnel-oneway-arrows-blue-minor' value='false' />
+            <format attr='enabled' id='tunnel-oneway-arrows-blue-major' value='false' />
+            <format attr='enabled' id='tunnel-trunk' value='false' />
+            <format attr='enabled' id='tunnel-motorway' value='false' />
+            <format attr='enabled' id='tunnel-oneway-arrows-white' value='false' />
+            <format attr='enabled' id='ferry' value='false' />
+            <format attr='enabled' id='ferry-auto' value='false' />
+            <format attr='enabled' id='road-path-bg' value='false' />
+            <format attr='enabled' id='road-piste-bg' value='false' />
+            <format attr='enabled' id='road-sidewalk-corridor-bg' value='false' />
+            <format attr='enabled' id='road-steps-bg' value='false' />
+            <format attr='enabled' id='road-pedestrian-case' value='false' />
+            <format attr='enabled' id='road-street-low' value='false' />
+            <format attr='enabled' id='road-street_limited-low' value='false' />
+            <format attr='enabled' id='road-track-case' value='false' />
+            <format attr='enabled' id='road-service-link-case' value='false' />
+            <format attr='enabled' id='road-street_limited-case' value='false' />
+            <format attr='enabled' id='road-street-case' value='false' />
+            <format attr='enabled' id='road-secondary-tertiary-case' value='false' />
+            <format attr='enabled' id='road-primary-case' value='false' />
+            <format attr='enabled' id='road-motorway_link-case' value='false' />
+            <format attr='enabled' id='road-trunk_link-case' value='false' />
+            <format attr='enabled' id='road-trunk-case' value='false' />
+            <format attr='enabled' id='road-motorway-case' value='false' />
+            <format attr='enabled' id='road-construction' value='false' />
+            <format attr='enabled' id='road-sidewalk-corridor' value='false' />
+            <format attr='enabled' id='road-path-smooth' value='false' />
+            <format attr='enabled' id='road-path-rough' value='false' />
+            <format attr='enabled' id='road-cycleway-piste' value='false' />
+            <format attr='enabled' id='road-steps' value='false' />
+            <format attr='enabled' id='road-trunk_link' value='false' />
+            <format attr='enabled' id='road-motorway_link' value='false' />
+            <format attr='enabled' id='road-pedestrian' value='false' />
+            <format attr='enabled' id='road-pedestrian-polygon-fill' value='false' />
+            <format attr='enabled' id='road-pedestrian-polygon-pattern' value='false' />
+            <format attr='enabled' id='road-polygon' value='false' />
+            <format attr='enabled' id='road-track' value='false' />
+            <format attr='enabled' id='road-service-link' value='false' />
+            <format attr='enabled' id='road-street_limited' value='false' />
+            <format attr='enabled' id='road-street' value='false' />
+            <format attr='enabled' id='road-secondary-tertiary' value='false' />
+            <format attr='enabled' id='road-primary' value='false' />
+            <format attr='enabled' id='road-oneway-arrows-blue-minor' value='false' />
+            <format attr='enabled' id='road-oneway-arrows-blue-major' value='false' />
+            <format attr='enabled' id='road-trunk' value='false' />
+            <format attr='enabled' id='road-motorway' value='false' />
+            <format attr='enabled' id='road-rail' value='false' />
+            <format attr='enabled' id='road-rail-tracks' value='false' />
+            <format attr='enabled' id='level-crossing' value='false' />
+            <format attr='enabled' id='road-oneway-arrows-white' value='false' />
+            <format attr='enabled' id='bridge-path-bg' value='false' />
+            <format attr='enabled' id='bridge-piste-bg' value='false' />
+            <format attr='enabled' id='bridge-steps-bg' value='false' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='false' />
+            <format attr='enabled' id='bridge-street-low' value='false' />
+            <format attr='enabled' id='bridge-street_limited-low' value='false' />
+            <format attr='enabled' id='bridge-track-case' value='false' />
+            <format attr='enabled' id='bridge-service-link-case' value='false' />
+            <format attr='enabled' id='bridge-street_limited-case' value='false' />
+            <format attr='enabled' id='bridge-street-case' value='false' />
+            <format attr='enabled' id='bridge-secondary-tertiary-case' value='false' />
+            <format attr='enabled' id='bridge-primary-case' value='false' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='false' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='false' />
+            <format attr='enabled' id='bridge-trunk-case' value='false' />
+            <format attr='enabled' id='bridge-motorway-case' value='false' />
+            <format attr='enabled' id='bridge-construction' value='false' />
+            <format attr='enabled' id='bridge-path' value='false' />
+            <format attr='enabled' id='bridge-cycleway-piste' value='false' />
+            <format attr='enabled' id='bridge-steps' value='false' />
+            <format attr='enabled' id='bridge-trunk_link' value='false' />
+            <format attr='enabled' id='bridge-motorway_link' value='false' />
+            <format attr='enabled' id='bridge-pedestrian' value='false' />
+            <format attr='enabled' id='bridge-track' value='false' />
+            <format attr='enabled' id='bridge-service-link' value='false' />
+            <format attr='enabled' id='bridge-street_limited' value='false' />
+            <format attr='enabled' id='bridge-street' value='false' />
+            <format attr='enabled' id='bridge-secondary-tertiary' value='false' />
+            <format attr='enabled' id='bridge-primary' value='false' />
+            <format attr='enabled' id='bridge-oneway-arrows-blue-minor' value='false' />
+            <format attr='enabled' id='bridge-oneway-arrows-blue-major' value='false' />
+            <format attr='enabled' id='bridge-trunk' value='false' />
+            <format attr='enabled' id='bridge-motorway' value='false' />
+            <format attr='enabled' id='bridge-rail' value='false' />
+            <format attr='enabled' id='bridge-rail-tracks' value='false' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='false' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='false' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='false' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='false' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='false' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='false' />
+            <format attr='enabled' id='bridge-trunk-2' value='false' />
+            <format attr='enabled' id='bridge-motorway-2' value='false' />
+            <format attr='enabled' id='bridge-oneway-arrows-white' value='false' />
+            <format attr='enabled' id='road-label-small' value='false' />
+            <format attr='enabled' id='road-label-medium' value='false' />
+            <format attr='enabled' id='road-label-large' value='false' />
+            <format attr='enabled' id='road-shields-black' value='false' />
+            <format attr='enabled' id='road-shields-white' value='false' />
+            <format attr='enabled' id='motorway-junction' value='false' />
+            <format attr='enabled' id='place-hamlet' value='false' />
+            <format attr='enabled' id='place-village' value='false' />
+            <format attr='enabled' id='place-town' value='false' />
+            <format attr='enabled' id='place-city-sm' value='false' />
+            <format attr='enabled' id='place-islet-archipelago-aboriginal' value='false' />
+            <format attr='enabled' id='place-islet-archipelago-aboriginal-2' value='false' />
+            <format attr='enabled' id='place-city-md-s' value='false' />
+            <format attr='enabled' id='place-city-md-n' value='false' />
+            <format attr='enabled' id='place-city-lg-s' value='false' />
+            <format attr='enabled' id='place-city-lg-n' value='false' />
+            <format attr='enabled' id='place-island' value='false' />
+            <format attr='enabled' id='place-island-2' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='outdoors' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='font-family' value='Tableau Medium' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='font-size' value='11' />
+            <format attr='font-family' value='Tableau Semibold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Name:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Address:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Owner:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Phone:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Email:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Certification:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>County:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Address:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Address:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Owner:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Owner:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Phone:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Phone:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Email:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Email:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Certified Acres:&#9;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Certification:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Certification:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-transparency' value='206' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Name:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Address:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Owner:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Phone:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Email:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Certification:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]' />
+              <geometry column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>County:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Address:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Address:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Owner:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Owner:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Phone:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Phone:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Email:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Email:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Certified Acres:&#9;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Certification:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Certification:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#818b91' />
+                <format attr='mark-transparency' value='185' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Name:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Address:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Owner:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Phone:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Email:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Certification:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>County:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Address:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Address:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Owner:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Owner:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Phone:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Phone:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Email:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Email:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Certified Acres:&#9;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Certification:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Certification:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#da796d' />
+                <format attr='mark-transparency' value='206' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#b4b4b4' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk] + [federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk])</rows>
+        <cols>([federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Longitude:qk] + [federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Longitude:qk])</cols>
+      </table>
+      <simple-id uuid='{BE15EEE3-01C3-45BF-9935-66F7493C2C77}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Semibold' fontsize='12'>County Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='string' name='[GAP Certified]' role='dimension' type='nominal' />
+            <column-instance column='[GAP Certified]' derivation='Count' name='[cnt:GAP Certified:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' />
+              <wedge-size column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[cnt:GAP Certified:qk]' />
+              <size column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[cnt:GAP Certified:qk]' />
+              <text column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-family' value='Times' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EE837C20-AE72-4A43-BF73-266C1C1F9843}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Semibold' fontsize='12'>County Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+            <column caption='CK Verified' datatype='string' name='[CK Verified?]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='%null%' value='No' />
+                <alias key='&quot;yes&quot;' value='Yes' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column-instance column='[CK Verified?]' derivation='Count' name='[cnt:CK Verified?:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' />
+              <wedge-size column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[cnt:CK Verified?:qk]' />
+              <size column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[cnt:CK Verified?:qk]' />
+              <text column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-family' value='Times' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{506E4A27-9147-4AAC-AEF3-90F49E4EC9AB}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='string' name='[Farm Name]' role='dimension' type='nominal' />
+            <column-instance column='[Farm Name]' derivation='Count' name='[cnt:Farm Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:County:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='50' />
+            <format attr='width' value='82' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[cnt:Farm Name:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontname='Tableau Semibold' fontsize='15'>&lt;</run>
+                <run bold='true' fontname='Tableau Semibold' fontsize='15'>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[cnt:Farm Name:qk]</run>
+                <run bold='true' fontname='Tableau Semibold' fontsize='15'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9C1D181F-EB9E-4A2C-AB56-8C6E28EF1DF4}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+            <column caption='Acreage' datatype='integer' name='[Certified Acres]' role='measure' type='quantitative' />
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Certified Acres]' derivation='Sum' name='[sum:Certified Acres:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:County:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='101' />
+            <format attr='height' value='63' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[sum:Certified Acres:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontname='Tableau Semibold' fontsize='15'>&lt;</run>
+                <run fontname='Tableau Semibold' fontsize='15'>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[sum:Certified Acres:qk]</run>
+                <run fontname='Tableau Semibold' fontsize='15'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F6A056F0-DC01-4D43-9A1E-AAEE394F8674}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+            <column caption='CK Verified' datatype='string' name='[CK Verified?]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='%null%' value='No' />
+                <alias key='&quot;yes&quot;' value='Yes' />
+              </aliases>
+            </column>
+            <column caption='Certifications' datatype='string' name='[Calculation_1937744168778252289]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF NOT ISNULL([GAP Certified]) AND [CK Verified?] = &quot;yes&quot; THEN &quot;GAP Certified, CK Verified&quot;&#10;ELSEIF NOT ISNULL([GAP Certified]) THEN &quot;GAP Certified&quot;&#10;ELSEIF [CK Verified?] = &quot;Yes&quot; THEN &quot;CK Verified&quot;&#10;ELSE &quot;&quot;&#10;END' />
+            </column>
+            <column caption='Acreage' datatype='integer' name='[Certified Acres]' role='measure' type='quantitative' />
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='string' name='[Email]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Farm Address]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Farm Name]' role='dimension' type='nominal' />
+            <column caption='Contact' datatype='string' name='[Farm Owner]' role='dimension' type='nominal' />
+            <column datatype='string' name='[GAP Certified]' role='dimension' type='nominal' />
+            <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[Phone]' role='dimension' type='nominal' />
+            <column-instance column='[County]' derivation='Attribute' name='[attr:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Email]' derivation='Attribute' name='[attr:Email:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Farm Address]' derivation='Attribute' name='[attr:Farm Address:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Phone]' derivation='Attribute' name='[attr:Phone:nk]' pivot='key' type='nominal' />
+            <column-instance column='[CK Verified?]' derivation='None' name='[none:CK Verified?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1937744168778252289]' derivation='None' name='[none:Calculation_1937744168778252289:nk]' pivot='key' type='nominal' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Email]' derivation='None' name='[none:Email:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Farm Name]' derivation='None' name='[none:Farm Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Farm Owner]' derivation='None' name='[none:Farm Owner:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Latitude]' derivation='None' name='[none:Latitude:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Longitude]' derivation='None' name='[none:Longitude:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Phone]' derivation='None' name='[none:Phone:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Certified Acres]' derivation='Sum' name='[sum:Certified Acres:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[Action (County,Latitude,Longitude)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_1D1C4D6A271B429F87FE9F5BA47AB09B]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[County]' />
+              <groupfilter function='level-members' level='[none:Latitude:ok]' />
+              <groupfilter function='level-members' level='[none:Longitude:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]'>
+            <groupfilter function='level-members' level='[attr:County:nk]' />
+          </filter>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:CK Verified?:nk]'>
+            <groupfilter function='member' level='[none:CK Verified?:nk]' member='&quot;yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:CK Verified?:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;yes&quot;</bucket>
+              <bucket>%null%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Calculation_1937744168778252289:nk]'>
+            <groupfilter function='level-members' level='[none:Calculation_1937744168778252289:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:County:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]'>
+            <groupfilter function='level-members' level='[none:Farm Name:nk]' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]' direction='DESC' measure-to-sort-by='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[sum:Certified Acres:ok]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]</column>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Calculation_1937744168778252289:nk]</column>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]</column>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[Action (County,Latitude,Longitude)]</column>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]</column>
+            <column>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:CK Verified?:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]' value='55' />
+            <format attr='width' value='153' />
+            <format attr='height' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[sum:Certified Acres:ok]' value='50' />
+            <format attr='height' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:CK Verified?:nk]' value='70' />
+            <format attr='font-size' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' value='14' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]' value='144' />
+            <format attr='width' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Owner:nk]' value='112' />
+            <format attr='width' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[sum:Certified Acres:ok]' value='80' />
+            <format attr='width' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Phone:nk]' value='108' />
+            <format attr='width' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Email:nk]' value='192' />
+            <format attr='width' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:CK Verified?:nk]' value='116' />
+            <format attr='font-family' data-class='subtotal' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Owner:nk]' value='Tableau Medium' />
+            <format attr='font-family' data-class='subtotal' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Phone:nk]' value='Tableau Medium' />
+            <format attr='font-family' data-class='subtotal' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Email:nk]' value='Tableau Medium' />
+            <format attr='font-family' data-class='subtotal' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[sum:Certified Acres:ok]' value='Tableau Medium' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='font-size' value='11' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' value='Tableau Semibold' />
+            <format attr='font-size' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]' value='9' />
+            <format attr='font-family' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]' value='Tableau Medium' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='font-size' value='10' />
+            <format attr='font-family' value='Tableau Medium' />
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='font-size' value='11' />
+            <format attr='font-family' value='Tableau Semibold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Address:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Email:nk]' />
+              <tooltip column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Phone:nk]' />
+              <text column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Calculation_1937744168778252289:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>County:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Owner:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Owner:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Farm Address:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Farm Address:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Phone:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Phone:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Email:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:Email:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Certifications:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Calculation_1937744168778252289:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run>&#10;&lt;</run>
+                <run>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Calculation_1937744168778252289:nk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk] / ([federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk] / ([federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Owner:nk] / ([federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Phone:nk] / ([federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Email:nk] / ([federated.0r3ww4t1llvobc17f9u8t0xcr25d].[sum:Certified Acres:ok] / [federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:CK Verified?:nk]))))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{41AEF506-6224-4C44-9DD0-BA711B5392E1}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Latitude]' derivation='None' name='[none:Latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Longitude]' derivation='None' name='[none:Longitude:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' />
+              <lod column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' />
+              <geometry column='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk]</rows>
+        <cols>[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{13FBE13B-E61C-41C0-AC38-51277FAE99C2}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B9326456-BA2F-474D-A1A0-1F8E73157ADD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>County Distribution -- GAP Certified</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='900' maxwidth='1300' minheight='900' minwidth='1300' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+        <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+        <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='91582' id='30' param='horz' type-v2='layout-flow' w='98770' x='615' y='7529'>
+            <zone h='91582' id='10' type-v2='layout-basic' w='98770' x='615' y='7529'>
+              <zone h='57778' id='7' param='horz' type-v2='layout-flow' w='98770' x='615' y='41333'>
+                <zone h='57778' id='5' name='Sheet 1' w='98770' x='615' y='41333'>
+                  <layout-cache minheight='216' minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='30249' id='19' is-fixed='true' type-v2='layout-basic' w='98770' x='615' y='7529'>
+                <zone h='30249' id='8' param='horz' type-v2='layout-flow' w='67770' x='615' y='7529'>
+                  <zone fixed-size='478' h='30249' id='32' is-fixed='true' name='Sheet 6' w='33885' x='615' y='7529'>
+                    <layout-cache type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='508' h='30249' id='9' is-fixed='true' name='Sheet 2' w='33885' x='34500' y='7529'>
+                    <layout-cache type-h='cell' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='30249' id='20' param='horz' type-v2='layout-flow' w='31000' x='68385' y='7529'>
+                  <zone fixed-size='616' h='30249' id='15' is-fixed='true' name='Sheet 3' w='31000' x='68385' y='7529'>
+                    <layout-cache type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='3555' id='21' is-fixed='true' type-v2='layout-basic' w='62077' x='37308' y='37778'>
+                <zone h='3555' id='16' param='horz' type-v2='layout-flow' w='34277' x='37308' y='37778'>
+                  <zone forceUpdate='true' h='3555' id='17' type-v2='text' w='34277' x='37308' y='37778'>
+                    <formatted-text>
+                      <run fontname='Tableau Semibold' fontsize='12'>22 Farms ( 14.57%) are GAP Certified</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='3555' id='22' param='horz' type-v2='layout-flow' w='27800' x='71585' y='37778'>
+                  <zone forceUpdate='true' h='3555' id='18' type-v2='text' w='27800' x='71585' y='37778'>
+                    <formatted-text>
+                      <run fontname='Tableau Semibold' fontsize='12'>13 Farms ( 8.61%) are CK Verified</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='3555' id='28' type-v2='text' w='36693' x='615' y='37778'>
+                <formatted-text>
+                  <run>Æ </run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='6640' id='31' mode='checkdropdown' name='Sheet 1' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' type-v2='filter' values='database' w='98770' x='615' y='889'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>County Distribution -- GAP Certified</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='50' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='49' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='264' h='30249' id='32' is-fixed='true' name='Sheet 6' w='33885' x='615' y='7529'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='30249' id='9' is-fixed='true' name='Sheet 2' w='33885' x='34500' y='7529'>
+                  <layout-cache type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='30249' id='15' is-fixed='true' name='Sheet 3' w='31000' x='68385' y='7529'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3555' id='28' type-v2='text' w='36693' x='615' y='37778'>
+                  <formatted-text>
+                    <run>Æ </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3555' id='17' type-v2='text' w='34277' x='37308' y='37778'>
+                  <formatted-text>
+                    <run fontname='Tableau Semibold' fontsize='12'>22 Farms ( 14.57%) are GAP Certified</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3555' id='18' type-v2='text' w='27800' x='71585' y='37778'>
+                  <formatted-text>
+                    <run fontname='Tableau Semibold' fontsize='12'>13 Farms ( 8.61%) are CK Verified</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6640' id='31' mode='checkdropdown' name='Sheet 1' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' type-v2='filter' values='database' w='98770' x='615' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='57778' id='5' is-fixed='true' name='Sheet 1' w='98770' x='615' y='41333'>
+                  <layout-cache minheight='216' minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3923EFC0-A429-4781-8D7F-16CB13DE3CB7}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+        <column caption='Certifications' datatype='string' name='[Calculation_1937744168778252289]' role='dimension' type='nominal'>
+          <calculation class='tableau' formula='IF NOT ISNULL([GAP Certified]) AND [CK Verified?] = &quot;yes&quot; THEN &quot;GAP Certified, CK Verified&quot;&#10;ELSEIF NOT ISNULL([GAP Certified]) THEN &quot;GAP Certified&quot;&#10;ELSEIF [CK Verified?] = &quot;Yes&quot; THEN &quot;CK Verified&quot;&#10;ELSE &quot;&quot;&#10;END' />
+        </column>
+        <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+        <column-instance column='[Calculation_1937744168778252289]' derivation='None' name='[none:Calculation_1937744168778252289:nk]' pivot='key' type='nominal' />
+        <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='89889' id='22' param='horz' type-v2='layout-flow' w='98858' x='571' y='9222'>
+            <zone h='89889' id='3' param='horz' type-v2='layout-flow' w='98858' x='571' y='9222'>
+              <zone fixed-size='483' h='89889' id='9' is-fixed='true' param='vert' type-v2='layout-flow' w='34500' x='571' y='9222'>
+                <zone forceUpdate='true' h='3556' id='20' type-v2='text' w='34500' x='571' y='9222'>
+                  <formatted-text>
+                    <run fontcolor='#333333' fontname='Tableau Semibold' fontsize='13'>13 out of 151 Farms are CK Verified</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='360' h='40889' id='10' is-fixed='true' name='Sheet 3' w='34500' x='571' y='12778'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3445' id='19' type-v2='text' w='34500' x='571' y='53667'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#333333' fontname='Tableau Medium' fontsize='13'>22 out of 151 farms are GAP Certified</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='41999' id='13' param='vert' type-v2='layout-flow' w='34500' x='571' y='57112'>
+                  <zone h='41999' id='14' name='Sheet 2' w='34500' x='571' y='57112'>
+                    <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='37' type-h='cell' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='89889' id='17' param='vert' type-v2='layout-flow' w='64358' x='35071' y='9222'>
+                <zone fixed-size='209' h='24111' id='16' is-fixed='true' name='Sheet 6' w='64358' x='35071' y='9222'>
+                  <layout-cache cell-count-w='1' non-cell-size-w='478' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='65778' id='18' param='vert' type-v2='layout-flow' w='64358' x='35071' y='33333'>
+                  <zone h='65778' id='5' name='Sheet 1' w='64358' x='35071' y='33333'>
+                    <layout-cache minheight='216' minwidth='202' type-h='scalable' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='8333' id='26' is-fixed='true' type-v2='layout-basic' w='98858' x='571' y='889'>
+            <zone h='8333' id='24' param='horz' type-v2='layout-flow' w='73572' x='571' y='889'>
+              <zone h='5778' id='23' mode='checkdropdown' name='Sheet 1' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' type-v2='filter' values='database' w='73572' x='571' y='889'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone h='8333' id='27' param='horz' type-v2='layout-flow' w='25286' x='74143' y='889'>
+              <zone h='5778' id='25' mode='checkdropdown' name='Sheet 6' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Calculation_1937744168778252289:nk]' type-v2='filter' values='database' w='25286' x='74143' y='889'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='45' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='44' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='3556' id='20' type-v2='text' w='34500' x='571' y='9222'>
+                  <formatted-text>
+                    <run fontcolor='#333333' fontname='Tableau Semibold' fontsize='13'>13 out of 151 Farms are CK Verified</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5778' id='25' mode='checkdropdown' name='Sheet 6' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Calculation_1937744168778252289:nk]' type-v2='filter' values='database' w='25286' x='74143' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='209' h='24111' id='16' is-fixed='true' name='Sheet 6' w='64358' x='35071' y='9222'>
+                  <layout-cache cell-count-w='1' non-cell-size-w='478' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40889' id='10' is-fixed='true' name='Sheet 3' w='34500' x='571' y='12778'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5778' id='23' mode='checkdropdown' name='Sheet 1' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' type-v2='filter' values='database' w='73572' x='571' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='65778' id='5' is-fixed='true' name='Sheet 1' w='64358' x='35071' y='33333'>
+                  <layout-cache minheight='216' minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3445' id='19' type-v2='text' w='34500' x='571' y='53667'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#333333' fontname='Tableau Medium' fontsize='13'>22 out of 151 farms are GAP Certified</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41999' id='14' is-fixed='true' name='Sheet 2' w='34500' x='571' y='57112'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' non-cell-size-h='37' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5B362FD3-0B3E-4371-9C7A-0350D770D6D0}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 3'>
+      <style />
+      <size maxheight='800' maxwidth='1300' minheight='800' minwidth='1300' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='7' param='horz' type-v2='layout-flow' w='98770' x='615' y='889'>
+            <zone h='98222' id='5' type-v2='layout-basic' w='98770' x='615' y='889'>
+              <zone h='98222' id='9' name='Sheet 6' w='49385' x='50000' y='889'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='' h='98222' id='30' param='https://deft-semifreddo-2b0d16.netlify.app/' type-v2='web' w='49385' x='615' y='889'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='28' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='Sheet 6' w='49200' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E0A10645-27B1-4591-A841-0034B55DAFE4}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 4'>
+      <style />
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='All Farms (Clean Data - Strawberry Farms by County  copy)' name='federated.0r3ww4t1llvobc17f9u8t0xcr25d' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0r3ww4t1llvobc17f9u8t0xcr25d'>
+        <column caption='CK Verified' datatype='string' name='[CK Verified?]' role='dimension' type='nominal'>
+          <aliases>
+            <alias key='%null%' value='No' />
+            <alias key='&quot;yes&quot;' value='Yes' />
+          </aliases>
+        </column>
+        <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+        <column datatype='string' name='[Farm Name]' role='dimension' type='nominal' />
+        <column-instance column='[County]' derivation='Attribute' name='[attr:County:nk]' pivot='key' type='nominal' />
+        <column-instance column='[CK Verified?]' derivation='None' name='[none:CK Verified?:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Farm Name]' derivation='None' name='[none:Farm Name:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='91444' id='15' param='horz' type-v2='layout-flow' w='98858' x='571' y='7667'>
+            <zone h='91444' id='13' type-v2='layout-basic' w='98858' x='571' y='7667'>
+              <zone h='91444' id='11' param='horz' type-v2='layout-flow' w='98858' x='571' y='7667'>
+                <zone h='91444' id='3' param='horz' type-v2='layout-flow' w='98858' x='571' y='7667'>
+                  <zone h='91444' id='5' name='Sheet 1' w='38501' x='571' y='7667'>
+                    <layout-cache minwidth='202' type-h='fixed' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='837' h='91444' id='9' is-fixed='true' name='Sheet 6' w='60357' x='39072' y='7667'>
+                    <layout-cache type-h='fixed' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='6778' id='17' param='horz' type-v2='layout-flow' w='66786' x='571' y='889'>
+            <zone fixed-size='160' h='6778' id='18' is-fixed='true' type-v2='layout-basic' w='66786' x='571' y='889'>
+              <zone h='6778' id='26' is-fixed='true' type-v2='layout-basic' w='66786' x='571' y='889'>
+                <zone h='6778' id='14' param='horz' type-v2='layout-flow' w='31715' x='571' y='889'>
+                  <zone fixed-size='735' h='6778' id='12' is-fixed='true' mode='checkdropdown' name='Sheet 1' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]' type-v2='filter' values='database' w='31715' x='571' y='889'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='6778' id='27' param='horz' type-v2='layout-flow' w='35071' x='32286' y='889'>
+                  <zone fixed-size='448' h='6222' id='25' is-fixed='true' mode='checkdropdown' name='Sheet 6' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]' type-v2='filter' values='database' w='35071' x='32286' y='889'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='6778' id='24' mode='checkdropdown' name='Sheet 6' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:CK Verified?:nk]' type-v2='filter' values='database' w='32072' x='67357' y='889'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='40' param='vert' type-v2='layout-flow' w='98858' x='571' y='889'>
+                <zone fixed-size='735' h='6778' id='12' mode='checkdropdown' name='Sheet 1' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[attr:County:nk]' type-v2='filter' values='database' w='31715' x='571' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='91444' id='5' is-fixed='true' name='Sheet 1' w='38501' x='571' y='7667'>
+                  <layout-cache minwidth='202' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='448' h='6222' id='25' mode='checkdropdown' name='Sheet 6' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Farm Name:nk]' type-v2='filter' values='database' w='35071' x='32286' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6778' id='24' mode='checkdropdown' name='Sheet 6' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:CK Verified?:nk]' type-v2='filter' values='database' w='32072' x='67357' y='889'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='91444' id='9' is-fixed='true' name='Sheet 6' w='60357' x='39072' y='7667'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C994C072-FB31-4199-913A-C95A7046EB8F}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 5'>
+      <style />
+      <size maxheight='900' maxwidth='1200' minheight='900' minwidth='1200' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='6' param='vert' type-v2='layout-flow' w='61083' x='18417' y='889'>
+            <zone fixed-size='240' h='26667' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='61083' x='18417' y='889' />
+            <zone fixed-size='694' forceUpdate='true' h='59776' id='3' is-fixed='true' type-v2='text' w='61083' x='18417' y='27556'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#000000' fontname='AkayaKanadaka' fontsize='20'>Hello and Thank you for exploring Conscious Kitchen’s (CK) </run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run bold='true' fontalignment='1' fontcolor='#000000' fontname='AkayaKanadaka' fontsize='20'>Farm to School Project! </run>
+                <run fontalignment='1'>Æ&#10;&#10;&#10;</run>
+                <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>The following dashboard and map allow you to explore </run>
+                <run bold='true' fontalignment='1' fontcolor='#da796d' fontname='Times' fontsize='14'>organic strawberry farms</run>
+                <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'> in California. You can filter by </run>
+                <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>county</run>
+                <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'> and </run>
+                <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>certification type</run>
+                <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'> to best meet your needs. For example, if you want to find certified organic strawberry farms in Santa Cruz County that have worked with CK before, use our filter features to:</run>
+                <run fontalignment='1'>Æ&#10;&#10;</run>
+                <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>✅ Filter by County or Certification  </run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>✅ Hover to see farm info  </run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>✅ Contact farmers directly via the table</run>
+                <run fontalignment='1'>Æ&#10;&#10;</run>
+                <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>In addition to farm details, this tool also provides information on school districts and their food service directors, helping to facilitate connections between local farms and school meal programs. Use the filters to explore which districts are engaged in Farm to School efforts and access key contacts to support organic procurement in your area.</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='34' h='4667' id='10' is-fixed='true' type-v2='dashboard-object' w='61083' x='18417' y='87332'>
+              <button action='tabdoc:goto-sheet window-id=&quot;{B30BE3EF-304F-481C-9853-FD2B90DF1FA5}&quot;' button-type='text'>
+                <button-visual-state>
+                  <caption>View Map</caption>
+                  <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                  <format attr='background-color' value='#333333' />
+                </button-visual-state>
+              </button>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='3556' id='12' type-v2='empty' w='61083' x='18417' y='91999'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='3556' id='11' param='vert' type-v2='layout-flow' w='61083' x='18417' y='95555' />
+          </zone>
+          <zone h='98222' id='8' param='vert' type-v2='layout-flow' w='17750' x='667' y='889' />
+          <zone h='98222' id='9' param='vert' type-v2='layout-flow' w='19833' x='79500' y='889' />
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='29375' id='5' is-centered='0' is-scaled='1' param='Image/images.jpeg' type-v2='bitmap' w='25700' x='36200' y='2500' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='29' param='vert' type-v2='layout-flow' w='98666' x='667' y='889'>
+                <zone fixed-size='264' h='29375' id='5' is-centered='0' is-fixed='true' is-scaled='1' param='Image/images.jpeg' type-v2='bitmap' w='25700' x='36200' y='2500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='694' forceUpdate='true' h='59776' id='3' type-v2='text' w='61083' x='18417' y='27556'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='AkayaKanadaka' fontsize='20'>Hello and Thank you for exploring Conscious Kitchen’s (CK) </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='AkayaKanadaka' fontsize='20'>Farm to School Project! </run>
+                    <run fontalignment='1'>Æ&#10;&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>The following dashboard and map allow you to explore </run>
+                    <run bold='true' fontalignment='1' fontcolor='#da796d' fontname='Times' fontsize='14'>organic strawberry farms</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'> in California. You can filter by </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>county</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'> and </run>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>certification type</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'> to best meet your needs. For example, if you want to find certified organic strawberry farms in Santa Cruz County that have worked with CK before, use our filter features to:</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>✅ Filter by County or Certification  </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>✅ Hover to see farm info  </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>✅ Contact farmers directly via the table</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Times' fontsize='14'>In addition to farm details, this tool also provides information on school districts and their food service directors, helping to facilitate connections between local farms and school meal programs. Use the filters to explore which districts are engaged in Farm to School efforts and access key contacts to support organic procurement in your area.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='34' h='4667' id='10' type-v2='dashboard-object' w='61083' x='18417' y='87332'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{B30BE3EF-304F-481C-9853-FD2B90DF1FA5}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>View Map</caption>
+                      <button-caption-font-style fontcolor='#ffffff' fontname='Tableau Bold' fontsize='12' />
+                      <format attr='background-color' value='#333333' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4300EB85-EE00-41DC-97AB-D4B6D90FFE9F}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{630B0C49-8442-4A84-8E8E-9D3A09696163}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 6'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{03E84338-A840-4CAD-9831-58AF29D798C8}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[cnt:GAP Certified:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1B4BE623-EC78-4DC2-8843-9FE34E5468AE}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:County:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[cnt:CK Verified?:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F12B4CB0-729A-438C-B1EE-80B8828F8F78}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E3D9406E-3863-4F56-B217-918FECD4C666}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1FB3F655-4211-4C57-A568-34FA8107EDDD}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AAB23C08-50D3-4BC0-8120-62852DF63D01}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 6'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{1EEEF453-6657-4202-9C06-B46BA15D575E}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4B3DAA58-D0E7-40EA-B692-75CDEDA6C911}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 3'>
+      <viewpoints>
+        <viewpoint name='Sheet 6' />
+      </viewpoints>
+      <active id='30' />
+      <simple-id uuid='{E5200912-E317-41F3-8479-8192FD70B11A}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2B5DEC0E-60E3-4382-86FC-F65685211FFB}' />
+    </window>
+    <window class='dashboard' name='Dashboard 4'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 6'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{B30BE3EF-304F-481C-9853-FD2B90DF1FA5}' />
+    </window>
+    <window class='dashboard' name='Dashboard 5'>
+      <viewpoints />
+      <active id='10' />
+      <simple-id uuid='{4C752F3D-8BFE-465C-8DB7-AD7B464D7088}' />
+    </window>
+  </windows>
+</workbook>

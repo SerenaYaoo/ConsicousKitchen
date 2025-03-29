@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f9f7f4;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      max-width: 800px;
+      width: 100%;
+      padding: 2.5rem;
+      position: relative;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 1.5rem auto;
+      width: 120px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #4d784e;
+      font-size: 1.8rem;
+      margin-bottom: 1.2rem;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .highlight {
+      font-weight: 600;
+      color: #4d784e;
+    }
+
+    .tip {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: #eef7ec;
+      border-left: 4px solid #91c499;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="data:image/jpeg;base64,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" alt="Conscious Kitchen Logo" class="logo" />
+
+    <h1>Welcome to the Organic Strawberry Farm Explorer</h1>
+
+    <p>
+      Thank you for exploring Conscious Kitchen’s <span class="highlight">Farm to School Project</span>! This tool allows you to explore certified organic strawberry farms across California.
+    </p>
+    
+    <p>
+      You can <span class="highlight">filter by county</span>, check for <span class="highlight">GAP and CK certifications</span>, and view key farm details including contact info.
+    </p>
+
+    <p>
+      For example: find GAP-certified farms in Santa Cruz that have worked with CK, and reach out directly using the farm table or interactive map.
+    </p>
+
+    <div class="tip">
+      <strong>Tips to get started:</strong><br />
+      ✅ Use filters for county or certification<br />
+      ✅ Click strawberry icons on the map for farm info<br />
+      ✅ Browse the farm list for contact details
+    </div>
+  </div>
+</body>
+</html>

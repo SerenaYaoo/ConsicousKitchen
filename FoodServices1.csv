@@ -1,0 +1,953 @@
+County ,Serial Number,District Name,Student Population ,Number of Schools,FSD Name,FSD Email,FSD Phone #,FSD Extension,FSD Picture Link,FSD Bio,Notes,DistrctAreaSqMi,Shape Area,Shape Length
+San Bernardino,SD-05-37-1,Adelanto Elementary,8348,15,Julie Nickels,Julie_nickels@aesd.net,760-246-4912,,,,,335.8096467,1288239958,169665.8589
+Alamada,SD-2-7-1,Alameda Unified,9061,16,James Assia,jassia@alamedaunified.org,510-337-7044,,,,,11.45557016,47554894.25,56522.98268
+Alamada,SD-2-7-2,Albany City Unified,3574,6,Sabina Feinberg,sfeinberg@ausdk12.org,510-558-2608,,,,,1.703654321,7096327.465,12696.3828
+Alamada,SD-2-7-3,Berkeley Unified,9077,18,Rich Hannan,,510-644-6200,,,,,10.48336216,43646483.95,43695.34154
+Alamada,SD-2-7-4,Castro Valley Unified,9489,16,Amy Glodde,	aglodde@cv.k12.ca.us	,510-537-3000	,,,,,68.44260353,283828532.9,142492.7676
+Alamada,SD-2-7-16,Dublin Unified,12827,16,Frank Castro,castrofrank@dublinusd.org,925-828-2551,,,,,16.81959834,69734312,51820.51817
+Alamada,SD-2-7-5,Emery Unified,600,3,Marcia Parham,marcia.parham@emeryusd.org,510-601-4910,,here,,,1.289415564,5363392.457,13741.27289
+Alamada,SD-2-7-6,Fremont Unified,33063,44,Johannes van der Pool,jvanderpool@fusdk12.net,510-659-2587,,,,,77.81928831,321018983.8,163452.2736
+Alamada,SD-2-7-7,Hayward Unified,17631,29,Lucky Vasquez,lvasquez@husd.k12.ca.us,510-723-3890,,here,,,34.3115917,141981818.5,82372.31006
+Alamada,SD-2-7-8,Livermore Valley Joint Unified,13050,18,Katie Crouse,kcrouse@lvjusd.org,925-606-3260,,here,,,266.757604,1103915430,206081.1138
+Alamada,SD-2-7-9,Mountain House Elementary,12,1,Kimberly Jokela,kimberly.jokela@mtnhouse.k12.us.ca,209-835-2283,,,,,30.07973964,124796628.9,55768.46847
+Alamada,SD-2-7-11,New Haven Unified,10052,13,Yaz Widatalla,ywidatalla@nhusd.k12.ca.us,650-346-9995,,,,,28.19472822,116528920.9,89708.40214
+Alamada,SD-2-7-10,Newark Unified,4828,10,Mary Sayers,msayers@newarkunified.org,510-818-4288,,,,,14.09841883,58146582.99,39693.10486
+Alamada,SD-2-7-12,Oakland Unified,33916,82,JOSEPH DELGADILLO,jdelgadillo@omiacademy.org,510-594-3957,,,,,53.61583572,222757863,142807.1172
+Alamada,SD-2-7-13,Piedmont City Unified,2308,7,Gitara Spinks,gspinks@piedmont.k12.ca.us,510-594-2753,,,,,1.70018995,7069097.641,13206.74335
+Alamada,SD-2-7-17,Pleasanton Unified,13696,17,Sarah Kimiecik,skimiecik@pleasantonusd.net,925-596-3984,,,,,40.34936408,167046790.1,71218.11874
+Alamada,SD-2-7-14,San Leandro Unified,8741,13,Clell Hoffman,choffman@slusd.us,510-667-3508,,,,,13.70626691,56818832.72,65375.0855
+Alamada,SD-2-7-15,San Lorenzo Unified,8123,17,Peter Oshinski,poshinski@slzusd.org,510-317-4660,,,,,10.92437895,45247007.21,48415.82069
+Alamada,SD-2-7-18,Sunol Glen Unified,268,1,Bessie Leung,bleung@sunol.k12.ca.us,925-862-2026,,,,,85.57933651,353288125.7,94567.61428
+Contra Costa,SD-02-14-01,Acalanes Union High,"5,415",5,Julie Bautista,jbautista@auhsdschools.org,925-280-3963,6609,,,,81.9878307,341381202.9,113967.9636
+Contra Costa,SD-02-14-02,Antioch Unified,"16,045",25,Stephanie Siemering,stephaniesiemering@antiochschools.net,925-779-7500 ,42380,,,,41.14851911,171810678.7,69654.45286
+Contra Costa,SD-02-14-03,Brentwood Union,"9,751",11,Kristin Nisen,knisen@brentwood.k12.ca.us,925-513-6337,,,,,56.55619403,235686523.9,97184.74365
+Contra Costa,SD-02-14-04,Byron Union,"2,188",4,Lisa Luther,lluther@byron.k12.ca.us,925-809-7532,,,,,79.12571804,329208430,98363.02886
+Contra Costa,SD-02-14-05,Canyon,69,1,Seaira Smith,ssmith@canyon.k12.ca.us,925-376-4671,,,,,3.547529827,14753011.68,23256.65867
+Contra Costa,SD-02-14-06,John Swett Unified,"1,220",4,Angelica Lopez,alopez@jsusd.org,510-245-4300,2104,,,,21.04309166,87969704.71,50740.65555
+Contra Costa,SD-02-14-07,Knightsen Elementary,596,2,Lauren Buck,lbuck@knightsen.k12.ca.us,925-626-3381,,,,,30.60481281,127729404.1,75810.68675
+Contra Costa,SD-02-14-08,Lafayette,"3,212",5,Michelle Foxworthy,mfoxworthy@lafsd.org,925-927-3503,,,,,19.63085103,81785877.78,65791.94871
+Contra Costa,SD-02-14-09,Liberty Union High,"8,241",5,Rosy Ayers,ayersr@luhsd.net,925-634-2166 ,5651,,,,218.8622613,912472756.5,185983.1861
+Contra Costa,SD-02-14-10,Martinez Unified,"3,771",10,Jeff Yao, jyao@martinez.k12.ca.us,925-335-5800,,,,,41.97427996,175268332.6,82514.11922
+Contra Costa,SD-02-14-11,Moraga,"1,775",4,Selma Mirante,smirante@moraga.k12.ca.us.,925-376-5943,,,,,17.94495425,74630340.36,44950.24376
+Contra Costa,SD-02-14-12,Mt. Diablo Unified,"30,010",52,Alexandra Emmott,emmotta@mdusd.org,925-682-8000,3775,,,,130.6064748,545007365.6,139521.2048
+Contra Costa,SD-02-14-13,Oakley Union Elementary,"5,098",9,John McTear,jmctear@ouesd.k12.ca.us,925-625-6806,,,,,52.57553638,219848398.5,82299.79539
+Contra Costa,SD-02-14-14,Orinda Union,"2,554",5,Mika Arbelbide,marbelbide@orinda.k12.ca.us,925-258-6210,6210,,,,26.77167658,111514145.3,66653.97243
+Contra Costa,SD-02-14-15,Pittsburg Unified,"10,709",13,Angelia Nava,anava@pittsburgusd.net,(925) 473-2300 ,2323,,,,29.77216746,124389269.9,62380.94527
+Contra Costa,SD-02-14-18,West Contra Costa Unified,"29,528",54,Barbara Jellison,bjellison@wccusd.net,(510) 307-4580,,,,,63.29551283,264124934.6,126302.3935
+Contra Costa,SD-02-14-16,San Ramon Valley Unified,"29,235",35,Zetta Reicker,zreicker@srvusd.net,925-824-1806,,,,,105.900703,440113997.9,96896.91834
+Contra Costa,SD-02-14-17,Walnut Creek,"3,547",7,Rebecca Steffler,rsteffler@walnutcreeksd.org,925-944-6850 ,8050,,,,14.09281902,58697827.83,47366.43047
+Marin,SD-02-09-01,Bolinas-Stinson Union,106,1,Angela Waring,awaring@bolinas-stinson.org,415-868-1603,,,,,38.37452412,160065847.2,79279.54512
+Marin,SD-02-09-02,Miller Creek Elementary,1813,4,Marie Henrio,mhenrio@millercreeksd.org,415-492-3711,,,,,19.21542599,80346054.3,55574.20075
+Marin,SD-02-09-03,Kentfield Elementary,1055,2,Michael Ghebregziabher,business@kentfieldschools.org,(415) 458-5135,,,,CBO,22.95380402,95770020.98,66817.56965
+Marin,SD-02-09-04,Laguna Joint Elementary,9,1,Keith Ricci,kricci@marinschools.org,(415) 499-5870,,,,CBO,73.45651402,308287125.1,107591.2022
+Marin,SD-02-09-05,Lagunitas Elementary,162,2,Christina Ortega,lshain@lagunitas.org,415-488-4118,226,,,,16.1763871,67589525.57,42477.78487
+Marin,SD-02-09-06,Larkspur-Corte Madera,1178,3,Nichole Urrea,nurrea@lcmschools.org,415-720-1184,1,here,,,5.217413227,21755460.8,27897.21761
+Marin,SD-02-09-07,Mill Valley Elementary,2282,6,Sualen Murphy,smurphy@mvschools.org,415-389-7700,7796,,,,20.73810886,86394833.56,63035.98635
+Marin,SD-02-09-08,Nicasio,36,1,Margie Bonardi,cbo@nicasioschool.org,(415) 662-2184,,,,CBO,34.00387665,142357263.7,58655.25084
+Marin,SD-02-09-09,Novato Unified,7475,15,Cody Williams,cwilliams@nusd.org,415-493-4260,,,,,61.64730576,258300800.9,88159.22388
+Marin,SD-02-09-10,Reed Union Elementary,1048,3,Carlos Estrella,cestrella@reedschools.org,415-383-1116,,,,CBO,7.070404357,29450387.18,47561.07086
+Marin,SD-02-09-11,Ross Elementary,354,1,Carol Slender,cslender@rossbears.org,(415) 457-2705,215,,,,2.501313132,10439341.65,25059.27622
+Marin,SD-02-09-12,San Rafael City Elementary,4356,9,Alan Downing,adowning@srcs.org,415-491-6499,,,,,17.50975404,73118930.87,61302.46036
+Marin,SD-02-09-13,San Rafael City High,2653,3,Bob Marcucci,bmarcucci@srcs.org,(415) 492-3205,,,"Bob Marcucci was appointed as the Assistant Superintendent of Business Services in October 2020. Mr. Marcucci provides District-wide leadership in collaboration with the Superintendent’s Office to develop and implement District policies and initiatives that advance and prioritize the work of SRCS' strategic plan. He oversees the District's business services department, which includes payroll, maintenance and operations, transportation, and food and nutritional services, along with all business-related services.",CBO,36.72518003,153464985.2,87045.88582
+Marin,SD-02-09-14,Sausalito Marin City,283,1,Guillaume Pfahl,gpfahl@smcsd.org,415-332-3190,,here,,,12.8786398,53584042.89,38746.11752
+Marin,SD-02-09-15,Tamalpais Union High,4730,5,Ben Guyton,bguyton@tamdistrict.org,415-945-1035,,,,,172.4629886,719822088.2,230819.5005
+Marin,SD-02-09-16,Shoreline Unified,476,5,Sherri Edwards,sherri.edwards@shorelineunified.org,707-878-2266,,,,,237.4129132,996750129.5,470411.6643
+Marin,SD-02-09-17,Ross Valley Elementary,1739,5,Cali Newell,cali.newell@rossvalleycharter.org,415-534-6970,,,,,12.54851736,52415364.67,32275.59389
+San Francisco,02-12-01,San Francisco Unified,55452,113,Jennifer LeBarre,lebarrej@sfusd.edu,415-749-3604,13220,here,here,,47.0172302,195140908,123011.5194
+San Mateo,SD-02-08-01,Bayshore Elementary,337,1,Merlita Sabado,alegaspi@thebayshoreschool.org,415-467-5443,2,,,,1.697397788,7034370.574,15945.90636
+San Mateo,SD-02-08-02,Belmont-Redwood Shores Elementary,4019,7,Allison Chow,achow@brssd.org,650-637-4800,1050,,,,12.33532148,50874998.29,57422.05245
+San Mateo,SD-02-08-03,Brisbane Elementary,477,3,Aida Gamba,agamba@brisbanesd.org,415-604-5287,,here,,,4.977953168,20622757.7,27361.18879
+San Mateo,SD-02-08-04,Burlingame Elementary,3320,8,Don Kyu,dkyu@burlingameschools.org,650-259-3815,,,,,5.115576334,21133990.39,38328.68149
+San Mateo,SD-02-08-05,Cabrillo Unified,2663,7,Stephanie Modena,paolis@cabrillo.k12.ca.us,650-240-3249,,,,,107.3344535,441665060.6,135311.9857
+San Mateo,SD-02-08-06,Hillsborough City Elementary,1263,4,Wenqin Shen,jshen@hcsdk8.org,650-342-5193,14104,,,,6.233389574,25733944.9,32405.27138
+San Mateo,SD-02-08-07,Jefferson Elementary,5985,14,Anita King,aking@jeffersonesd.org,650-746-2519,,,,,9.432584956,39076014.24,33423.23908
+San Mateo,SD-02-08-08,Jefferson Union High,4155,5,Danielle Sweeters,dsweeters@jeffersonunion.net,650-550-7961,,here,,,31.68928425,131144636.8,88887.57058
+San Mateo,SD-02-08-09,Pacifica,2737,8,Lori Miller,lmiller@pacificasd.org,650-738-6647,,,,,15.58109014,64410425.3,52988.14259
+San Mateo,SD-02-08-10,La Honda-Pescadero Unified,259,3,REGINA   SILVEIRA,RSILVEIRA@LHPUSD.COM,650-879-0861,,,,,136.2530742,557979505.5,153511.1161
+San Mateo,SD-02-08-11,Las Lomitas Elementary,1161,2,Selena Nichols,snichols@llesd.org,650-854-6311,4888,,,,8.218140827,33805130.93,33022.78128
+San Mateo,SD-02-08-12,Menlo Park City Elementary,2730,4,Deborah Rice,drice@mpcsd.org,650-321-7140,5616,,,,6.388775245,26304697.16,32520.70291
+San Mateo,SD-02-08-13,Millbrae Elementary,2065,5,Rachel Gekas,rgekas@millbraesd.org,650-697-5693,28,,,,18.50896418,76455786.98,54089.24
+San Mateo,SD-02-08-14,Portola Valley Elementary,504,2,Irene Delgado,idelgado@pvsd.net,650-529-2572,,,,,19.71838409,81001465,62833.54769
+San Mateo,SD-02-08-15,Ravenswood City Elementary,2555,4,William Eger,weger@ravenswoodschools.org,650-329-2800,,here,,,8.441622619,34781422.95,34179.70492
+San Mateo,SD-02-08-16,Redwood City Elementary,7480,12,Rick Edson,redson@rcsdk8.net,650-423-2232,,,,,30.64054835,126230159.4,74468.73622
+San Mateo,SD-02-08-17,San Bruno Park Elementary,1950,5,Yordanka Encheva,yencheva@sbpsd.k12.ca.us,650-624-3124,,,,,6.638509729,27456834.99,35404.51881
+San Mateo,SD-02-08-18,San Carlos Elementary,3137,9,Jennifer Gaboury,jgaboury@scsdk8.org,650-590-5946,,here,,,5.353333992,22067019.7,25368.64399
+San Mateo,SD-02-08-19,San Mateo-Foster City,9945,22,Fran Debost,fdebost@smfc.k12.ca.us,650-312-7201,,,,,30.11283036,124240875.4,89778.01684
+San Mateo,SD-02-08-20,San Mateo Union High,9378,7,Denis Vorrises,dvorrises@smuhsd.org,650-558-2479,,,,,66.60512379,275004321.1,123536.3996
+San Mateo,SD-02-08-21,Sequoia Union High,9741,6,Sandra Jonaidi,sjonaidi@seq.org,650-369-1411,22591,,,,102.5722138,422274957.7,129508.7528
+San Mateo,SD-02-08-22,South San Francisco Unified,7770,17,Robert Chan,rchan@ssfusd.org,415-877-8737,,,,,11.48808074,47551238.92,50082.05893
+San Mateo,SD-02-08-23,Woodside Elementary,367,1,Waly Ndiaye,wndiaye@woodsideschool.us,650-851-1571,4015,,,,11.47632155,47211030.21,38254.33431
+Santa Clara,SD-02-10-26,San Jose Unified,"25,976",42,Janet Wolk,jwolk@sjusd.org,408-535-6021,19616,,,,47.54272916,194757605.7,137502.3062
+Santa Clara,SD-02-10-07,East Side Union High,"23,714",16,Julie Kasberger,kasbergerj@esuhsd.org,408-347-5190,,,,,139.6552469,573062916.3,165799.3858
+Santa Clara,SD-02-10-27,Santa Clara Unified,"14,236",24,Karen Luna,kluna@scusd.net,408-423-2078,,,,,41.08112223,168900076.4,114858.0521
+Santa Clara,SD-02-10-06,Cupertino Union,"13,587",25,Nicole Meschi,meschi_nicole@cusdk8.org,408-252-3000,61301,,,,40.89659687,167742430.1,89017.11334
+Santa Clara,SD-02-10-11,Gilroy Unified,"10,784",22,Patricia Cattoor,patricia.cattoor@gilroyunified.org,669-205-4074,,,,,302.8829247,1233476480,226423.9112
+Santa Clara,SD-02-10-25,Palo Alto Unified,"10,271",17,Alva Spence,aspence@pausd.org,650-329-3720,8012,,,,27.7208503,113996990.9,75302.81906
+Santa Clara,SD-02-10-31,Milpitas Unified,"10,199",15,Sandy Huynh,shuynh@musd.org,408-635-2894,6505,,,,108.1563581,445209680.5,139949.2945
+Santa Clara,SD-02-10-10,Fremont Union High,"9,646",5,Divya Puri,Divya_puri@fuhsd.org,408-522-2216,,,,,54.81962797,224968449.6,136201.6934
+Santa Clara,SD-02-10-08,Evergreen Elementary,"8,779",18,Shan Gao,sgao@eesd.org,408-223-4505,,,,,29.79451652,122158319.1,50455.04892
+Santa Clara,SD-02-10-23,Oak Grove Elementary,"8,714",19,Terri Anaya,tanaya@ogsd.net,408-227-8300,237,,,,21.30941355,87258308.36,54811.26997
+Santa Clara,SD-02-10-01,Alum Rock Union Elementary,"8,668",24,Denisse Mendez,denisse.mendez@arusd.org,408-928-6905,,,,,52.16538749,214213266.9,101155.137
+Santa Clara,SD-02-10-19,Morgan Hill Unified,"8,617",22,Michael Jochner,jochnerm@mhusd.org,408-201-6126,40503,,,,287.3400868,1174374900,204326.2652
+Santa Clara,SD-02-10-05,Campbell Union High,"8,613",6,Rory McCarthy,rmccarthy@cuhsd.org,408-558-3033,,,,,30.33183569,124295939.1,79909.78156
+Santa Clara,SD-02-10-09,Franklin-McKinley Elementary,"7,892",16,Alane Webb,alane.webb@fmsd.org,408-283-6007,,,,,10.71012347,43918176.66,33778.31062
+Santa Clara,SD-02-10-04,Campbell Union,"6,183",13,Ben Calderon,bcalderon@campbellusd.org,408-364-4200,4010,,,,12.93540065,53025629.3,61512.61827
+Santa Clara,SD-02-10-02,Berryessa Union Elementary,"6,026",14,Mari Fujikawa,mfujikawa@busd.net,408-923-1876,,,,,13.75712157,56557649.8,47128.30183
+Santa Clara,SD-02-10-29,Sunnyvale,"5,618",9,Lori Van Gogh,lori.vangogh@sesd.org,408-522-8200,1007,,,,13.9230311,57226019.53,65280.74089
+Santa Clara,SD-02-10-30,Union Elementary,"5,371",8,Jia Bin Ma,maj@unionsd.org,408-377-8010,44203,,,,7.400784049,30299724.02,28629.71842
+Santa Clara,SD-02-10-20,Mountain View Whisman,"4,591",8,Debbie Austin,daustin@mvwsd.org,650-526-3585,2230,,,,16.78708301,69035629.63,46312.09585
+Santa Clara,SD-02-10-21,Mountain View-Los Altos Union High,"4,406",3,Bryan Barnhardt,bryan.barnhardt@mvla.net,616-516-1886,,,,,36.81841124,151295220.8,85341.72516
+Santa Clara,SD-02-10-18,Moreland,"3,863",6,Evangeline Reyes,ereyes@moreland.org,408-874-2923,,,,,5.558707184,22790721.73,26599.7822
+Santa Clara,SD-02-10-14,Los Altos Elementary,"3,361",9,Lirio Visitacion,lvisitacion@lasdschools.org,650-947-1161,,,,,20.03132823,82259591.2,64485.10725
+Santa Clara,SD-02-10-16,Los Gatos-Saratoga Union High,"3,183",3,Toby Mockler,tmockler@lgsuhsd.org,408-357-8152,243,,,,146.1786548,597519061.5,201485.5538
+Santa Clara,SD-02-10-03,Cambrian,"3,014",6,Deborah Gill,gild@cambriansd.com,408-558-4708,,,,,4.17319373,17097734.13,20499.57136
+Santa Clara,SD-02-10-15,Los Gatos Union Elementary,"2,673",5,Kerry Billner,kbillner@lgusd.org,408-410-9433,,,,,46.4708465,189999890.9,104363.8964
+Santa Clara,SD-02-10-28,Saratoga Union Elementary,"1,605",5,Richard Andrews,randrews@saratogausd.org,408-867-3042,256,,,,25.57945178,104753765.2,88065.53273
+Santa Clara,SD-02-10-22,Mount Pleasant Elementary,"1,549",5,Tracy Huynh,thuynh@mpesd.org,408-223-3799,,,,,6.119002197,25123576.87,24090.81293
+Santa Clara,SD-02-10-24,Orchard Elementary,760,1,Luis Gonzales,lgonzales@orchardsd.org,408-944-0397,,,,,5.799682087,23833618.61,41759.09106
+Santa Clara,SD-02-10-17,Luther Burbank,431,1,Gregory Barnes,gbarnes@lbsdk8.org,408-295-1814,7205,,,,0.2637500741,1082129.898,7050.898254
+Santa Clara,SD-02-10-13,Loma Prieta Joint Union Elementary,424,2,Sandy Fitzpatrick,s.fitzpatrick@loma.k12.ca.us,(408) 353-1101 ,5502,,,CBO,45.6359236,186255028.4,115096.1597
+Santa Clara,SD-02-10-12,Lakeside Joint,77,1,Nan Wojcik,nwojcik@lakesidelosgatos.org,(408) 354-2372,,,,,28.49243296,116510377,84695.78906
+Solano ,SD-02-11-01,Benicia Unified,4372,8,Tania Courtney,tcourtney@BENICIAUNIFIED.ORG,707-748-2758,,,,,34.04108936,142573884,56556.14369
+Solano ,SD-02-11-02,Dixon Unified,3037,7,Jesse Rios,jrios@dixonusd.org,707-693-6300,3763,,,,197.6772926,835063396.4,160145.2633
+Solano ,SD-02-11-03,Fairfield-Suisun Unified,20413,31,Dan Mitchell,danm@fsusd.org,707-399-5011,,,,,280.6335239,1178964349,285321.2714
+Solano ,SD-02-11-04,Travis Unified,5430,10,Ana Martinez,amartinez@travisusd.org,707-437-4604,1217,,,,44.49191176,187299876.9,65610.41537
+Solano ,SD-02-11-05,Vacaville Unified,12708,18,Juan Cordon,jcordon@vacavilleusd.org,707-453-6197,,,,,104.6451426,441809679.9,121674.2683
+Solano ,SD-02-11-06,Vallejo City Unified,9856,20,Jade Brandon,jbrandon@vcusd.org,707-556-8921,50009,,,Interim Director,43.71438606,183230692.2,107673.8784
+Sonoma,SD-02-16-01,Alexander Valley Union Elementary,115,1,Matt Reno,mreno@alexandervalleyusd.org,,,,,Superintendent,66.71534861,283901335.1,121169.9771
+Sonoma,SD-02-16-02,West Sonoma County Union High,1568,3,Andrew Soliz,asoliz@wscuhsd.org,707-824-6415,,,,,325.0932828,1376168518,288362.3718
+Sonoma,SD-02-16-03,Bellevue Union,1609,4,Lynn Wong,lwong@busd.org,707-542-5197,4,,,,22.09384811,93278372.89,56656.72377
+Sonoma,SD-02-16-04,Bennett Valley Union Elementary,938,2,Rich Parde,rich.parde@bvusd.org,(707) 542-2201 ,111,,,,17.67786736,74654799.29,44654.03747
+Sonoma,SD-02-16-05,Cinnabar Elementary,176,2,Dana Machado,dmachado@cinnabar.org,707-765-4345,150,,,,2.489380481,10472639.85,21498.1173
+Sonoma,SD-02-16-06,Cloverdale Unified,1303,6,Alyce Hernandez,hernandeza@cusd.org,707-894-1912,,,,,151.9172609,648557559,196014.9532
+Sonoma,SD-02-16-07,Dunham Elementary,170,2,Lori Nommsen,lnommsen@dunhamsd.k12.ca.us,707-795-5050,,,,,7.093309995,29889401.19,29276.3032
+Sonoma,SD-02-16-08,Forestville Union Elementary,222,2,Julie Apodaca,japodaca@forestvilleusd.org,707-887-2279,7504,,,,26.52899239,112306338.6,74898.66613
+Sonoma,SD-02-16-09,Fort Ross Elementary,15,1,Jennifer Dudley,jdudley@fortrossschool.org,(707) 847-3390,,,,,72.88427713,309260114.7,116163.145
+Sonoma,SD-02-16-10,Geyserville Unified,203,3,Christina Menicucci,cmenicucci@gusd.com,707-857-3592,104,,,,143.0567154,609575889.5,217953.4033
+Sonoma,SD-02-16-11,Gravenstein Union Elementary,810,4,Chuck Neidhoefer,cneidhoefer@gusdschools.org,707-823-7008,110,,,,9.378352227,39565774.84,36055.6029
+Sonoma,SD-02-16-12,Guerneville Elementary,361,2,Kayla Roberts,kroberts@guernevilleschool.org,707-869-2864,119,,,,31.57061196,133822103,68266.25673
+Sonoma,SD-02-16-13,Harmony Union Elementary,573,2,Amanda Jacobs,ajacobs@harmonyusd.org,707-874-1205,40,,,,48.97003893,206753314.3,101849.9584
+Sonoma,SD-02-16-14,Horicon Elementary,74,1,Sandra Oropeza,soropeza@horiconsd.org,707-886-5322,132,,,,152.0700576,647830251.7,184955.2865
+Sonoma,SD-02-16-15,Kenwood,111,1,Anne Kopache,akopache@kenwoodschool.org,(707) 833-2500,,,,,23.5847607,99696325.98,51606.82701
+Sonoma,SD-02-16-16,Liberty Elementary,1685,3,LUPITA Barajas,lbarajas@libertysd.org,707-795-4380,126,,,,8.215075701,34585307.21,26485.01988
+Sonoma,SD-02-16-17,Mark West Union Elementary,1342,4,Renee Loeza,rloeza@mwusd.org,707-524-2977,,,,,24.42640781,103507655.9,74515.92674
+Sonoma,SD-02-16-18,Monte Rio Union Elementary,67,1,Kathleen Young,kyoung@monteriousd.org,707-865-2266,113,,,,36.94909727,156294434.1,78966.69078
+Sonoma,SD-02-16-19,Montgomery Elementary,22,1,Taryn Parmeter,office@mescaz.org,(707) 632-5221,,,,,48.98842436,207727126.1,87799.02702
+Sonoma,SD-02-16-20,Oak Grove Union Elementary,1242,2,Terese Hillborn,thillborn@ogusd.org,707-542-3322,243,,,,15.40584154,65140606.59,58154.72949
+Sonoma,SD-02-16-21,Old Adobe Union,1963,5,Linda Haas,lhaas@oldadobe.org,707-765-4350,,,,,76.21955596,320317028.5,131209.4705
+Sonoma,SD-02-16-22,Petaluma City Elementary,2457,8,Amanda Bonivert,abonivert@petk12.org,(707) 778-4621,,,,,34.45426916,144955539.1,133918.126
+Sonoma,SD-02-16-23,Petaluma Joint Union High,4931,10,John Weaver,jweaver@petk12.org,707-778-4964,,,,,247.305084,1039422759,241474.7351
+Sonoma,SD-02-16-24,Piner-Olivet Union Elementary,1247,9,James Donner,jdonner@pousd.org ,707-522-3008,,,,,13.61150806,57604412.38,42566.23829
+Sonoma,SD-02-16-25,Kashia Elementary,9,1,Debra Sheldon,dsheldon@kashiaesd.org,(415) 328-4076,,,,,0.06391277666,271853.9922,2123.761814
+Sonoma,SD-02-16-26,Rincon Valley Union Elementary,3112,9,Alison Smith,asmith@rvusd.org,707-542-7375,24010,,,,61.3987416,259967180.5,110267.5371
+Sonoma,SD-02-16-27,Roseland,2730,3,Patty Gallagher,pgallagher@roselandsd.org,707-543-5205,,,,,1.630486065,6891360.613,11501.71198
+Sonoma,SD-02-16-28,Santa Rosa Elementary,4857,13,Ed Burke,eburke@srcs.k12.ca.us,707-890-3800,80705,,,,14.25959677,60319475.57,46688.20562
+Sonoma,SD-02-16-29,Santa Rosa High,9941,52,Lisa August,laugust@srcs.k12.ca.us,(707) 890-3800 ,80205,,,,184.1595867,779063408.1,178167.2344
+Sonoma,SD-02-16-30,Sebastopol Union Elementary,731,2,Ryanesha Warren,rwarren@sebusd.org,707-829-4570,4,,,,14.94977782,63155379.26,57935.2374
+Sonoma,SD-02-16-31,Sonoma Valley Unified,3572,8,Adam Klapow,aklapow@sonomaschools.org,707-935-6091,,,,,120.6672563,508123268.4,135615.4922
+Sonoma,SD-02-16-32,Twin Hills Union Elementary,957,4,PATTY NOSECCHI,pnosecchi@twinhillsusd.org,707-823-0871,105,,,,19.46786919,82143325.94,64644.8501
+Sonoma,SD-02-16-33,Two Rock Union,126,1,Sarah Daugherty,sdaugherty@trusd.org,707-762-6617,,,,,26.24083576,110421581,68485.50146
+Sonoma,SD-02-16-34,Waugh Elementary,791,2,Sharon Battaglia,sbattaglia@waughsd.org,707-762-0202,,,,,7.186188703,30258539.05,27307.13302
+Sonoma,SD-02-16-35,West Side Union Elementary,137,1,Rima Meechan,rmeechan@westsideusd.org,(707) 433-3923,24,,,,76.37527615,324279536,116019.7943
+Sonoma,SD-02-16-36,Wilmar Union Elementary,223,1,Giavanna Larsen,glarsen@wilmarusd.org,707-765-4340,,,,,11.94995417,50235597.79,40880.87522
+Sonoma,SD-02-16-37,Wright Elementary,1263,3,Christine Chavez,cchavez@wrightesd.org,707-542-0550,104,,,,5.476370189,23143824.93,23317.58925
+Sonoma,SD-02-16-38,Cotati-Rohnert Park Unified,6595,13,Suzanne King,suzanne_king@crpusd.org,707-588-5621,,,,,14.89875876,62820596.13,40611.3116
+Sonoma,SD-02-16-39,Windsor Unified,4678,7,Jennifer Baker,Jbaker@wusd.org,707-620-1985,,,,,30.86070585,130876368.5,67969.99544
+Sonoma,SD-02-16-40,Healdsburg Unified,1194,4,Sandra Oropeza,soropeza@horiconsd.org,707-886-5322,132,,,,199.5203468,848074309.9,221076.5113
+Alpine,SD-01-01-01,Alpine County Unified,66,3,Jana Hanak,jhanak@alpinestudents.org,530-694-2495,225,,,,743.1888764,3156005637,275565.4113
+Amador ,03-23-01,Amador County Unified School District,"4,107",12,Mike Pingree,Michael.pingree@acusd.org,209-257-7792,,,,,605.9504974,2.56E+09,359598.5551
+Calaveras ,SD-03-24-01,Bret Harte Union High,627,2,Samantha Austin,saustin@mtwain.k12.ca.us,,,,,,445.3506356,1.87E+09,364813.7564
+Calaveras ,SD-03-24-02,Calaveras Unified,2846,9,Chris Fouts,cfouts@bhuhsd.k12.ca.us,,,,,,591.5759215,2.49E+09,314947.2646
+Calaveras ,SD-03-24-03,Mark Twain Union Elementary,767,3,Deborah Tageson,dtageson@vsd.k12.ca.us,,,,,,233.7458054,9.77E+08,182962.349
+Calaveras ,SD-03-24-04,Vallecito Union,580,4,Judy Mossa,jmossa@calaveras.k12.ca.us,,,,,,211.6048303,8.91E+08,235133.192
+El Dorado,SD-03-22-01,Buckeye Union Elementary,"4,255",,Kim Andreasen,kandreasen@buckeyeusd.org,530-677-2277,1248,,,,55.20908015,234764174,112813.102
+El Dorado,SD-03-22-02,Camino Union Elementary,407,,Tina Constancio,tconstancio@caminoschool.com,530-644-4552,268,,,,108.5039596,463804411.5,157352.6215
+El Dorado,SD-03-22-03,El Dorado Union High,"6,541",,Robert Whittenberg,rwhittenberg@eduhsd.net,530-622-5081,7227,,,,1121.769647,4777833123,373797.2917
+El Dorado,SD-03-22-04,Gold Oak Union Elementary,435,,Stan Duran,sduran@gousd.org,530-626-3148,106,,,,46.92153448,199704631.3,90453.5386
+El Dorado,SD-03-22-05,Gold Trail Union Elementary,498,,Bobbi Lujan,blujan@gtusd.org,530-626-2595,373,,,,48.21918872,205821776.5,83119.91935
+El Dorado,SD-03-22-06,Indian Diggings Elementary,8,,Grant Coffin,gcoffin@idschool.org,(530) 620-6546,,,,cannot find COO or FSD (only 3 staff members),62.30313524,264266809.3,121190.3834
+El Dorado,SD-03-22-07,Lake Tahoe Unified,"3,604",,Tammy Miller,tmiller@ltusd.org,530-541-2850,1089,,,,210.6890022,901394078.5,168707.6756
+El Dorado,SD-03-22-08,Latrobe,168,,Ashley Ash,aash@fcusd.org,916-294-9011,,,,,55.90328315,237213972.1,92416.40889
+El Dorado,SD-03-22-09,Mother Lode Union Elementary,863,,Bobbi Lujan,blujan@mlusd.net,530-622-4814,3,,,,62.78551719,266948442.1,117409.8537
+El Dorado,SD-03-22-10,Pioneer Union,283,,Kaitlyn Adsitt,kadsitt@pioneerusd.org,530-620-7210,6633,,,,231.7726332,984759224.4,240178.8092
+El Dorado,SD-03-22-11,Placerville Union Elementary,"1,204",,Karyn Whittington,kwhittington@pusdk8.us,530-622-6244,,,,,47.35950559,202105072.1,132691.282
+El Dorado,SD-03-22-12,Pollock Pines Elementary,575,,Tara Clark,tclark@ppesd.org,530-644-5416,,,,,198.8218097,847963739.5,253306.6233
+El Dorado,SD-03-22-13,Rescue Union Elementary,"3,512",,Kim Andreasen,kandreasen@rescueusd.org,530-672-4445,,,,,50.29048638,214283355.4,85948.01042
+El Dorado,SD-03-22-14,Silver Fork Elementary,16,,Stephanie Stephens,,,,here,here,"can't find her contact information, but can email here through school website",153.6795137,656197514.9,130920.4056
+El Dorado,SD-03-22-15,Black Oak Mine Unified,"1,270",,Amy Jensen,ajensen@bomusd.org,530-333-8300,1002,,,,412.8764577,1768694082,378584.2235
+Mariposa,SD-01-01-01,Mariposa County Unified,1669,11,Viktor Richards,VRichards@mcusd.org,209-742-0364,,,,,1385.687511,5724834730,444144.6982
+Merced,SD-03-21-01,Atwater Elementary,"4,959",,Lisa Mendoza,lmendoza@aesd.edu,209-357-6120,120,,,,49.09877054,2.02E+08,100802.1312
+Merced,SD-03-21-02,Ballico-Cressey Elementary,362,,Isabel Lawrie,ilawrie@ballicocressey.com,209-789-5816,n/a,,,,57.8350202,2.38E+08,81912.4716
+Merced,SD-03-21-03,Delhi Unified,2321,,Joseph Tenorio,jtenorio@delhiusd.org,209-656-2000,5108,,,,17.26937563,71036882.64,42033.21701
+Merced,SD-03-21-04,Dos Palos Oro Loma Joint Unified,2270,,Rhonda Sullivan,rsullivan@dpol.net,209-392-0291,n/a,,,,372.8798683,1510854116,231687.5361
+Merced,SD-03-21-05,El Nido Elementary,152,,Sergio Salas,ssalas@elnido.k12.ca.us,209-385-8420,n/a,,,,74.50947449,3.04E+08,79457.69551
+Merced,SD-03-21-06,Gustine Unified,"1,679",,Mehdi Rizvi,mrizvi@gustineusd.org,209-854-3784,203,,,,197.0000044,805630374.3,177979.5343
+Merced,SD-03-21-07,Hilmar Unified,"2,297",,Jana Swanson,jswanson@hilmar.k12.ca.us,209-667-7819,n/a,,,,107.5380058,4.41E+08,135132.7695
+Merced,SD-03-21-08,Le Grand Union Elementary,330,,Amber Veenstra,aveenstra@lgelm.org,209-389-1039,n/a,,,,78.86035231,3.23E+08,84844.53902
+Merced,SD-03-21-09,Le Grand Union High,495,,Sofia Vargas,svargas@lghs.k12.ca.us,209-389-9400,1400,,,,176.5357446,7.23E+08,137378.6513
+Merced,SD-03-21-10,Livingston Union,"2,545",,Terah Brasher,tbrasher@livingstonusd.org,209-394-5457,n/a,,,,42.83527211,1.76E+08,67961.7707
+Merced,SD-03-21-11,Los Banos Unified,"11,057",,Steven Baughman,sbaughman@losbanosusd.k12.ca.us,209-826-3077,n/a,Los Banos FSD.png,,,686.6260298,2793009521,297529.2516
+Merced,SD-03-21-12,McSwain Union Elementary,939,,Annamarie Peck,apeck@mcswain.k12.ca.us,209-354-2708,n/a,,,,115.2221453,4.72E+08,133099.0885
+Merced,SD-03-21-13,Merced City Elementary,11013,,Mary Williams,mwilliams@mcsd.k12.ca.us,209-385-6654,6653,,,,91.28647141,3.75E+08,107652.6063
+Merced,SD-03-21-14,Merced River Union Elementary,281,,Eva Alvarado,kzapien@mrsd.us,209-358-5679,n/a,,,,60.58456844,249495910.4,105317.3848
+Merced,SD-03-21-15,Merced Union High,"11,120",,Erin Tassey,etassey@muhsd.org,209-325-2213,n/a,,,,705.0612015,2.90E+09,300473.8241
+Merced,SD-03-21-16,Plainsburg Union Elementary,107,,Jody Beard,jodybeard@plainsburg.k12.ca.us,(209) 389-4707,,,,CBO,49.85169954,203796079.2,77067.19686
+Merced,SD-03-21-17,Planada Elementary,870,,Alejandro Okida,aokida@planada.org,209-382-2027,n/a,,,,47.82369279,196190082.1,62614.14103
+Merced,SD-03-21-18,Snelling-Merced Falls Union Elementary,56,,Jana Reyes,jreyes@snellingschool.org,209-563-6414,n/a,,,,131.3569943,541722773,133770.9597
+Merced,SD-03-21-19,Weaver Union,"3,032",,Danielle Johnson,djohnson@weaverusd.org,209-725-7130,n/a,,,,75.61174311,309755471.5,100701.9843
+Merced,SD-03-21-20,Winton,"1,868",,Sarah Mathis,smathis@winton.k12.ca.us,209-357-6585,n/a,,,,6.720741649,27633490.11,27551.4026
+Mono,SD-01-01-01,Eastern Sierra Unified,368,6,Kat Mullinax,kmullinax@esusd.org,760-616-4073,,,,,2716.314496,11344625328,729106.8693
+Mono,SD-01-01-02,Mammoth Unified,1112,4,Lupita Grimaldo,ggrimaldo@mammothusd.org,760-934-8541,246,,,,402.8082733,1666099709,246553.4017
+Sacramento,SD-03-18-01,Arcohe Union Elementary,501,1,Lisa Austin,austin@arcohe.net,209-748-2313,1032,,,,119.4995275,503811249.4,130765.9883
+Sacramento,SD-03-18-02,Elk Grove Unified,"62,603",67,Michelle Drake,MDDrake@egusd.net,916-686-7735,78081,,,,330.4698302,1397283307,225281.6564
+Sacramento,SD-03-18-03,Elverta Joint Elementary,223,2,Regina Furniss,mlippincott@ejesd.net,916-991-2244,,,,,24.74194207,105477158.1,64241.87992
+Sacramento,SD-03-18-04,Folsom-Cordova Unified,"20,977",36,Ashley Ash,aash@fcusd.org,916-294-9011,,,,,91.6906029,389579671.7,123282.4193
+Sacramento,SD-03-18-05,Galt Joint Union Elementary,"3,382",7,Nicholas Svoboda,nsvoboda@galt.k12.ca.us,209-744-4545,320,,,,60.62715186,255047849,99861.90125
+Sacramento,SD-03-18-06,Galt Joint Union High,"1,978",3,Mina Graham,mgraham@ghsd.k12.ca.us,209-744-5301,,,,,261.9058708,1102582399,229624.158
+Sacramento,SD-03-18-07,River Delta Joint Unified,"1,753",11,Laura Rivera,lrivera@rdusd.org,(707) 914-6464,,,,,367.6347442,1545097455,274359.4441
+Sacramento,SD-03-18-08,Robla Elementary,"1,919",6,Erica Lee,elee@robla.k12.ca.us,916-649-5219,,Here,,,9.938591208,42272186.96,29986.52109
+Sacramento,SD-03-18-09,Sacramento City Unified,"38,268",73,Diana Flores,diana-flores@scusd.edu,916-395-5600,,,Here,,69.61307563,295036300.4,128518.2403
+Sacramento,SD-03-18-10,San Juan Unified,"38,488",68,Sneh Nair,sneh.nair@sanjuan.edu,916-971-7025,,,,,77.1175248,327946639.4,100471.5712
+Sacramento,SD-03-18-11,Center Joint Unified,"4,439",8,Laura Davis,ldavis@centerusd.org,916-338-6416,,,,,20.55222739,87624860.41,51345.65756
+Sacramento,SD-03-18-12,Natomas Unified,"14,950",20,Vince Caguin,vcaguin@natomasunified.org,916-567-5472,,,,,38.11653249,162166130.9,70204.3826
+Sacramento,SD-03-18-13,Twin Rivers Unified,"24,386",43,Leslie Pring,leslie.pring@trusd.net,916-566-1600,36259,,,,79.20971625,337188625,133757.7934
+San Joaquin,SD-03-19-01,Banta Unified,3022,1,Jamie Anderson,jaanderson@bantasd.org,209-851-4815,,,,,37.95342462,157541311.1,66592.31968
+San Joaquin,SD-03-19-02,Escalon Unified,3062,7,Shelli Nicholas,snicholas@escalonusd.org,209-838-3170,,,,,161.0065785,670432492.4,145324.5544
+San Joaquin,SD-03-19-03,Jefferson Elementary,2905,4,Debbi Rogers,drogers@jsdtracy.com,209-839-8759,,,,,137.7355006,569509058.1,99267.86326
+San Joaquin,SD-03-19-04,Lammersville Joint Unified,7764,9,Bernie Hill,bhill@lammersvilleusd.net,209-836-7400,2396,Lammersville FSD.jpg,,,53.70875691,222851214,71453.11302
+San Joaquin,SD-03-19-05,Lincoln Unified,8773,14,Amy Clark,aclark@lusd.net,209-953-8655,,,,,12.44098253,51973457.2,55987.2625
+San Joaquin,SD-03-19-06,Linden Unified,2275,6,Hope Brand,hbrand@lindenusd.com,209-887-8339,,,,,172.6019447,722057556.8,159662.8378
+San Joaquin,SD-03-19-07,Lodi Unified,30068,49,Betty Crocker,bcrocker@lodiusd.net,209-331-7155,,,,,312.8499823,1311333112,258491.8086
+San Joaquin,SD-03-19-08,Manteca Unified,25000,30,Tracee Franks,tfranks@musd.net,209-858-0774,,,,,112.5836166,467928546.8,145488.4345
+San Joaquin,SD-03-19-09,New Hope Elementary,168,1,Clint Johnson,cljohnson@nhesd.net,(209) 794-2376 ,14,,,Principal,34.97350395,146876503.3,77811.36248
+San Joaquin,SD-03-19-10,New Jerusalem Elementary,6888,6,Melissa Cochrane,mcochrane@njes.org,209-740-4699,1135,,,,39.03284541,161576586.4,71682.58724
+San Joaquin,SD-03-19-11,Oak View Union Elementary,380,1,Jennifer Marchini,jmarchini@myoakview.com,209-368-0636,18,,,,46.80568749,196846796.8,86649.24437
+San Joaquin,SD-03-19-12,Ripon Unified,5183,7,Jandy Lauderdale,jlauderdale@riponusd.net,209-599-6120,1129,,,,54.36363337,225742958.1,119955.0519
+San Joaquin,SD-03-19-13,Stockton Unified,38730,54,LaShonta Netherly,lnetherly@stocktonusd.net,209-933-7015,2262,,,,57.77239761,241069471.3,111696.7277
+San Joaquin,SD-03-19-14,Tracy Joint Unified,15100,19,Brandy Campbell,bcampbell@tusd.net,209-830-3255,,,,,382.0482453,1586030828,314835.4921
+Stanislaus,SD-03-20-01,Ceres Unified,14254,24,Patrice Lorenzo,plorenzo@centerforhumanservices.org,209-526-1441,527,,,Superintendent ,64.81177246,267621704.9,120837.2272
+Stanislaus,SD-03-20-02,Chatom Union,548,2,Angelica Cazares,acazares3@ceres.k12.ca.us,209-556-1580,1580,,None,CBO,64.12097122,264133958,93210.38176
+Stanislaus,SD-03-20-03,Denair Unified,1273,5,Genevieve Lucas,glucas@chatom.k12.ca.us,209-664-8502,3039,,,,56.32449116,232464469.6,90829.91367
+Stanislaus,SD-03-20-04,Empire Union Elementary,2825,6,Kim Fuentez,kfuentez@dusd.k12.ca.us,209-632-7514,1243,,,,24.64070449,101960037.7,64660.46321
+Stanislaus,SD-03-20-05,Gratton Elementary,139,1,TAMMY   SCOFFIELD               ,tammyscoffield@gmail.com,209-538-9009,,,,,5.004050678,20667526.1,19284.09448
+Stanislaus,SD-03-20-06,Hart-Ransom Union Elementary,1185,2,Andrea Reese,areese@empire.k12.ca.us,209-521-2800,2207,,,Superintendent,26.31551628,108936831.7,60903.6732
+Stanislaus,SD-03-20-07,Hickman Community Charter,1048,3,Cathy Scott,cscott@grattonschool.net,209-632-0505,,,,,19.38128037,80127069.22,46284.39291
+Stanislaus,SD-03-20-08,Keyes Union,1056,3,Kasie Jones,k.jones@greatvalleyacademy.com,209-576-2283,,,,,9.358054657,38623905.13,31092.46692
+Stanislaus,SD-03-20-09,Knights Ferry Elementary,119,1,Debra Silva,dsilva@hartransom.org,209-523-9996,302,,,Principal,92.2642333,383273584.5,137177.913
+Stanislaus,SD-03-20-10,Modesto City Elementary,15270,26,Grace Coronado-Mosso,gcmosso@hickmanschools.org,209-874-5742,116,,,CBO,28.98606235,119898096.5,69187.25799
+Stanislaus,SD-03-20-11,Modesto City High,16161,8,Elizabeth Acosta,bacosta@hughsonschools.org,209-883-2219,380,,,,167.4810794,693381402.3,201581.1301
+Stanislaus,SD-03-20-12,Paradise Elementary,182,2,Raul Verduzco,rverduzco@keyes.k12.ca.us,209-669-2921,3603,,,,6.517573019,26953105.12,25699.22636
+Stanislaus,SD-03-20-13,Patterson Joint Unified,6138,11,CRISS   ATWELL                  ,Atwell.C@monet.k12.ca.us,209-574-1619,,,,,360.3981713,1483913834,270601.0126
+Stanislaus,SD-03-20-14,Roberts Ferry Union Elementary,192,2,Maria Barrera,mbarrera@nclusd.k12.ca.us,209-862-2933,264,,,,93.16256235,385403714.5,93090.76749
+Stanislaus,SD-03-20-15,Salida Union Elementary,2990,5,Jason Beach,jbeach@ojusd.org,209-847-9666,,,,,25.06181991,103864911.4,77565.14384
+Stanislaus,SD-03-20-16,Shiloh Elementary,178,2,Amie Keith,akeith@patterson.k12.ca.us,209-892-3702,27022,,,,17.92696942,74128079.89,60006.48865
+Stanislaus,SD-03-20-17,Stanislaus Union Elementary,3297,6,Wendy Lawrence,wlawrence@riverbank.k12.ca.us,209-869-2538,156,,,,16.9927396,70455697.93,51622.74166
+Stanislaus,SD-03-20-18,Sylvan Union Elementary,8013,13,MARILYN   BABA                  ,amanley@robertsferry.k12.ca.us,209-874-2331,,,,,21.03969432,87184642.07,57315.7439
+Stanislaus,SD-03-20-19,Valley Home Joint Elementary,186,1,Agustin Mireles,amireles@salida.k12.ca.us,209-545-0339,3113,,,,104.4599722,435430588.6,124649.0041
+Stanislaus,SD-03-20-20,Newman-Crows Landing Unified,3161,9,Ka Yang,kyang@sierravistacares.org,209-217-3596,,,,,373.1076927,1530207501,205481.9194
+Stanislaus,SD-03-20-21,Hughson Unified,2190,6,Carrie Van Roekel,lalondec@stanpro.org,209-567-4723,,,,,145.9336681,603478547.6,161954.5435
+Stanislaus,SD-03-20-22,Riverbank Unified,2983,6,Vanessa Paulo,Vpaulo@stanunion.k12.ca.us,209-545-1856,,,,,20.30055251,84134175.49,65615.43634
+Stanislaus,SD-03-20-23,Oakdale Joint Unified,5173,9,MICHAEL   MAASKE                ,MMAASKE@SYLVAN.K12.CA.US,209-574-5607,,,,,320.8642142,1333934976,203077.0523
+Stanislaus,SD-03-20-24,Waterford Unified,2505,5,Jennifer Lew-Vang,jlewvang@turlock.k12.ca.us,209-667-9048,,,,,27.9885529,115867806.6,62356.23906
+Stanislaus,SD-03-20-25,Turlock Unified,13667,14,Tiffany Gothan,tgothan@waterford.k12.ca.us,209-874-3916,,,,,107.6813116,443703361.3,130828.0674
+Tuolumne ,SD-03-25-01,Belleview Elementary School District,167,2,Elizabeth Emmer,eemmer@mybelleview.org,,,,,,15.1745,6.34E+07,50026.64214
+Tuolumne ,SD-03-25-02,Big Oak Flat-Groveland Unified,248,3,Suzette Acosta,sacosta@bofg.org,,,,,,661.975,2.75E+09,495437.582
+Tuolumne ,SD-03-25-03,Columbia Union,453,1,Laurie Keefe,lkeefe@cusd49.com,,,,,,77.5899,3.25E+08,131957.6418
+Tuolumne ,SD-03-25-04,Curtis Creek Elementary,422,1,Diana Funderburk,dfunderburk@creekmustangs.com,,,,,,36.4388,1.52E+08,79730.52377
+Tuolumne ,SD-03-25-05,Jamestown Elementary,410,1,Debbie Kay,dkay@jespanthers.org,,,,,,166.0962,6.91E+08,148147.4005
+Tuolumne ,SD-03-25-06,Sonora Elementary,693,2,Shanan Gonzales,sgonzales@sesk12.org,,,,,,25.9998,1.08E+08,76284.91329
+Tuolumne ,SD-03-25-07,Sonora Union High,1092,3,Gail Staggs,gstaggs@sonorahs.k12.ca.us,,,,,,328.8687,1.37E+09,261083.1441
+Tuolumne ,SD-03-25-08,Soulsbyville Elementary,473,2,Debie Sarina,dsarina@soulsbyvilleschool.com,,,,,,7.5696,3.16E+07,34751.64026
+Tuolumne ,SD-03-25-09,Summerville Elementary,458,1,Natalie Giannini,ngiannini@sumel.org,,,,,,605.2101,2.53E+09,316853.3597
+Tuolumne ,SD-03-25-10,Summerville Union High,1091,6,Jessica Kenitzer,jkenitzer@summbears.net,,,,,,1283.6083,5.38E+09,418213.1416
+Tuolumne ,SD-03-25-11,Twain Harte,236,2,Karrie Curry,kcurry@twainharteschool.com,,,,,,678.3981,2.85E+09,301059.5978
+Yolo,SD-03-17-01,Davis Joint Unified,8361,17,Mark Powell,mpowell@djusd.net,530-759-2186,,,,,129.6404048,549022682.6,141210.2904
+Yolo,SD-03-17-02,Esparto Unified,997,4,Robert Bettencourt,rbettencourt@espartok12.org,530-787-4151,404,,,,362.3396476,1546561020,228706.308
+Yolo,SD-03-17-03,Washington Unified,8290,14,Ambur Dixon,adixon@wusd.k12.ca.us,916-375-7600,1069,,,,28.66654203,121607355.8,52175.67436
+Yolo,SD-03-17-04,Winters Joint Unified,2285,5,Cathleen Olsen,colsen@wintersjusd.org,530-795-6109,,,,,127.2820285,539745703.7,124946.811
+Yolo,SD-03-17-05,Woodland Joint Unified,9483,17,Spencer Springer,spencer.springer@wjusd.org,530-406-5956,,,,,312.9950969,1333730437,217239.7476
+Los Angeles,SD-05-35-01,ABC Unified,18081,31,Maureen Conklin,maureen.conklin@abcusd.us,562-926-5566,21275,,,,15.18182193,57173528.71,42573.75594
+Los Angeles,SD-05-35-02,Acton-Agua Dulce Unified,12875,3,Syed Zaidi,szaidi@aadusd.k12.ca.us,661-269-0750,104,,,,214.7134668,819933347.9,134401.3948
+Los Angeles,SD-05-35-03,Alhambra Unified,14602,16,William Fong,fong_william@ausd.us,626-943-6550,,,,,16.39852344,62052634.01,45489.35842
+Los Angeles,SD-05-35-04,Antelope Valley Union High,22602,13,Joe Cook,jcook@avhsd.org,661-948-7655,,,,,1395.420809,5353851071,389306.8897
+Los Angeles,SD-05-35-05,Arcadia Unified,8988,11,Kathleen Ashworth,kashworth@ausd.net,626-821-8322,2013,,,,12.6975454,48132667.28,45287.07915
+Los Angeles,SD-05-35-06,Azusa Unified,6370,11,Stella Ndahura,sndahura@azusa.org,626-732-8057,4338,,,,149.5814677,568594431.9,144640.0779
+Los Angeles,SD-05-35-07,Baldwin Park Unified,10196,17,Rosa Estrella,rmestrella937@bpusd.net,626-856-4562,4562,,,,8.940211536,33845427.64,31772.54501
+Los Angeles,SD-05-35-08,Bassett Unified,2876,7,Liz Estavillo Valdez,lestavillo@bassettusd.org,626-931-3033,,,,,3.549618537,13426160.74,21482.89758
+Los Angeles,SD-05-35-09,Bellflower Unified,9813,15,Candice Crump,candicecrump@busd.k12.ca.us,562-866-4192,7801,,,,7.128117472,26853507.48,25802.70348
+Los Angeles,SD-05-35-10,Beverly Hills Unified,3074,6,Heather Oyamo,hoyamo@bhusd.org,323-819-1237,,,,,6.012806597,22758214.3,39732.04871
+Los Angeles,SD-05-35-11,Bonita Unified,9957,15,Edna Mckenna,mckenna@Bonita.k12.ca.us,909-971-8200,5280,,,,39.29549462,148956666.7,64605.84191
+Los Angeles,SD-05-35-12,Burbank Unified,14240,21,Carrie Bogdanovich,carriebogdanovich@burbankusd.org,818-729-4540,,,,,17.35043954,65836599.98,37750.49329
+Los Angeles,SD-05-35-13,Castaic Union,1938,5,Bob Brauneisen,bbrauneisen@castaicusd.com,661-257-4500,,,,superintendent,157.4381188,602290691,111276.653
+Los Angeles,SD-05-35-14,Centinela Valley Union High,6537,5,Alicia Mendez,mendeza@cvuhsd.org,310-263-3251,,,,,9.241544049,34840356.94,33068.957
+Los Angeles,SD-05-35-15,Charter Oak Unified,4248,10,Adrianne Garza,agarza@COUSD.net,626-966-8331,90521,,,,5.840775916,22117273.13,21487.99471
+Los Angeles,SD-05-35-16,Claremont Unified,6261,11,Brenda Zarate,bzarate@cusd.claremont.edu,909-398-0609,73001,,,,63.66922216,241697487,80284.26725
+Los Angeles,SD-05-35-17,Compton Unified,19743,37,"Ladislao Figueroa, Jr.",Lafigueroa@compton.k12.ca.us,310-639-4321,56673,,,,17.86717854,67330078.99,48114.16446
+Los Angeles,SD-05-35-18,Covina-Valley Unified,11143,18,Lizett Olivares,lolivares@c-vusd.org,626-974-7000,,,,,14.56582012,55130404.94,48205.07909
+Los Angeles,SD-05-35-19,Culver City Unified,6717,9,Julie Garcia,juliegarcia@ccusd.org,310-842-4200,3304,,,,6.072784985,22945089.68,39274.74804
+Los Angeles,SD-05-35-20,Downey Unified,22421,22,Marc Milton,mmilton@dusd.net,562-469-6671,,,,,13.88715671,52386214.03,34572.18557
+Los Angeles,SD-05-35-21,Duarte Unified,7465,6,Brian Volz,bvolz@duarteusd.org,626-599-5022,,,,,22.88819179,86809200.1,49125.73146
+Los Angeles,SD-05-35-22,East Whittier City Elementary,7769,13,Laurie Fonseca,lfonseca@ewcsd.org,562-907-5949,,,,,12.64797016,47730437.44,39236.7834
+Los Angeles,SD-05-35-23,Eastside Union Elementary,3114,6,Michelle Quirce,mquirce@eastsideusd.org,661-952-1200,8216,,,,254.3280592,977698077.3,147082.1942
+Los Angeles,SD-05-35-24,El Monte City,7045,15,Jenny Lee,jlee@emcsd.org,626-453-3733,,,,,11.2133099,42444626.59,39002.60548
+Los Angeles,SD-05-35-25,El Monte Union High,7677,7,Suzy Sayre,suzy.sayre@emuhsd.org,626-444-9005,9875,,,,22.43500455,84894640.88,47732.35112
+Los Angeles,SD-05-35-26,El Rancho Unified,7110,14,Billie Saavedra,bsaavedra@erusd.org,562-801-7440,,,,,8.029871074,30327287.71,28485.64809
+Los Angeles,SD-05-35-27,El Segundo Unified,3563,5,Kimberlie Linz,klinz@esusd.net,310-615-2650,1520,,,,3.401949461,12827321.15,16240.97721
+Los Angeles,SD-05-35-28,Garvey Elementary,4266,12,Paula Parvinjah,pparvinjah@gesd.us,626-307-3407,2601,,,,4.652811717,17602316.46,22810.18342
+Los Angeles,SD-05-35-29,Glendale Unified,25049,34,Jennifer Gonzales,jcgonzales@gusd.net,818-552-2677,,,,,37.66072994,142921809,71163.12287
+Los Angeles,SD-05-35-30,Glendora Unified,6363,10,Erin Meza,emeza@glendora.k12.ca.us,626-963-1611,1401,,,,22.06317114,83669320.39,45894.16141
+Los Angeles,SD-05-35-31,Gorman Joint,1208,1,Denise Saenz,d.saenz@gorman.com,661-248-6441,,,,,151.7511088,583105358.9,109591.9735
+Los Angeles,SD-05-35-32,Hacienda la Puente Unified,15767,35,Celeste Calubaquib,ccalubaquib@hlpusd.k12.ca.us,626-933-3900,,,,,21.29057956,80455991.93,45593.71613
+Los Angeles,SD-05-35-33,Hawthorne,7025,11,Jennifer Kim,jkim@hawthorne.k12.ca.us,310-263-3986,,,,,3.931872335,14825098.34,17121.97521
+Los Angeles,SD-05-35-34,Hermosa Beach City Elementary,1325,3,Paula Montalbo,pmontalbo@hbcsd.org,424-333-9975,1234,,,,1.452839872,5471497.984,10462.73097
+Los Angeles,SD-05-35-35,Hughes-Elizabeth Lakes Union Elementary,48,1,Tom Bennett,superintendent@heluesd.org,661-724-1231,,,,,112.0358385,429887683.6,106206.9166
+Los Angeles,SD-05-35-36,Inglewood Unified,8724,16,Faye Armstrong,faye.armstrong@inglewoodusd.com,310-680-4870,4870,,,,10.17743824,38414455.87,40297.53888
+Los Angeles,SD-05-35-37,Keppel Union Elementary,2909,7,Syed Zaidi,szaidi@keppel.k12.ca.us,661-944-4313,,,,,302.3512354,1155438449,161454.1109
+Los Angeles,SD-05-35-38,La Canada Unified,3937,4,Gretchen Bergstrom,gbergstrom@lcusd.net,818-949-4750,,,,,141.2276493,537442816.5,151305.7061
+Los Angeles,SD-05-35-39,Lancaster Elementary,14837,24,Debra Candelaria,candelariad@lancsd.org,661-948-4661,140,,,,84.24316233,323837940.8,91294.55174
+Los Angeles,SD-05-35-40,Las Virgenes Unified,9660,17,Julie Abbott,jabbott@lvusd.org,818-225-1828,,,,,78.29160917,296630689.9,111676.0761
+Los Angeles,SD-05-35-41,Lawndale Elementary,4910,9,Lissette Rooney,lissette_rooney@lawndalesd.net,310-973-1300,50048,,,,3.657220563,13781385.58,18308.88023
+Los Angeles,SD-05-35-42,Lennox,5699,6,Polly Houston,polly_houston@lennoxk12.org,310-695-4021,,,,,1.652451151,6233873.023,11246.04211
+Los Angeles,SD-05-35-43,Little Lake City Elementary,3656,9,Heidi Mcdonald,hmcdonald@llcsd.net,562-868-8241,2256,,,,5.341790718,20149584.84,18709.16085
+Los Angeles,SD-05-35-44,Long Beach Unified,64267,82,Lieling Hwang,lhwang@lb.net,562-427-7923,1248,,,,135.4594575,506707234.6,215795.4274
+Los Angeles,SD-05-35-45,Los Angeles Unified,529902,785,Manish Singh,manish.singh@lausd.net,213-241-2993,0,,,,652.7077718,2472694078,521786.858
+Los Angeles,SD-05-35-46,Los Nietos,1251,4,Yanelly Alonso,nelly_alonso@lnsd.net,562-692-0271,3216,,,,3.53498853,13343169.19,19006.53519
+Los Angeles,SD-05-35-47,Lynwood Unified,11386,17,Vanessa Jones,vwilliams@mylusd.org,310-886-1600,8260,,,,4.72511052,17819153.88,24061.3587
+Los Angeles,SD-05-35-48,Manhattan Beach Unified,5925,8,Lena Agee,lagee@mbusd.org,310-318-7345,5031,,,,3.946613001,14871454.07,17604.21908
+Los Angeles,SD-05-35-49,Monrovia Unified,4935,11,Kenneth Singleton,ksingleton@monrovia.net,626-471-2053,,,,,12.90245098,48932642.95,40203.1591
+Los Angeles,SD-05-35-50,Montebello Unified,19967,29,Victoria Cheung,Cheung_victoria@montebello.k12.ca.us,323-887-7977,,,,,21.57286587,81513404.68,52477.9369
+Los Angeles,SD-05-35-51,Mountain View Elementary,4642,8,Christina Chang,christina.chang@mtview.net,626-652-4086,0,,,,4.820009572,18233314.23,24211.72052
+Los Angeles,SD-05-35-52,Newhall,5928,10,Leticia Hernandez,lhernandez@newhallsd.com,661-291-4163,,,,superintendent,65.20587639,248491651.7,86163.18437
+Los Angeles,SD-05-35-53,Norwalk-La Mirada Unified,15052,26,Anna Apoian,aapoian@nlmusd.org,562-210-2147,,,,,15.61956259,58876245.11,47688.07643
+Los Angeles,SD-05-35-54,Palmdale Elementary,21205,29,Alecia Woods,Adwoods@palmdalesd.org,661-789-6565,,,,,72.33326248,277024573.3,79505.31607
+Los Angeles,SD-05-35-55,Palos Verdes Peninsula Unified,10393,18,Nancy Wikes,wikesn@pvpusd.net,310-732-0900,34781,,,,24.49266807,92028412.79,44994.15179
+Los Angeles,SD-05-35-56,Paramount Unified,12042,20,Lucy Albera,LAlbera@paramount.k12.ca.us,562-602-6031,,,,,6.7889912,25583655.31,36412.90935
+Los Angeles,SD-05-35-57,Pasadena Unified,15219,23,Darren Hughes,hughes.darren@pusd.us,626-396-5852,89398,,,,73.39261214,278541171.7,113501.0792
+Los Angeles,SD-05-35-58,Pomona Unified,21633,37,Daryl Hickey,daryl.hickey@pusd.org,909-397-4711,21100,,,,31.15631768,117836736.9,59553.17952
+Los Angeles,SD-05-35-59,Redondo Beach Unified,9485,14,Jillian Navarro,jnavarro@rbusd.org,310-937-1255,,,,,6.462290804,24332463.13,34470.59516
+Los Angeles,SD-05-35-60,Rosemead Elementary,2299,5,John Rivera,jrivera@rosemead.k12.ca.us,626-312-2900,255,,,,3.144821751,11902704.38,16577.56511
+Los Angeles,SD-05-35-61,Rowland Unified,13052,23,Maria Davila,mdavila@rowland.org,626-854-8313,,,,,24.64027059,93068167.13,50405.4485
+Los Angeles,SD-05-35-62,San Gabriel Unified,4840,8,Isabel Millan,millan_i@sgusd.k12.ca.us,626-451-5456,,,,,4.628780658,17528010.09,23940.97477
+Los Angeles,SD-05-35-63,San Marino Unified,2933,4,Munira Bengali,mbengali@smusd.us,626-299-7000,1323,,,,4.157387954,15751287.07,23769.25642
+Los Angeles,SD-05-35-64,Santa Monica-Malibu Unified,8641,17,Richard Marchini,rmarchini@smmusd.org,310-450-8338,70342,,,,81.17410668,307059386.4,133883.7745
+Los Angeles,SD-05-35-65,Saugus Union,9192,15,Colleen Hawkins,chawkins@saugususd.org,661- 294-5300,,,,superintendent,98.67998613,377263895,117000.4114
+Los Angeles,SD-05-35-66,South Pasadena Unified,4687,5,Jenifer Smith,Jenifersmith@spusd.net,626-441-5820,2950,,,,3.4260827,12976679.47,16002.50007
+Los Angeles,SD-05-35-67,South Whittier Elementary,2272,6,Terri Sperry,tsperry@swhittier.net,562-944-6231,2057,,,,4.124430646,15557375.29,18258.57751
+Los Angeles,SD-05-35-68,Sulphur Springs Union,5211,10,Catherine Kawaguchi,ckawaguchi@sssd.k12.ca.us,661-252-5131,,,,superintendent,76.34642801,291311949.4,95927.18546
+Los Angeles,SD-05-35-69,Temple City Unified,5253,9,Marisol Cortez,mcortez@tcusd.net,626-548-5010,,,,,3.635145218,13767811.08,18319.4885
+Los Angeles,SD-05-35-70,Torrance Unified,22109,32,Kathleen Cole,cole.kathleen@tusd.org,310-972-6351,,,,,20.68443105,77843779.55,50197.40168
+Los Angeles,SD-05-35-71,Valle Lindo Elementary,875,2,Evelyn Vargas,cafeteria@sd.vallelindo.k12.ca.us,626-580-0610,125,,,,3.256863323,12313995.67,17861.58084
+Los Angeles,SD-05-35-72,Walnut Valley Unified,13815,15,Emmalyn Coles,ecoles@wvusd.org,909-595-1261,31322,,,,21.9075283,82755822.49,59450.26374
+Los Angeles,SD-05-35-73,West Covina Unified,14750,15,Corina Ulloa,culloa@wcusd.org,626-939-4600,1501,,,,8.573928571,32437034.97,35139.33283
+Los Angeles,SD-05-35-74,Westside Union Elementary,9138,12,Nancy Hemstreet,n.hemstreet@westside.k12.ca.us,661-943-1057,,,,,316.9030651,1217772946,225932.523
+Los Angeles,SD-05-35-75,Whittier City,5366,11,Brad Mason,bmason@whittiercity.net,562-789-3075,,,,superintendent,14.86250186,56150647.19,41570.55404
+Los Angeles,SD-05-35-76,Whittier Union High,10223,7,Elizabeth Brown-Smith,Liz.Brown-Smith@wuhsd.org,562-698-8121,1092,,,,40.51168192,152931214,65516.31404
+Los Angeles,SD-05-35-77,William S. Hart Union High,22135,16,Eric Stender,estender@hart.org,661-753-5751,,,,,397.6704093,1519358187,179354.8371
+Los Angeles,SD-05-35-78,Wilsona Elementary,1257,3,Audrey Cabrera,acabrera@wilsona.k12.ca.us,661-264-1111,7206,,,,101.4750775,389086041.7,83518.1877
+Los Angeles,SD-05-35-79,Wiseburn Unified,5012,5,Silke Tecun,stecun@wiseburn.org,310-725-2101,5104,,,,3.871082167,14595571.86,17684.39654
+Orange,SD-05-36-06,Capistrano Unified,48326,,Kristin Hilleman,klhilleman@capousd.org,949-234-9501,,,,,157.9978563,5.90E+08,140280.3169
+Orange,SD-05-36-22,Santa Ana Unified,40328,,Josh Goddard,josh.goddard@sausd.us,714-431-1900,,,,,26.29643385,9.87E+07,62755.03383
+Orange,SD-05-36-27,Irvine Unified,37952,,Jill Hartstein,jillhartstein@iusd.org,949-936-6525,,,,,61.08976057,2.29E+08,87339.58877
+Orange,SD-05-36-12,Garden Grove Unified,37763,,Agnes Lally,alally@ggusd.us,714-663-6155,,,,,28.90351597,1.09E+08,60842.48054
+Orange,SD-05-36-03,Anaheim Union High,27195,21,Orlando Griego,griego_o@auhsd.us,714-999-3560,,,,,40.8688517,1.54E+08,71189.20736
+Orange,SD-05-36-20,Orange Unified,25364,,Axenia Daneri,axenia.daneri@ssa.ocgov.com,714-997-6354,,,,,147.3693767,5.54E+08,147454.1714
+Orange,SD-05-36-25,Saddleback Valley Unified,23199,,Riki Pollard,pollardr@svusd.org,949-830-4030,,,,,91.43026721,3.43E+08,134514.3961
+Orange,SD-05-36-21,Placentia-Yorba Linda Unified,22705,,Suzanne Morales,smorales@pylusd.org,714-985-8610,61611,,,,39.74576924,1.50E+08,75220.612
+Orange,SD-05-36-26,Tustin Unified,21600,,Mark Chavez,machavez@tustin.k12.ca.us,714-730-7301,,,,,24.15299849,9.07E+07,52415.86297
+Orange,SD-05-36-18,Newport-Mesa Unified,17768,,Todd Hatfield,thatfield@nmusd.us,714-424-5090,,,,,39.46852602,1.48E+08,65997.18057
+Orange,SD-05-36-02,Anaheim Elementary,14775,24,Matthew Slusser,mslusser@aesd.org,(714) 517-7537,4200,,,,21.26174709,8.00E+07,47789.22297
+Orange,SD-05-36-14,Huntington Beach Union High,14104,,John Chiu,jchiu@hbuhsd.edu,714-903-7000,,,,,45.26446013,1.70E+08,61618.19025
+Orange,SD-05-36-11,Fullerton Joint Union High,12826,,Edgar Manalo,emanalo@fjuhsd.org,714-870-2812,,,,,43.31863087,1.63E+08,80617.21741
+Orange,SD-05-36-10,Fullerton Elementary,11439,,Michael Burns,michael_burns@myfsd.org,714-447-7435,,,,,19.93922267,7.51E+07,43628.87646
+Orange,SD-05-36-28,Los Alamitos Unified,8931,,Annie Ryu,aryu@losal.org,562-799-4592,81118,,,,16.730556,6.29E+07,39504.71323
+Orange,SD-05-36-24,Westminster,7950,,Paul Ngo,pngo@wsdk8.us,714-893-3865,,,,,9.9845129,3.75E+07,25609.59984
+Orange,SD-05-36-19,Ocean View,6868,,Jim Riner,jriner@ovsd.org,714-847-2551,1450,,,,13.82702541,5.19E+07,35465.1771
+Orange,SD-05-36-09,Fountain Valley Elementary,6036,,Suzanne Brown,browns@fvsd.us,714-843-3243,,,,,7.727326201,2.90E+07,24276.09634
+Orange,SD-05-36-04,Brea-Olinda Unified,5895,10,Mina Choi,mina.choi@bousd.us,714-990-7805,,,,,20.25110475,7.64E+07,48391.56718
+Orange,SD-05-36-13,Huntington Beach City Elementary,4974,,Ashlin Connolly,aconnolly@hbcsd.us,714-378-2075,,,,,13.72595922,5.15E+07,46551.47952
+Orange,SD-05-36-17,Magnolia Elementary,4920,,Brendan Shields,bshields@magnoliasd.org,714-761-2151,7119,,,,5.228765735,1.97E+07,20008.88574
+Orange,SD-05-36-16,La Habra City Elementary,4298,,Cheryl Eubanks,ceubanks@lahabraschools.org,562-690-2314,,,,,6.700358903,2.53E+07,26321.3853
+Orange,SD-05-36-07,Centralia Elementary,4052,,Sotero Gonzalez,sotero_gonzalez@cesd.us,714-228-3134,,,,,5.780023529,2.18E+07,25845.09011
+Orange,SD-05-36-05,Buena Park Elementary,3784,7,Katrina Butler,kbutler@bpsd.k12.ca.us,714-736-4265,,,,,7.222643591,2.72E+07,32266.49028
+Orange,SD-05-36-08,Cypress Elementary,3319,,Parisa Shukla,Pshukla@cypsd.org,714-220-6948,,,,,6.282809544,2.36E+07,26027.13465
+Orange,SD-05-36-01,Lowell Joint,3029,6,Carl Erickson,cerickson@ljsd.org,562-902-4291,,,,,9.456405706,3.57E+07,35887.92247
+Orange,SD-05-36-15,Laguna Beach Unified,2386,,Andrew Morrison,amorrison@lbusd.org,949-497-7700,5216,,,,24.31059933,9.09E+07,61367.94034
+Orange,SD-05-36-23,Savanna Elementary,1735,,Elizabeth Banuelos,elizabeth.banuelos@savsd.org,714-236-3824,,,,,2.3155058,8.71E+06,12876.91997
+San Bernardino,SD-05-37-2,Alta Loma Elementary,5599,10,Heather Sloan,hsloan@alsd.org,909-484-5151,,,,,24.77718406,93967193.3,40375.69862
+San Bernardino,SD-05-37-3,Apple Valley Unified,15252,15,ROSE STARK,rose_stark@avusd.org,760-247-8001,,,,,299.6239144,1144646309,163695.6882
+San Bernardino,SD-05-37-4,Baker Valley Unified,129,3,Coco Rivera,maria_rivas@baker.k12.ca.us,760-733-4567,,,,,3891.581098,15168436012,609087.6734
+San Bernardino,SD-05-37-5,Barstow Unified,6318,14,Veronica Calderon,veronica_calderon@busdk12.com,760-255-6070,,,,,1832.048955,7099243411,423174.2302
+San Bernardino,SD-05-37-6,Bear Valley Unified,2132,6,Rita Acevedo,rita_acevedo@bearvalleyusd.org,909-866-4406,,,,,240.909019,914422080.5,143271.2603
+San Bernardino,SD-05-37-7,Central Elementary,4327,7,Diana Carrillo,dcarrillo@csd.k12.ca.us,909-484-2702,,,,,5.6479864,21392883.16,22556.30845
+San Bernardino,SD-05-37-8,Chaffey Joint Union High,22628,11,Debbie Beeson,debra.beeson@cjuhsd.net,909-460-5643,,,,,162.0150876,614065582.1,165753.2391
+San Bernardino,SD-05-37-9,Chino Valley Unified,26473,34,Javier Quirarte,Javier_Quirarte@chino.k12.ca.us,909-628-1201,,,,,84.58503864,319325531.6,85145.02093
+San Bernardino,SD-05-37-10,Colton Joint Unified,18912,28,Casey Robertson,casey_robertson@cjusd.net,909-580-5000,,,,,47.28657114,178815423.6,104795.8746
+San Bernardino,SD-05-37-11,Cucamonga Elementary,2296,4,Imelda Espejel,iespejel@cuca.k12.ca.us,909-987-8942,,,,,21.85454221,82702691.39,50677.20643
+San Bernardino,SD-05-37-12,Etiwanda Elementary,13599,18,Teresa Cardenas,teresa_cardenas@etiwanda.k12.ca.us,909-803-3165,,,,,37.80822345,143357645.4,65294.41557
+San Bernardino,SD-05-37-13,Fontana Unified,33410,44,Luis Mays,Luis.Mays@fusd.net,909-357-5160,,,,,40.54624854,153549476.2,86227.20503
+San Bernardino,SD-05-37-14,Helendale Elementary,7311,4,Rene Palmer,rpalmer@helendalesd.com,760-952-1204,,,,,97.59718489,375420202.9,79185.86515
+San Bernardino,SD-05-37-15,Hesperia Unified,25356,25,David Carochi,David.Carochi@hesperiausd.org,760-948-1051,,,,,141.3270875,538505533.7,101228.6059
+San Bernardino,SD-05-37-16,Lucerne Valley Unified,12716,4,CYNTHIA  Lattin-Oliveira,cindy_lattinoliveira@lucernevalleyusd.org,760-248-2136,,,,,693.4278886,2646089571,277060.8672
+San Bernardino,SD-05-37-17,Morongo Unified,7359,17,Janet Barth,janet.barth@morongo.k12.ca.us,760-367-9191,,,,,1370.510684,5203772734,375657.4301
+San Bernardino,SD-05-37-18,Mountain View Elementary,3156,5,Miguel Silva,Miguel_Silva@mvsdk8.org,909-947-2205,,,,,13.26188727,50119667.46,34652.72049
+San Bernardino,SD-05-37-19,Mt. Baldy Joint Elementary,97,1,Amy Forman,amy_forman@mtbaldy.k12.ca.us,909-985-0991,,,,,34.23882075,130112117.6,47175.08849
+San Bernardino,SD-05-37-20,Needles Unified,930,7,Dawn McCann,dawn_mccann@needlesusd.org,760-646-3809,,,,,5520.403498,21117547062,677140.9934
+San Bernardino,SD-05-37-21,Ontario-Montclair,17944,33,Sara Maragni,sara.maragni@omsd.net,909-930-6360,,,,,24.42644342,92413383.84,51759.02571
+San Bernardino,SD-05-37-22,Oro Grande,5724,1,Lani Izumi,lizumi@orogrande.org,760-243-5884,,,,,73.08623963,280462277.9,91442.2014
+San Bernardino,SD-05-37-23,Redlands Unified,19920,25,Alyssa Cummings,alyssa_cummings@redlands.k12.ca.us,909-307-5366,,,,,144.8155505,548165102.1,178059.8217
+San Bernardino,SD-05-37-24,Rialto Unified,23461,30,Fausat Rahman-Davies,frahman@rialtousd.org,909-820-7761,,,,,55.16058604,209324338.6,113054.3924
+San Bernardino,SD-05-37-25,Rim of the World Unified,2853,7,Lisa Rhoades,lisa_rhoades@rimsd.k12.ca.us,909-336-4164,,,,,114.468806,434879350.2,111196.6905
+San Bernardino,SD-05-37-26,San Bernardino City Unified,49407,76,Adriane Robles,adriane.robles@sbcusd.com,909-881-8000,,,,,157.9523363,599515051.7,157862.4726
+San Bernardino,SD-05-37-27,Silver Valley Unified,2030,,Donna   Trofa,dtrofa@svusdk12.net,760-254-2916,1138,,,,3286.118162,12754172143,598024.6907
+San Bernardino,SD-05-37-28,Snowline Joint Unified,7967,,Janice Carter,janice_carter@snowlineschools.com,760-868-5817,10511,,,,223.0477405,850676484.6,167633.8842
+San Bernardino,SD-05-37-29,Trona Joint Unified,248,2,Diana Martin,dmartin@tjusd.net,760-372-2874,,,,,918.9716905,3611502842,307290.1801
+San Bernardino,SD-05-37-30,Upland Unified,9804,14,Ksenia Glenn,ksenia_glenn@upland.k12.ca.us,909-985-1864,,,,,24.9384858,94529180.93,50004.38181
+San Bernardino,SD-05-37-31,Victor Elementary,12402,19,Amanda Peck,apeck@vesd.net,760-245-5221,,,,,42.69435638,163295794.4,71892.61495
+San Bernardino,SD-05-37-32,Victor Valley Union High,12345,11,Jason Hill,jhill@vvuhsd.org,760-955-3201,,,,,549.1874276,2107418233,202731.2579
+San Bernardino,SD-05-37-33,Yucaipa-Calimesa Joint Unified,9519,14,ANN  Van Damme,ann_vandamme@ycjusd.us,909-797-0174,,,,,72.13383781,272824618.7,97108.87262
+Del Norte,SD-08-56-01,Del Norte County Unified,3722,11,Julie Clark,jclark@delnorte.k12.ca.us,707-464-0214,,,,,1014.284914,4722392223,381223.787
+Humboldt,SD-08-57-01,Arcata Elementary,1137,,Carson Brady,cbrady@arcatasd.org,707-839-5219,n/a,,,,18.12094592,82180426.99,94434.53459
+Humboldt,SD-08-57-02,Big Lagoon Union Elementary,20,,Amanda Gates,mandy@biglagoon.org,707-677-3688,n/a,,,,92.46131245,422898350.8,104549.0519
+Humboldt,SD-08-57-03,Blue Lake Union Elementary,160,,Jacqui Slattery,jslattery@bluelakeschool.org,707-668-5674,123,,,,110.4748587,500648807.3,151695.9134
+Humboldt,SD-08-57-04,Bridgeville Elementary,37,,Laurie Church,lchurch@bridgevilleschool.org,707-777-3311,n/a,,,,297.0095911,1331974330,222024.0305
+Humboldt,SD-08-57-05,Cuddeback Union Elementary,159,,Terri   Dillingham,tdillingham@cuddebackschool.org,707-768-3372,n/a,,,,64.06248958,287586550.9,77461.26856
+Humboldt,SD-08-57-06,Cutten Elementary,561,,Alanzo Arenivaz,aarenivaz@cuttensd.org,707-441-3900,n/a,,,,11.4017118,51496055,35456.31372
+Humboldt,SD-08-57-07,Eureka City Schools,3686,,Kevin Ralston,ralstonk@eurekacityschools.org,707-441-2501,n/a,,,,261.1134804,1177785858,222953.7187
+Humboldt,SD-08-57-08,Ferndale Unified,482,,Kristy Millsap,krmillsap@ferndalek12.org,707-786-5900,n/a,,,,150.3113901,674339875.2,113249.2737
+Humboldt,SD-08-57-09,Fieldbrook Elementary,111,,Amber Charleston,acharleston@fbk8.org,707-839-3201,0,,,,8.951148615,40695181.16,26694.76145
+Humboldt,SD-08-57-10,Fortuna Elementary,1278,,Jennifer Luna,jluna@fortunaesd.com,707-725-4688,325,,,,30.0411108,135055346.1,71498.09275
+Humboldt,SD-08-57-11,Fortuna Union High,1083,,Emily Machado,emachado@fuhsdistrict.net,707-725-4461,3095,,,,561.265142,2517145468,392413.5338
+Humboldt,SD-08-57-12,Freshwater Elementary,313,,Cris Hollen,chollen@freshwatersd.org,707-442-2969,n/a,,,,21.18645552,95817665.86,50434.875
+Humboldt,SD-08-57-13,Garfield Elementary,67,,Kathy Blair,kblair@garfieldschool.org,707-442-5471,n/a,,,,44.29951038,199744115.9,63813.72039
+Humboldt,SD-08-57-14,Green Point Elementary,6,,Wendy Orlandi,admin@greenpointsd.org,(707) 668-5921,,,,Superintendent,114.4055242,520650756,118903.1659
+Humboldt,SD-08-57-15,Hydesville Elementary,224,,Lindsay Henderson,henderson@hydesvilleschool.org,707-768-3610,328,,,,20.63008056,92646184.87,53847.18377
+Humboldt,SD-08-57-16,Jacoby Creek Elementary,462,,Kari Momoa,kmomoa@jcsk8.org,707-822-4896,n/a,,,,21.49358631,97334475.47,67018.6739
+Humboldt,SD-08-57-17,Klamath-Trinity Joint Unified,939,,Becky Woodman,bwoodman@ktjusd.k12.ca.us,530-625-5600,2347,,,,918.2578335,4200102523,368299.061
+Humboldt,SD-08-57-18,Kneeland Elementary,28,,Greta Turney,admin@kneelandsd.org,(707) 442-6589,,,,,122.7998305,553586119.6,129158.3672
+Humboldt,SD-08-57-19,Loleta Union Elementary,75,,Stephanie Twaddell,stwaddell@loleta.org,707-733-5705,n/a,,,,24.67369061,111160947.3,78630.75669
+Humboldt,SD-08-57-20,Maple Creek Elementary,3,,Beth Wylie,admin@maplecreekschool.org,(707) 668-5596,,,,,148.6084511,670737473.2,160249.7155
+Humboldt,SD-08-57-21,Mattole Unified,36,,Karen Ashmore,kashmore@mattoleusd.org,707-629-3311,n/a,,,,261.518184,1165204513,175471.1872
+Humboldt,SD-08-57-22,McKinleyville Union Elementary,924,,Carson Brady,cbrady@mckusd.org,707-839-5219,n/a,,,,46.45879796,211237736.7,96928.27805
+Humboldt,SD-08-57-23,Northern Humboldt Union High,1929,,Cindy Vickers,cvickers@nohum.k12.ca.us,707-839-6472,n/a,,,,709.4313618,3224954299,463942.4826
+Humboldt,SD-08-57-24,Orick Elementary,10,,Ariel Graham,Agraham@Orickschool.org,707-488-2821,n/a,,,,55.77657003,256644428.4,78261.5972
+Humboldt,SD-08-57-25,Pacific Union Elementary,572,,Karin Mason,kmason@pacificunionschool.org,707-822-4619,n/a,,,,16.04048011,72782509.36,52517.66262
+Humboldt,SD-08-57-26,Peninsula Union,65,,Tracie Smith,foodservice@peninsulasd.org,707-443-2731,113,,,,3.983392562,18021201.9,30083.84811
+Humboldt,SD-08-57-27,Rio Dell Elementary,307,,Amber Sears,asears@riodellschools.net,707-764-5694,112,,,,33.42730409,149688354.9,58953.81158
+Humboldt,SD-08-57-28,Scotia Union Elementary,192,,Beth Crnkovich,bethcrnkovich@scotiaschool.org,707-764-2212,n/a,,,,91.42087529,409033754.3,113183.6868
+Humboldt,SD-08-57-29,South Bay Union Elementary,845,,Shannon Rennie,srennie@southbayusd.org,707-443-4828,4229,,,,47.76749954,215378060.2,95664.65191
+Humboldt,SD-08-57-30,Southern Humboldt Joint Unified,645,,Julie Lyon,julielyon@sohumusd.com,707-943-3144,3112,,,,775.4132437,3443334003,337778.7561
+Humboldt,SD-08-57-31,Trinidad Union Elementary,168,,Colleen Kelly,ckelly@trinidadusd.net,707-677-3631,n/a,,,,72.65612758,331122197.5,91314.00215
+Lake,SD-08-59-01,Kelseyville Unified,1915,,Michelle  Borghesani,mborghesani@kvusd.org,707-279-2519,,,,,126.1668951,540906844.6,131431.2922
+Lake,SD-08-59-02,Konocti Unified,3874,,Mandy Lopez,mandy.lopez@konoctiusd.org,707-701-0493,,,,,331.1617228,1420715970,230382.8665
+Lake,SD-08-59-03,Lakeport Unified,1359,,Janeen Peterson,jpeterson@lakeportusd.org,707-262-3028,,,,,128.244941,551631796,114754.5203
+Lake,SD-08-59-04,Lucerne Elementary,292,,Tammy Arellano Keighran,tarellano@lucerne.k12.ca.us,707-274-5578,148,,,,44.09713632,189853086.4,66159.67007
+Lake,SD-08-59-05,Middletown Unified,1730,,Luann Just,luann.just@middletownusd.org,707-987-4100,8110,,,,149.1531219,636416277.6,133477.6999
+Lake,SD-08-59-06,Upper Lake Unified,954,,Elisabeth Mcvey,emcvey@ulusd.org,707-275-2338,3304,,,,593.3676961,2569910164,360399.757
+Mendocino,SD-08-58-01,Anderson Valley Unified,392,2,Melanie Pardini,mpardini2@avpanthers.org,707-671-4627,,,,,351.9950494,1511205563,265749.8094
+Mendocino,SD-08-58-02,Arena Union Elementary,287,1,Denise Souza,dsouza@pauhs.org,707-882-2134,216,,,,155.0427671,663329159.9,141804.1926
+Mendocino,SD-08-58-03,Fort Bragg Unified,1758,7,Pilar Gray,pgray@fbusd.us,707-961-2850,3521,,,,245.0413634,1068260418,222473.6409
+Mendocino,SD-08-58-11,Laytonville Unified,315,3,Kaniesha Soto,ksoto@lhms.us,707-984-6929,,,,,365.0460754,1601922772,235964.2352
+Mendocino,SD-08-58-12,Leggett Valley Unified,121,5,Clifford  Skaggs,cliff@leggett.k12.ca.us,707-925-6285,106,,,,209.0690732,920135467.5,212193.7157
+Mendocino,SD-08-58-04,Manchester Union Elementary,27,1,Denise Mendoza,dmendoza@muesd.us,707-882-2374,,,,,93.07968192,399705890.7,128431.7271
+Mendocino,SD-08-58-05,Mendocino Unified,436,6,Diane Price,dprice@mcn.org,707-937-4640,,,,,330.1859699,1428054534,320944.2528
+Mendocino,SD-08-58-06,Point Arena Joint Union High,143,2,Denise Souza,dsouza@pauhs.org,707-882-2134,216,,,,400.2564412,1711137250,342234.6102
+Mendocino,SD-08-58-10,Potter Valley Community Unified,277,4,Corky Beebe,cbeebe@pottervalleyschools.us,707-743-1115,31115,,,,156.7142893,679532153.7,150217.6749
+Mendocino,SD-08-58-07,Round Valley Unified,506,3,Carmen Smithburg,csmithburg@rvusd.us,707-983-6171,203,,,,763.4938656,3350881513,281654.5057
+Mendocino,SD-08-58-08,Ukiah Unified,6539,11,Julie Beer,jbeer@uusd.net,707-472-5790,,,,,468.0056849,2016087887,359135.3341
+Mendocino,SD-08-58-09,Willits Unified,1892,6,Christy Wisdom,christywisdom@willitsunified.com,707-459-7700,1554,,,,315.3767642,1372483669,198488.8215
+Fresno,SD-04-33-01,Alvina Elementary,176,1,Kathy Bagwell,kbagwell@alvinaesd.org,(559) 864-9411,,,CBO,,6.99001644,28110697.48,22070.83449
+Fresno,SD-04-33-02,Big Creek Elementary,26,1,Aimee Brockway,abrockway@bigcreekschool.com,(559) 893-3314,,,CBO,,788.1786927,3233240652,287113.6344
+Fresno,SD-04-33-03,Burrel Union Elementary,101,1,Maribel Gonzalez,mgonzalez@buesd.org,559-866-5634,,,,,73.86901576,296332240.4,96841.38917
+Fresno,SD-04-33-04,Caruthers Unified,1531,3,Tracy  Bratton,tbratton@caruthers.k12.ca.us,559-495-6438,,,,,107.0775232,430645357.3,123361.0413
+Fresno,SD-04-33-05,Central Unified,15956,25,Alissa Angle,aangle@centralunified.org,559-274-4700,10108,,,,86.48129602,349684785.2,102198.5289
+Fresno,SD-04-33-06,Clay Joint Elementary,240,1,Brioni Boyajian,bboyajian@clayelementary.org,559-897-4185,,,,,5.270841271,21198434.96,21704.74172
+Fresno,SD-04-33-07,Clovis Unified,43291,50,Jannette Kovacevich,jannettekovacevich@clovisusd.k12.ca.us,559-327-9136,,,,,186.9900734,758224667.9,190053.9805
+Fresno,SD-04-33-08,Coalinga-Huron Unified,4382,11,Chris Kuchman,ckuchman@chusd.org,559-935-7625,,,,,920.8113739,3669472076,353435.1542
+Fresno,SD-04-33-09,Firebaugh-Las Deltas Unified,2193,6,Debby Anderson,danderson@fldusd.org,559-659-1671,,,,,179.7499413,728436045.6,133766.0388
+Fresno,SD-04-33-10,Fowler Unified,2523,9,Jonathan Rubalcaba,jrubalcaba@fowlerusd.org,559-834-6191,,,,,38.81780471,156450971.6,71623.22887
+Fresno,SD-04-33-11,Fresno Unified,71480,101,Amanda Harvey,Amanda.Harvey@fresnounified.org,559-457-6250,,,,,76.68361621,310145314.5,113009.7902
+Fresno,SD-04-33-12,Golden Plains Unified,1388,6,Anita Rodriguez,arodriguez2@gpusd.org,559-210-5550,,,,,366.482673,1473868708,205375.9524
+Fresno,SD-04-33-13,Kerman Unified,5304,8,Doug Clayton,Doug.Clayton@kermanusd.com,559-843-9051,,,,,139.0593174,561705786.4,133176.272
+Fresno,SD-04-33-14,Kings Canyon Joint Unified,9658,23,Denise Kilby,kilby-d@kcusd.com,559-305-7055,,,,,595.9476095,2408076198,370354.6854
+Fresno,SD-04-33-15,Kingsburg Elementary Charter,2151,7,Kristy Leboeuf,kleboeuf@kesd.org,559-897-3214,,,,,46.32196846,185986785.6,81522.91092
+Fresno,SD-04-33-16,Kingsburg Joint Union High,1227,3,Celia Garcia,cgarcia@kingsburghigh.com,559-419-6437,,,,,97.7495347,392338675.9,130585.7963
+Fresno,SD-04-33-17,Laton Joint Unified,597,4,Susan Giles,sgiles@latonunified.org,559-922-4078,,,,,46.95720116,188378804.6,80296.77459
+Fresno,SD-04-33-18,Mendota Unified,3949,7,Andrew Aguilar,aaguilar@mendotaschools.org,559-655-7427,,,,,305.2917053,1230868372,175252.0076
+Fresno,SD-04-33-19,Monroe Elementary,152,1,Jack Manser,jmanser@monroe.k12.ca.us,559-470-5956,0,,,,11.04655964,44433783.34,30180.44599
+Fresno,SD-04-33-20,Orange Center,1680,1,Jeff Potter,jpotter@orangecenter.org,559-237-0437,,,,,5.38380137,21719174.28,21148.67684
+Fresno,SD-04-33-21,Pacific Union Elementary,345,1,Kamaljith Cobian,kcobian@puschool.org,559-834-2533,,,,,19.46509951,78399146.3,50010.47962
+Fresno,SD-04-33-22,Parlier Unified,3226,7,Marina Navarro,marina.navarro@parlierunified.org,559-646-7115,1040,,,,19.65569387,79175707.05,52039.09391
+Fresno,SD-04-33-23,Pine Ridge Elementary,68,1,Marina Redfern,mredfern@prsrattlers.org,559-841-2444,,,,,375.6190319,1531811450,262866.1631
+Fresno,SD-04-33-24,Raisin City Elementary,553,1,Carlos Rivas,crivas@raisincity.k12.ca.us,559-233-0128,17,,,,43.08717584,173410998.3,69197.56752
+Fresno,SD-04-33-25,Riverdale Joint Unified,1456,5,Tina Fulford,tinafulford@rjusd.org,559-867-8612,,,,,348.5737474,1396495690,255513.5695
+Fresno,SD-04-33-26,Sanger Unified,13250,20,Connie Greer,connie_greer@sangerusd.net,559-524-6521,7622,,,,180.9066223,731355886.3,175984.6783
+Fresno,SD-04-33-27,Selma Unified,5974,12,Jaeson Hoopes,jhoopes@selmausd.org,559-898-6500,46513,,,,52.94176888,212954185.6,81518.30872
+Fresno,SD-04-33-28,Sierra Unified,1292,6,Janelle Bryson,jbryson@sierrausd.org,559-855-3662,1,,,,2116.694385,8636914693,518047.5986
+Fresno,SD-04-33-29,Washington Colony Elementary,434,1,Maria Rodriguez,mariarodriguez@washingtoncolony.org,559-233-0706,,,,,7.188572704,28972926.55,24949.9606
+Fresno,SD-04-33-30,Washington Unified,2752,7,Jamie Villalobos,jamie.villalobos@wusd.ws,559-495-5612,,Jamie Villalobos Washington FSD.jpg,,,88.10883527,355153620.6,107238.7292
+Fresno,SD-04-33-31,West Park Elementary,469,2,Lilia Romero,lilia_r@wpesd.org,559-233-6501,116,,,,12.96060724,52301607.74,32138.48836
+Fresno,SD-04-33-32,Westside Elementary,4071,6,Maria Jimenez,mjimenez@westside-elem.com,559-884-2492,2431,,,,141.5825633,566849534.6,133213.1742
+Inyo,SD-04-32-01,Big Pine Unified,151,2,Grace Mcclenaghan,ahaggar@bigpineschools.org,760-938-2222,2425,,,,1358.371515,5532359184,415615.2613
+Inyo,SD-04-32-02,Death Valley Unified,17,1,Paul Postle,ppostle@deathvalleyschools.org,760-852-4303,3212,,,,4314.875514,17199906773,651165.2039
+Inyo,SD-04-32-03,Lone Pine Unified,299,3,Shauna Soverns,ssoverns@lpusd.k12.ca.us,760-876-5581,3027,,,,2442.280361,9756427605,528363.3091
+Inyo,SD-04-32-04,Owens Valley Unified,101,2,Lena Lawson,llawson@ovusd.org,760-878-2405,2925,,,,876.1838279,3546961564,391832.0985
+Inyo,SD-04-32-05,Round Valley Joint Elementary,69,1,Kelsey Peek,kpeek@roundvalley.us,760-387-2525,2329,,,,179.0807465,736183269.5,144747.0123
+Inyo,SD-04-32-06,Bishop Unified,1933,9,Bob Nielsen,bnielsen@bishopschools.org,760-872-3680,,,,,1143.783331,4692697418,384059.852
+Kern ,SD-04-29-01,Arvin Union,2915,4,Dee Abbema,Dabbema@arvin-do.com,661-854-6543,,,,,311.8340416,1206553139,181535.4952
+Kern ,SD-04-29-02,Bakersfield City,28761,45,Eric Sabella,sabellae@bcsd.com,661-631-4733,,,,,149.6450573,584831577.5,149851.8461
+Kern ,SD-04-29-03,Beardsley Elementary,1946,4,Anne Lerma,Anlerma@Beardsley.k12.ca.us,661-392-8758,,,,,33.06120229,129397028.5,78691.20854
+Kern ,SD-04-29-04,Blake Elementary,19,1,,,,,,,"Mrs. Timari Duty
+Chief Administrative Officer/Principal/Teacher
+(661) 536-8559
+tiduty@blakesd.org",115.9384159,456442063.2,105568.9352
+Kern ,SD-04-29-05,Buttonwillow Union Elementary,287,1,Monica Thomas,mthomas@buttonwillowschool.com,661-764-5248,,,,,213.5963407,834751973,158016.196
+Kern ,SD-04-29-06,Caliente Union Elementary,52,1,Tiffany Black,tblack@calienteschooldistrict.org,661-867-2301,,,,,269.9457371,1053205520,155876.5908
+Kern ,SD-04-29-07,Delano Joint Union High,4054,4,Andrea Popoy,apopoy@djuhsd.org,661-725-4000,4305,,,,464.3081652,1830332597,321471.0081
+Kern ,SD-04-29-08,Delano Union Elementary,6235,12,John Chavolla,jchavolla@duesd.org,661-721-5075,,Delano FSD John Chavolla.jpg,,,175.8503906,692173081.4,195851.3689
+Kern ,SD-04-29-09,Di Giorgio Elementary,223,1,Ryan Lubatti,rlubatti@digiorgio.k12.ca.us,661-854-2604,110,,,,53.43508766,208032488.6,66043.85404
+Kern ,SD-04-29-10,Edison Elementary,1113,2,Anjanette Heydt,aheydt@edison.k12.ca.us,661-340-9135,,,,,47.96855963,187118303.5,68923.61017
+Kern ,SD-04-29-11,El Tejon Unified,712,3,Teril Hattorff,TeHattorff@el-tejon.k12.ca.us,661-248-6213,,,,,219.8132864,846893762.8,139589.793
+Kern ,SD-04-29-12,Elk Hills Elementary,167,1,Tawnya Schultz,tabernard@elkhills.org,661-765-7431,5,,,,50.03528341,195017605.9,68742.82265
+Kern ,SD-04-29-13,Fairfax Elementary,2687,4,Michelle Dominges,mdominges@fairfaxsd.us,661-366-7221,1202,,,,10.45901203,40797147.97,26617.81963
+Kern ,SD-04-29-14,Fruitvale Elementary,3078,5,Kimberly Boles,kiboles@fruitvale.net,661-589-3830,1224,,,,10.40452137,40627675.68,32927.60569
+Kern ,SD-04-29-15,General Shafter Elementary,184,1,Daisy OchoaCoronel,daisyo@generalshafter.org,661-837-1931,103,,,,167.2607457,647752809.1,137567.1268
+Kern ,SD-04-29-16,Greenfield Union,9021,13,Josh Rogers,rogersj@gfusd.net,661-837-6020,,,,,22.76796095,88667546.53,49699.98712
+Kern ,SD-04-29-17,Kern High,43116,25,Jennifer Davis,jennifer_davis@kernhigh.org,661-827-3190,51312,,,,3006.456521,11746233227,773088.908
+Kern ,SD-04-29-18,Kernville Union Elementary,779,3,Karen Watson,kwatson@kernvilleusd.org,760-379-2621,574,,,,289.0511745,1135412001,145702.6342
+Kern ,SD-04-29-19,Lakeside Union,1599,2,Kimberly Scogin,kscogin@lakesideusd.org,661-836-6658,2,,,,165.7652382,644242864.1,123503.9613
+Kern ,SD-04-29-20,Lamont Elementary,2613,4,Deloris Terrell,dterrell@lesd.us,661-845-2298,8571,,,,23.25332529,90580861.21,41633.77608
+Kern ,SD-04-29-21,Linns Valley-Poso Flat Union,19,1,,,,,,,"Mrs. Tammy Pritchard
+Superintendent 
+(661) 536-8811​
+tapritchard@linnsvalleyschooldistrict.org​",327.3330864,1285644857,189016.1505
+Kern ,SD-04-29-22,Lost Hills Union Elementary,271,2,Ray Valdez,ravalde@losthills.k12.ca.us,661-797-3060,,,,,508.8009167,2000664654,237611.505
+Kern ,SD-04-29-23,Maple Elementary,285,1,Angelica Fernandez,afernandez@mapleschool.org,661-746-4439,103,,,,33.90304459,132771098.4,77676.33985
+Kern ,SD-04-29-24,Maricopa Unified,14535,3,Michael Coleman,mcoleman@musd.email,661-769-8231,202,,,,343.958117,1330094813,168691.9466
+Kern ,SD-04-29-25,McFarland Unified,3274,7,Cristina Tafoya,crtafoya@mcfarland.k12.ca.us,661-792-6463,,McFarland Unified FSD.jpeg,,,163.4473844,642097769.7,148029.0041
+Kern ,SD-04-29-26,McKittrick Elementary,69,1,,,,,,,,304.1011821,1188654539,180193.9098
+Kern ,SD-04-29-27,Midway Elementary,67,1,Crystal King,cking@midwaytigers.com,661-768-4344,100,,,,86.44468787,336075269.3,96482.09698
+Kern ,SD-04-29-28,Mojave Unified,2842,6,Tom Altman,tomaltman@mojave.k12.ca.us,661-754-4121,,,,,930.9541045,3618800796,307013.5677
+Kern ,SD-04-29-29,Muroc Joint Unified,1802,6,Trevor Walker,twalker@muroc.k12.ca.us,760-769-4821,1275,,,,551.6809115,2131694983,206061.6637
+Kern ,SD-04-29-30,Norris Elementary,3991,5,Amanda Atkinson,amanda.atkinson@norris.k12.ca.us,661-387-7012,,,,,15.27754769,59731044.43,33844.31208
+Kern ,SD-04-29-31,Panama-Buena Vista Union,19369,25,Kristi Sepsey,kmcknight@pbvusd.k12.ca.us,661-397-2200,6494,,,,92.55042833,360340116.7,159014.04
+Kern ,SD-04-29-32,Pond Union Elementary,169,1,Ana Barajas,abarajas@pond.k12.ca.us,661-792-2545,2003,,,,134.0759312,528191693.2,115776.8645
+Kern ,SD-04-29-33,Richland Union Elementary,3333,4,Kimberly Ramirez,kramirez@rsdshafter.org,661-746-8640,,,,,85.12135764,333396447.2,94921.35041
+Kern ,SD-04-29-34,Rio Bravo-Greeley Union Elementary,1037,2,Barbara Barrera,bbarrera@rbgusd.org,661-589-2505,,,,,94.78577598,370117899.3,116986.904
+Kern ,SD-04-29-35,Rosedale Union Elementary,6213,9,Mary Anne Groves,mgroves@ruesd.net,661-588-6000,128,,,,24.70402015,96505045.55,57531.20045
+Kern ,SD-04-29-36,Semitropic Elementary,142,1,Rosa Navarro,rnavarro@semitropicschool.org,661-758-6412,120,,,,105.8572349,415962518.1,84340.38295
+Kern ,SD-04-29-37,Sierra Sands Unified,5122,11,Susanne LeBlanc,sleblanc@ssusd.org,760-499-1881,,,,,976.7792711,3831305859,339583.1796
+Kern ,SD-04-29-38,South Fork Union,340,1,Shawna Burris,sburris@southforkschool.org,760-379-4000,254,,,,431.9845048,1696713339,198711.0358
+Kern ,SD-04-29-39,Southern Kern Unified,3683,6,Rosie Robles,rrobles@skusd.k12.ca.us,661-256-5085,,,,,305.581334,1178961547,188634.6165
+Kern ,SD-04-29-40,Standard Elementary,3030,4,Tracey  Dougherty         ,tdougher@standardschools.net,661-392-2110,108 ,,,,37.27241558,145869775.5,55101.09547
+Kern ,SD-04-29-41,Taft City,2383,6,Randy Rico,rarico@taftcity.org,661-763-1521,,,,,117.7786264,457478919.8,105351.8205
+Kern ,SD-04-29-42,Taft Union High,1138,2,Chrissy Lee,mlee@taftunion.org,661-763-2304,,,,,558.3597798,2177226334,330013.2467
+Kern ,SD-04-29-43,Tehachapi Unified,4219,7,Hortencia Tapia,htapia@tehachapiusd.com,661-822-2144,,,,,497.1120996,1928883548,188401.7926
+Kern ,SD-04-29-44,Vineland Elementary,657,2,Anabel Rubio,arubio@vineland.k12.ca.us,661-845-3713,,,,,33.47520031,130156700.2,55550.22868
+Kern ,SD-04-29-45,Wasco Union Elementary,3473,6,Randy Jenkins,rajenkins@wuesd.org,661-758-7238,40153,,,,121.3002268,476113413.1,121373.886
+Kern ,SD-04-29-46,Wasco Union High,1807,2,Jose Quintana Raya,joquintanaraya@wascohsd.org,661-758-7400,51720,,,,769.8614229,3025511684,362885.5549
+Kings,SD-04-31-01,Armona Union Elementary,1667,3,Jodi Cooper,jcooper@auesd.org,559-583-5000,1062,,,,50.71337643,202309036,91426.81734
+Kings,SD-04-31-02,Central Union Elementary,1596,4,Sylvia Rios,srios@central.k12.ca.us,559-925-2611,0,,,,175.8843129,700625768.5,128494.8394
+Kings,SD-04-31-03,Corcoran Joint Unified,3201,8,Terri Thomas,territhomas@corcoranunified.com,559-992-8888,8014,Corcoran Unified FSD.jpg,,,367.1256557,1455188615,194999.906
+Kings,SD-04-31-04,Hanford Elementary,5568,12,Anneliese Roa,aroa@hanfordesd.org,559-585-3620,,,,,12.92722631,51692658.74,38873.71553
+Kings,SD-04-31-05,Hanford Joint Union High,4180,6,Brooke Kenney,bkenney@hjuhsd.k12.ca.us,559-583-5901,3140,Hanford Joint UHSD FSD.jpg,,,251.1798964,1003676965,173707.9689
+Kings,SD-04-31-06,Island Union Elementary,367,1,Sherrie Paul,sherriepaul@island.k12.ca.us,559-924-6424,,,,,41.32904338,165324366,71743.921
+Kings,SD-04-31-07,Kings River-Hardwick Union Elementary,850,1,Shelley Hurick,shurick@krhsd.k12.ca.us,559-584-4475,332,,,,45.27162732,181359448.5,107365.6425
+Kings,SD-04-31-08,Kit Carson Union Elementary,1523,2,Jessica Wright,jwright@kitcarsonschool.com,559-582-3810,125,,,,69.55439971,278065493.2,95170.07143
+Kings,SD-04-31-09,Lakeside Union Elementary,248,1,Connie Berna,cberna@lakeside.k12.ca.us,559-582-2868,113,,,,55.21657237,220232937.7,86944.61728
+Kings,SD-04-31-10,Lemoore Union Elementary,3216,8,Renee Dykstra,rdykstra@myluesd.net,559-924-6844,,,,,37.22318903,148806262.5,65192.18137
+Kings,SD-04-31-11,Lemoore Union High,2309,2,Debra Wenzel,dwenzel@luhsd.k12.ca.us,559-924-6646,,,,,254.4365453,1014756397,161668.6434
+Kings,SD-04-31-12,Pioneer Union Elementary,1636,3,Maria Dixon,dixonm@puesd.net,559-584-8831,1802,,,,17.4966943,70017390.72,45975.21892
+Kings,SD-04-31-13,Reef-Sunset Unified,2687,9,Sarina Rodriguez,srodriguez@rsusd.org,559-386-9083,3084,,,,547.0170315,2165747069,211093.6626
+Madera,SD-04-34-01,Alview-Dairyland Union Elementary,386,2,Deborah McDaniel,dmcdaniel@adusd.us,559-665-2394,,,,,117.2187068,477275010.7,104131.6941
+Madera,SD-04-34-02,Bass Lake Joint Union Elementary,814,4,Dena Boortz,boortzdk@gmail.com,559-760-5541,,,,,326.8262392,1345023618,208003.5504
+Madera,SD-04-34-03,Chowchilla Elementary,"2,172",5,Carl Schwesinger,schwesingerc@chowkids.com,559-665-8027,5616,here,,,109.2563293,445782073.8,118219.7697
+Madera,SD-04-34-04,Chowchilla Union High,"1,135",2,Odili Barrios,barrioso@chowchillahigh.org,559-665-1331,2228,here,,,226.4750361,923057084.5,168704.3228
+Madera,SD-04-34-05,Madera Unified,"20,142",28,Brian Chiarito,brianchiarito@maderausd.org,559-675-4546,,,,,384.7158136,1562742310,260025.8878
+Madera,SD-04-34-06,Raymond-Knowles Union Elementary,82,1,Deena Hegerle,dhegerle@rkusd.org,559-689-3336,,,,,196.6925297,804108747.8,195129.627
+Madera,SD-04-34-07,Golden Valley Unified,"2,774",10,James Howard,foodservices@gvusd.org,559-645-3502,,,,,84.05159125,341299130,96481.90446
+Madera,SD-04-34-08,Chawanakee Unified,"1,361",9,Jennifer Stanley,jstanley@mychawanakee.org,559-877-6209,2021,,,,854.5755329,3512906313,431779.9213
+Madera,SD-04-34-09,Yosemite Unified,"1,414",9,Dyann Eckstein,deckstein@yosemiteusd.org,559-683-8801,1357,,,,598.9646907,2457918117,326722.6813
+Tulare,SD-04-30-01,Allensworth Elementary,101,1,Petra Rodarte,prodarte@allensworth.k12.ca.us,661-849-2401,,here,,,20.23391064,79895616.97,39362.99453
+Tulare,SD-04-30-02,Alpaugh Unified,1236,2,Laura Zarate,lzarate@alpaugh.k12.ca.us,559-949-8413,142,here,,,69.98526165,276588347.1,75929.78359
+Tulare,SD-04-30-03,Alta Vista Elementary,1687,1,Griselda Nunez,gnunez@altavistaesd.org,559-782-5700,2060,,,,5.960071331,23673243.68,20587.08563
+Tulare,SD-04-30-04,Buena Vista Elementary,180,1,SUE MARTINS,smartins@buenavistaeagles.org,559-686-2015,,here,,,21.47680019,85531073.26,42449.22467
+Tulare,SD-04-30-05,Burton Elementary,4844,7,Linnett Cazares,linnett.cazares@burtonschools.org,559-782-5948,,here,,,6.592620456,26196480.65,28718.95263
+Tulare,SD-04-30-06,Columbine Elementary,175,1,AMY JONES,abcolschool@yahoo.com,661-725-8501,,,,,17.52372002,69194805.17,35753.95254
+Tulare,SD-04-30-07,Cutler-Orosi Joint Unified,3825,8,Jody Rush,Jrush@cojusd.org,559-528-4763,1213,here,,,572.48243,2307196442,327565.6634
+Tulare,SD-04-30-08,Ducor Union Elementary,160,1,Jeremiah Sosa,JeremiahSosa@ducor.k12.ca.us,559-534-2261,,,,,198.8326318,785594845.8,155898.26
+Tulare,SD-04-30-09,Earlimart Elementary,1391,3,Jeannie Samari,jsamari@earlimart.org,661-849-4259,1541,,,,90.15253891,356354732.4,91351.45801
+Tulare,SD-04-30-10,Hope Elementary,219,1,Sally Ramirez,sramirez@hope-esd.org,559-784-1064,0,,,,15.08752072,59842165.78,34228.6625
+Tulare,SD-04-30-11,Hot Springs Elementary,13,1,Mr. David Frankiewich,davidf@hotspringsschool.org,(661) 548-6544,,,,Interim Superintendent,529.9204801,2095579291,253871.844
+Tulare,SD-04-30-12,Kings River Union Elementary,401,1,Christina Stephens,cstephens@krusd.org,559-897-7209,128,,,,13.66657372,54886888.28,40170.82741
+Tulare,SD-04-30-13,Liberty Elementary,819,1,Dr. Deanna Cardoza,dcardoza@liberty.k12.ca.us,(559) 686-1675,,,,Superintendent,12.56405419,50154646.66,31010.98032
+Tulare,SD-04-30-14,Lindsay Unified,3987,11,BRIAN SUPPLE,bsupple@lindsay.k12.ca.us,559-562-4932,,,,,43.07819511,171722890.4,69399.13066
+Tulare,SD-04-30-15,Monson-Sultana Joint Union Elementary,433,1,WENDY  CORCORAN,wendy@msschool.org,559-591-1634,116,,,,22.00834176,88429216.19,57406.44588
+Tulare,SD-04-30-16,Oak Valley Union Elementary,574,1,Esther Huizar,esther.huizar@oakvalleyschool.org,559-688-2908,125,,,,30.30692789,120907227.4,60357.00476
+Tulare,SD-04-30-17,Outside Creek Elementary,141,1,Derrick Bravo,dbravo@outsidecreek.org,559-747-0710,,,,,13.45459059,53699444.77,33796.66177
+Tulare,SD-04-30-18,Palo Verde Union Elementary,502,1,Keri Rodriguez,keri.rodriguez@paloverdeschool.org,559-688-0648,,,,,49.25928662,195878012.8,69972.34247
+Tulare,SD-04-30-19,Pixley Union Elementary,861,2,WENDY MCPHETRIDGE,wendymc@pixley.k12.ca.us,559-757-3131,2701,,,,75.40833671,298761854.8,87622.44068
+Tulare,SD-04-30-20,Pleasant View Elementary,454,2,Jose Miranda,jmiranda@pleasant-view.k12.ca.us,559-788-2002,205,,,,17.99567598,71432791.91,42954.63118
+Tulare,SD-04-30-21,Richgrove Elementary,498,1,ERIKA MENDOZA,erika.mendoza@richgrove.org,661-725-2424,194,,,,26.4716739,104522668,51708.44052
+Tulare,SD-04-30-22,Rockford Elementary,282,1,TRACY SKILES,tskiles@rockfordschools.net,559-784-5406,504,,,,10.66361076,42341654.65,35626.10856
+Tulare,SD-04-30-23,Saucelito Elementary,71,1,Carlos Saucedo,medrano@fshealthymeals.com,818-857-4400,0,,,,17.6895272,70108284.38,35765.38559
+Tulare,SD-04-30-24,Sequoia Union Elementary,384,2,Nayeli Rodriguez,nrodriguez@sequoiaunion.org,559-564-2106,209,,,,36.82550394,147360399.5,74424.74467
+Tulare,SD-04-30-25,Springville Union Elementary,329,1,Kelly Luzanilla,kluzanilla@springvilleschool.org,559-539-2605,,,,,864.1628221,3442906604,294561.3097
+Tulare,SD-04-30-26,Stone Corral Elementary,869,1,Christopher Kemper,ckemper@stone-corral.k12.ca.us,(559) 528-4455,,,,Superintendent/Principal,19.32531837,77568075.89,42527.6734
+Tulare,SD-04-30-27,Strathmore Union Elementary,697,2,Jesse Velasquez,jesse.velasquez@suesd.k12.ca.us,559-568-9283,446,,,,64.48268703,256755364.5,75481.68486
+Tulare,SD-04-30-28,Sundale Union Elementary,844,1,LEZLEE MEDEIROS,annmarie.azevedo@sundale.org,559-688-7451,,,,,34.04380755,135722543.8,56037.70432
+Tulare,SD-04-30-29,Sunnyside Union Elementary,302,1,Christina Montoya,cmontoya@sunnysideunion.com,559-568-1741,128,,,,36.83844239,146596345,63184.36729
+Tulare,SD-04-30-30,Terra Bella Union Elementary,754,2,Jorge Velasco,jvelasco@tbuesd.org,559-535-4451,3005,,,,73.22388749,290056993,103534.9573
+Tulare,SD-04-30-31,Three Rivers Union Elementary,90,1,Emily Rodriguez,erodriguez@3rusd.org,559-561-4466,11,,,,706.6780101,2833964505,293697.2916
+Tulare,SD-04-30-32,Tipton Elementary,501,1,Connie Sanchez,csanchez@tipton.k12.ca.us,559-752-4213,712,,,,49.09443006,194913407,70873.27452
+Tulare,SD-04-30-33,Traver Joint Elementary,245,1,Emelisa Martin,emartin@traversd.com,559-897-2755,2025,,,,38.75908422,155437317.9,59789.66941
+Tulare,SD-04-30-34,Tulare City,9253,18,Alvaro Costa,acosta@tcsdk8.org,559-687-3188,0,,,,45.18784653,179967948.9,84012.1932
+Tulare,SD-04-30-35,Tulare Joint Union High,5673,7,Daniel Cano,Daniel.Cano@tulare.k12.ca.us,559-688-2021,2037,,,,364.3410409,1448881330,216578.057
+Tulare,SD-04-30-36,Visalia Unified,28893,41,Regina G. Ocampo,rocampo@vusd.org,559-730-7871,7870,here,,,176.1262695,704907366.2,148613.9983
+Tulare,SD-04-30-37,Waukena Joint Union Elementary,223,1,Sheri Valov,sheriv@waukenaschool.org,559-686-3328,213,,,,46.99955114,187044615.8,76324.46881
+Tulare,SD-04-30-38,Woodville Union Elementary,390,1,Marlene Humphrey,mhumphrey@woodville.k12.ca.us,559-280-1723,147,,,,19.06398143,75767206.33,50175.45149
+Tulare,SD-04-30-39,Farmersville Unified,2405,6,Christy Wineman,cwineman@farmersville.k12.ca.us,559-594-9467,,,,,5.829283528,23291551.18,24042.63097
+Tulare,SD-04-30-40,Porterville Unified,13963,22,Olga Sanchez,osanchez5575@portervilleschools.org,559-782-7062,4861,,,,2206.968237,8761085338,466891.5111
+Tulare,SD-04-30-41,Dinuba Unified,6313,10,KELLY  J Smith,kmartin@dinuba.k12.ca.us,559-595-7257,,,,,61.99341285,249065866.6,82461.26543
+Tulare,SD-04-30-42,Woodlake Unified,2085,6,Monica Wallis,MWallis@w-usd.org,559-564-8081,8501,,,,878.6392295,3524081831,351711.3476
+Tulare,SD-04-30-43,Exeter Unified,2610,7,Veronica Alvarez,valvarez@exeterk12.org,559-592-5637,,,,,166.1550715,663786863.7,177918.6514
+Monterey,SD-01-03-01,Alisal Union,7339,13,Irene Vargas,irene.vargas@alisal.org,,,,,,64.11892981,258670944.4,110860.9794
+Monterey,SD-01-03-02,Bradley Union Elementary,39,1,"
+Josh Van Norman",jvannorman@bradleyusd.org,"(805) 472-2310 
+",203,,,Chief Business Official,215.1282313,850876158.1,174849.0374
+Monterey,SD-01-03-03,Carmel Unified,2159,9,Alexis Supancic,asupancic@carmelunified.org,,,,,,465.579115,1863647294,249715.0652
+Monterey,SD-01-03-04,Chualar Union,262,1,William Smith,wsmith@chualarud.org,831-679-2504,102,,,,66.58258394,268031682.9,79080.21316
+Monterey,SD-01-03-05,Graves Elementary,36,1,,,,,,,Cannot locate FSD,6.991819549,28227657.25,25571.37791
+Monterey,SD-01-03-06,Greenfield Union Elementary,3332,5,Christophe Haefele,chaefelez@greenfield.k12.ca.us,831-674-2840,3539,here,,,275.022739,1096743786,191660.7496
+Monterey,SD-01-03-07,King City Union,2552,6,Ida Maydon,imaydon@kcusd.org,,,,,,239.5197929,955561315.8,232444.8676
+Monterey,SD-01-03-08,South Monterey County Joint Union High,2731,4,Denisse Pena,dpena@smcjuhsd.org,831-385-0606,,,,,1913.475432,7609659107,530906.0258
+Monterey,SD-01-03-09,Lagunita Elementary,61,1,Arielle Ikeda,aikeda@lagunitas.org,415-488-4118,301,,,,16.86211966,68224390.89,44983.72412
+Monterey,SD-01-03-10,Mission Union Elementary,127,1,,,,,,,Cannot locate FSD,33.32440797,133469602.4,58761.07062
+Monterey,SD-01-03-11,Monterey Peninsula Unified,9836,20,Micha James,mijames@mpusd.net,,,,,,65.36560958,263284001,101743.0274
+Monterey,SD-01-03-12,Pacific Grove Unified,1727,5,Robert Silveira,,831-646-6521,,here,,,5.314737463,21405097.35,25682.254
+Monterey,SD-01-03-13,Salinas City Elementary,8206,15,Christina Varela,,831-753-5618,,,,,13.71736109,55343744.45,51996.44721
+Monterey,SD-01-03-14,Salinas Union High,16225,12,Veronica Munoz,,831-796-7082,1023,,,,260.5323959,1050295053,220113.5651
+Monterey,SD-01-03-15,San Antonio Union Elementary,144,1,,,,,,,Cannot locate FSD,472.3441478,1871140052,236969.1269
+Monterey,SD-01-03-16,San Ardo Union Elementary,86,1,Alma Morfin-Olivera,amorfin@sanardousd.org,831-627-2520,,,,,252.9677186,1004171319,230757.5023
+Monterey,SD-01-03-17,San Lucas Union Elementary,78,1,,,,,,,Cannot locate FSD,184.7034212,735398862.8,229453.2287
+Monterey,SD-01-03-18,Santa Rita Union Elementary,3186,7,Chuck Helm,,831-443-7207,1112,https://www.santaritaschools.org/32544_2,,,39.07027196,157879238.6,83046.33504
+Monterey,SD-01-03-19,Spreckels Union Elementary,888,2,,,,,,,Cannot locate FSD,78.17500291,314668998.7,121374.3111
+Monterey,SD-01-03-20,Washington Union Elementary,746,4,,,,,,,Cannot locate FSD,41.59689097,167280078.5,66325.28138
+Monterey,SD-01-03-21,North Monterey County Unified,4435,8,Sanra Ritten,sanra_ritten@nmcusd.org,831-633-3343,1409,,,,72.37604932,292769984.7,96064.69047
+Monterey,SD-01-03-22,Big Sur Unified,107,1,,,,,,,Cannot locate FSD,124.7481495,494167199.6,166126.0461
+Monterey,SD-01-03-23,Soledad Unified,4700,11,,,,,,,Cannot locate FSD,117.1474171,469310758,168274.7588
+Monterey,SD-01-03-24,Gonzales Unified,2017,3,Justin Johnson,johnsonj@gonzales.k12.ca.us,831-675-2495,6360,https://www.gonzalesusd.net/apps/pages/index.jsp?uREC_ID=3607523&type=d&pREC_ID=2407798,,,204.6594242,822310645.4,186374.4761
+San Benito,SD-01-01-01,Bitterwater-Tully Elementary,26,1,Candace Brewen,cbrewen@sbcoe.org,(831) 385-5339,,,,Superintendent,273.7894,1.10E+09,251800.8
+San Benito,SD-01-01-02,Cienega Union Elementary,19,1,Sarah Fruit,sfruit@sbcoe.org,(831)637-3821,,,,CBO,70.7926,2.86E+08,113120.6
+San Benito,SD-01-01-03,Hollister,"6,306",10,Ann Pennington,apennington@hesd.org,831-630-6300,388,here,None,,35.55299,1.44E+08,80533.26
+San Benito,SD-01-01-04,Jefferson Elementary,4,1,Shannon Hansen,shansen@sbcoe.org,(831) 637-5393,123,,,,177.3439,7.12E+08,146972.1
+San Benito,SD-01-01-05,North County Joint Union Elementary,750,1,Christina Hval,chval@ncjusd.org,831-637-5574,109,,,,87.67977,3.56E+08,113748.5
+San Benito,SD-01-01-06,Panoche Elementary,10,1,Amanda McCraw,amccraw@sbcoe.org,"(831) 628-3438
+",,,,Superintendent,339.1041,1.36E+09,201336.5
+San Benito,SD-01-01-07,San Benito High,"3,539",1,James Lewis,jlewis@sbhsd.k12.ca.us,831-637-5831,201,,,,1025.231,4.13E+09,428167.9
+San Benito,SD-01-01-08,Southside Elementary,236,1,Suzanne Yamanishi,syamanishi@sbcoe.org,831-637-4439,213,,,,11.68794,47273331,43533.9
+San Benito,SD-01-01-09,Tres Pinos Union Elementary,43,1,Shannan Hansen,shansen@sbcoe.org,(831) 637-5393,123,,,Principal,166.4955,6.74E+08,165991.4
+San Benito,SD-01-01-10,Willow Grove Union Elementary,23,1,Mina Canning,mcanning@sbcoe.k12.ca.us,(831) 637-5393,163,,,CBO,136.5746,5.51E+08,151757.4
+San Benito,SD-01-01-11,Aromas - San Juan Unified,959,3,Janie Cecena,jcecena@asjusd.org,831-623-4402,N/A,,,,101.559,4.12E+08,129963.2
+San Luis Obispo,SD-01-05-01,Atascadero Unified,4338,12,Felicia Ulibarri,feliciaulibarri@atasusd.org,805-462-4256,,,,,1205.055869,4693392583,536886.373
+San Luis Obispo,SD-01-05-02,Cayucos Elementary,180,1,Becky Marques,bmarques@cayucosschool.org,805-995-3694,,,,,51.04969406,199846043.4,81958.31319
+San Luis Obispo,SD-01-05-03,Lucia Mar Unified,9621,19,Laurel Goins,laurel.goins@lmusd.org,805-474-3000,1022,,,,490.3243622,1902293004,296027.9403
+San Luis Obispo,SD-01-05-04,Pleasant Valley Joint Union Elementary,50,1,Leslie Tuimaualuga,ltuimaualuga@pleasantvalleysd.org,805-389-2100,1223,,,,109.2289599,430915133.3,111286.7895
+San Luis Obispo,SD-01-05-05,San Luis Coastal Unified,7741,16,Erin Primer,eprimer@slcusd.org,805-596-4064,,,,,267.463992,1042090524,205133.2462
+San Luis Obispo,SD-01-05-06,San Miguel Joint Union,641,2,Lauren Thomas,lthomas@sanmiguelschools.org,805-467-3216,211,,,,184.6638091,728186146.4,229822.2799
+San Luis Obispo,SD-01-05-07,Shandon Joint Unified,253,3,Gelene Coelho,gcoelho@shandonschools.org,805-591-8354,,,,,607.6324898,2390648147,337949.3633
+San Luis Obispo,SD-01-05-08,Templeton Unified,2237,7,Lindsay Harrod,lharrod@templetonusd.org,805-434-5843,,,,,98.44975037,386077708.9,130410.4291
+San Luis Obispo,SD-01-05-09,Paso Robles Joint Unified,6252,13,Jessie Wesch,Jrwesch@pasoschools.org,805-769-1134,1,,,,603.0583202,2374642127,308864.4227
+San Luis Obispo,SD-01-05-10,Coast Unified,489,4,Sheri McLain,smclain@coastusd.org,805-927-6877,,,,,268.3106032,1053826674,211453.1956
+Santa Barbara,SD-01-06-01,Ballard Elementary,107,1,,,,,,,"Superindent might also be FSD: Allan Pelletier
+Phone: (805) 688-4812
+Email: apelletier@ballardschool.org",6.359180019,24383353.55,21656.27388
+Santa Barbara,SD-01-06-02,Blochman Union Elementary,1458,1,Alan Vecente,avecente@blochmanusd.org,805-937-1148,111,,,,259.5289377,1002007521,194271.8415
+Santa Barbara,SD-01-06-03,Santa Maria-Bonita,17165,21,,,,,,,"Deputy Superintendent: Matthew Beecher
+Phone: 805-361-8130
+Coordinator of Budget and Finance: Brian King
+Phone: 805-361-8132",48.7038172,188167014.3,71522.4054
+Santa Barbara,SD-01-06-04,Buellton Union Elementary,545,2,Heather Snodgrass,hsnodgrass@buelltonusd.org,805-688-6992,1303,,,,67.42554456,258314130.8,107492.0803
+Santa Barbara,SD-01-06-05,Carpinteria Unified,1920,6,Michelle Hernandez,Michelle.Hernandez@cusd.net,805-755-8027,,,,,40.89436112,156062868.6,59580.56641
+Santa Barbara,SD-01-06-06,Cold Spring Elementary,178,1,Yuri Calderon,ycalderon@coldspringschool.net,805-969-2678,136,,,,3.73273312,14251364.93,21655.69115
+Santa Barbara,SD-01-06-07,College Elementary,358,2,Christie Ruelas,cruelas@collegeschooldistrict.org,805-686-7300,,,,,584.4450025,2240313087,254028.4572
+Santa Barbara,SD-01-06-08,Goleta Union Elementary,3408,9,Hannah Carroll,hcarroll@gusd.us,805-681-1200,2255,,,,90.78470054,346814513.1,94611.28693
+Santa Barbara,SD-01-06-09,Guadalupe Union Elementary,1306,3,Dena Boortz,dboortz@gusdbobcats.com,805-343-2114,1227,,,,36.99093331,142878554.6,56923.39387
+Santa Barbara,SD-01-06-10,Hope Elementary,871,3,Rod Kelly,rkelly@hopeschooldistrict.org,805-967-4016,,,,,9.802611484,37425229.51,41076.83753
+Santa Barbara,SD-01-06-11,Lompoc Unified,9413,16,Michelle MacKinnon,mackinnon.michelle@lusd.org,805-742-3351,,,,,299.9231184,1150131499,198100.9477
+Santa Barbara,SD-01-06-12,Los Olivos Elementary,151,1,Brianna Cromer,brie@losolivosschool.org,805-688-4025,221,,,,351.6715835,1353867947,278541.0516
+Santa Barbara,SD-01-06-13,Montecito Union Elementary,345,1,Melissa Spink,mspink@montecitou.org,805-969-3249,331,,,,9.226035787,35219448.66,28419.9224
+Santa Barbara,SD-01-06-14,Orcutt Union Elementary,4764,10,Bethany Markee,bmarkee@orcutt-schools.net,805-938-8925,,,,,223.4241442,860283587.9,204738.9034
+Santa Barbara,SD-01-06-15,Santa Maria Joint Union High,8985,4,Michelle Coffin,,805-922-4573,4402,,,,568.6478325,2193336678,283957.5382
+Santa Barbara,SD-01-06-16,Santa Ynez Valley Union High,862,2,Elysia Lewis,elewis@syvuhsd.org,(805) 688-6487,3360,,,,1169.617867,4487787857,411989.1724
+Santa Barbara,SD-01-06-17,Solvang Elementary,621,1,,,,,,,Chief Business Official: Dawn Stewart               District's main office: (805) 688-4810,36.51879673,139834331.1,73429.41999
+Santa Barbara,SD-01-06-18,Vista del Mar Union,61,1,,,,,,,Superintendent-Principal: Bree Valla                    Email: bvalla@vdmusd.org                                             Phone: (805) 686-1880,123.19776,471075007.3,163088.5216
+Santa Barbara,SD-01-06-19,Cuyama Joint Unified,314,3,Maria De Los Santos,mdelossantos@cuyamaunified.org,661-766-2642,,,,,741.5037567,2857157583,380239.0251
+Santa Barbara,SD-01-06-20,Santa Barbara Unified,13573,21,Matthew Dittman,mdittman@sbunified.org,805-963-4331,6387,,,,136.734705,522221106.6,137301.1709
+Santa Cruz,SD-01-04-01,Bonny Doon Union Elementary,97,1,,,,,,,Cannot find FSD nor COO,18.71365011,76228363.77,65711.053
+Santa Cruz,SD-01-04-02,Happy Valley Elementary,122,1,Larra Snyder,lsnyder@hvusd.net,530-357-2134,,,,Cannot lcoate bio and picture,6.628135063,26997559.13,37505.14854
+Santa Cruz,SD-01-04-03,Live Oak Elementary,1675,7,Kelsey Perusse,kperusse@losd.ca,831-475-1395,,,,Cannot lcoate bio and picture,3.101507658,12608144.73,17097.72659
+Santa Cruz,SD-01-04-04,Mountain Elementary,163,1,Molly Heaster,mheaster@mountainesd.org,831-475-6812,10,,,Cannot lcoate bio and picture,13.75398062,56042454.1,44583.13995
+Santa Cruz,SD-01-04-05,Pacific Elementary,167,1,Emelia Miguel,emiguel@pacificesd.org,831-425-7002,,,,Cannot lcoate bio and picture,59.57159558,242996531.9,97578.98413
+Santa Cruz,SD-01-04-06,Pajaro Valley Unified,17520,34,Jean Aitken,jean_aitken@pvusd.net,831-786-2100,2633,,,Cannot lcoate bio and picture,157.0339209,638148202.5,139890.936
+Santa Cruz,SD-01-04-07,San Lorenzo Valley Unified,5540,6,Peter Oshinski,poshinski@slzusd.org,510-317-4660,,Here,Here,,91.07967581,371889763.2,120499.2147
+Santa Cruz,SD-01-04-08,Santa Cruz City Elementary,1768,5,Amy Hedrick-Farr,amyhedrickfarr@sccs.net,831-429-3850,,,,,38.2805529,155698359.3,92347.67835
+Santa Cruz,SD-01-04-09,Santa Cruz City High,4504,9,Amy Hedrick-Farr,amyhedrickfarr@sccs.net,831-429-3850,,,,,154.6072014,629802838,211487.208
+Santa Cruz,SD-01-04-10,Soquel Union Elementary,1566,5,Amanda Timar,atimar@suesd.org,831-464-5649,,,,,14.55949856,59238440.83,50401.50964
+Santa Cruz,SD-01-04-11,Scotts Valley Unified,2694,4,Jennifer Rasmussen,jrasmussen@scottsvalleyusd.org,831-430-0683,,Here,,,22.69360067,92504803.66,75693.5543
+Ventura,SD-01-02-01,Briggs Elementary School District,473,2,Carlos Dominguez,cdominguez@briggsesd.org,805-525-7540,n/a,,,,23.14271546,88135897.04,52820.68496
+Ventura,SD-01-02-02,Conejo Valley Unified School District,"16,347",27,Virginia Beck,vbeck@conejousd.org,805-498-4557,7531,,,,80.28000708,304569932.4,90948.513
+Ventura,SD-01-02-03,Fillmore Unified School District,"3,811",9,Barbara Vazquez,bvazquez@fillmoreusd.org,805-524-8079,n/a,,,,474.0459328,1814373555,225481.0146
+Ventura,SD-01-02-04,Hueneme Elementary School District,"7,140",11,Joanna Carino,jcarino@hueneme.org,805-946-2550,9601,,,,7.631251846,28938216.79,30066.34642
+Ventura,SD-01-02-05,Mesa Union Elementary School District,"1,003",1,Debbie Sussex,dsussex@mesaschool.org,805-485-1411,226,here,,,28.18229772,107155121.6,54178.20358
+Ventura,SD-01-02-06,Moorpark Unified School District,"5,891",10,Orlando Orozco,oorozco@mrpk.org,805-378-6300,1422,,,,47.2180074,179694400.6,68852.62055
+Ventura,SD-01-02-07,Mupu Elementary,185,1,Tami Peterson,tpeterson@vcoe.org,(805) 383-1972,,,,,38.15260264,145744594.5,66056.75999
+Ventura,SD-01-02-08,Oak Park Unified School District,"4,236",8,Katherine Adams,kadams@opusd.org,818-735-3203,n/a,here,,,23.52534118,89285032.18,53234.27084
+Ventura,SD-01-02-09,Ocean View School District - Ventura,"2,191",5,Allison England,aengland@oceanviewsd.org,805-488-4441,2744,here,,,75.01872951,284213878.5,116427.2987
+Ventura,SD-01-02-10,Ojai Unified School District,"2,259",8,Lexi Hicks,lexi.hicks@ojaiusd.org,805-640-4300,1079,here,,,189.4551489,724064499.8,132209.4699
+Ventura,SD-01-02-11,Oxnard School District,"14,171",21,Jason Corona,jcorona@oxnardsd.org,805-385-1501,2433,,,,25.17770309,95570078.27,49346.43445
+Ventura,SD-01-02-12,Oxnard Union High School District,"17,770",12,Alyssa Ribaya,alyssa.ribaya@oxnardunion.org,805-385-5242,n/a,,,,232.9742017,884260650.1,206039.4788
+Ventura,SD-01-02-13,Pleasant Valley School District,"6,801",12,Leslie Tuimaualuga,ltuimaualuga@pleasantvalleysd.org,805-389-2100,1223,,,,49.45066592,187759023.9,85401.8517
+Ventura,SD-01-02-14,Rio Elementary School District,"5,189",9,Lacey Piper,lpiper@rioschools.org,805-485-3111,2111,here,,,15.76687105,59877821.09,42719.25337
+Ventura,SD-01-02-15,Santa Clara Elementary,53,1,Tami Peterson,tpeterson@vcoe.org,(805) 383-1972,,,,,16.8779607,64381899.16,41105.8067
+Ventura,SD-01-02-16,Santa Paula Unified School District,"4,853",10,Suzanne Stamp,sstamp@santapaulausd.org,805-933-8838,n/a,,,,107.3064321,409273285.8,116432.8497
+Ventura,SD-01-02-17,Simi Valley Unified School District,"15,899",27,Ryan Comerford,ryan.comerford@simivalleyusd.org,805-306-4500,4701,,,,89.26823258,339524338.6,90465.65677
+Ventura,SD-01-02-18,Somis Union School District,240,1,Debbie Sussex,Debbie.sussex@staff.somisusd.org,805-386-5711,216,,,,31.74668259,120746509.9,50888.57619
+Ventura,SD-01-02-19,Ventura Unified School District,"14,980",27,Kara Muniz,kara.muniz@venturausd.org,805-641-5000,1301,,,,174.3358015,664103297.4,138431.5203
+Imperial ,SD-06-39-01,Brawley Elementary,"3,901",5,Cynthia Dickerson,cdickerson@besd.org,760-344-2330,,,,,92.28580827,340702795.3,114809.3601
+Imperial ,SD-06-39-02,Brawley Union High,"2,022",3,Jennifer Layaye,jlayaye@brawleyhigh.org,760-312-6080,,,,,906.4573259,3354498574,379751.6386
+Imperial ,SD-06-39-03,Calexico Unified,"8,146",12,Aracely Alonzo,aalonzo@cusdk12.org,760-768-3888,,,,,61.27955595,224708464.2,101136.5227
+Imperial ,SD-06-39-04,Calipatria Unified,"1,086",4,Amanda Pitones,apitones@calipat.com,760-348-2160,,,,,502.4656978,1867100706,208131.623
+Imperial ,SD-06-39-05,Central Union High,"4,023",5,Erika Allen,eallen@mycuhsd.org,760-336-4261,,,,,155.2814099,570016851.4,151429.5615
+Imperial ,SD-06-39-06,El Centro Elementary,"5,182",13,Molly Diaz,eatsmart@ecesd.org,760-353-9617,,Here,,,10.51531807,38650298.49,29637.88474
+Imperial ,SD-06-39-07,Heber Elementary,"1,186",2,Anel Navarro,anavarro@hebersd.org,760-337-6530,,,,,11.66599932,42818908.18,30195.15688
+Imperial ,SD-06-39-08,Holtville Unified,"1,582",6,Lucy Chabolla,lchabolla@husd.net,760-356-4266,,,,,666.2486689,2452659436,270188.9542
+Imperial ,SD-06-39-09,Imperial Unified,"4,672",6,Vanessa Diaz,vadiaz@imperialusd.org,760-355-3200,,,,,567.3529241,2086152070,250396.2103
+Imperial ,SD-06-39-10,Magnolia Union Elementary,114,1,MERRY HAYNES,mhaynes@magnoliatigers.com,760-344-2494,,,,,207.9082273,770828298.6,183347.1928
+Imperial ,SD-06-39-11,McCabe Union Elementary,"1,164",1,Leslie Corral,leslie.corral@muesd.net,760-335-5200,,Here,,,91.1267389,334311124.6,135510.05
+Imperial ,SD-06-39-12,Meadows Union,370,1,Alejandrina Romero,aromero@musdk8.net,760-352-7512,,Here,,,19.14164271,70347117.96,42152.68013
+Imperial ,SD-06-39-13,Mulberry Elementary,69,1,Adriana Rios,arios@mulberrymustangs.org,760-344-8600,,,,,53.75665744,198736528.1,62838.77454
+Imperial ,SD-06-39-14,San Pasqual Valley Unified,589,5,Stacey Garcia,sgarcia@spvusd.org,760-572-0222,,,,,1413.844803,5231605887,404597.714
+Imperial ,SD-06-39-15,Seeley Union Elementary,337,1,Corey Caston,ccaston@seeleyusd.org,760-352-3571,,,,,22.8317109,83889402.16,56112.21912
+Imperial ,SD-06-39-16,Westmorland Union Elementary,323,1,Trina Hutchinson,t.hutchinson@wued.org,442-202-2389,,,,,552.5066329,2044230952,207048.151
+Riverside,SD-06-40-001,Alvord Unified,16663,26,Eric Holliday,eric.holliday@alvordschools.org,951-509-6201,,,,,31.99803604,120609573.6,64079.15056
+Riverside,SD-06-40-002,Banning Unified,4316,11,Craig Pulsipher,cpulsipher@banning.k12.ca.us,909-503-5207,,,,,305.8522394,1153014792,163684.1401
+Riverside,SD-06-40-003,Beaumont Unified,18137,15,Marta Shand,mshand@beaumontusd.k12.ca.us,951-845-0279,,,,,75.7070901,285666899.4,117566.7854
+Riverside,SD-06-40-004,Corona-Norco Unified,50256,53,Megan Moore,Megan.Moore@cnusd.k12.ca.us,951-736-7118,,,,,146.0106328,549634982.6,142260.2547
+Riverside,SD-06-40-005,Desert Center Unified,25,1,Greg Sackos,gregsackos@eaglemtnschool.com,760-895-8254,,,,,1736.084407,6521615147,343551.391
+Riverside,SD-06-40-006,Desert Sands Unified,25898,35,Daniel Cappello,daniel.cappello@desertsands.us,760-771-8560,,,,,768.9273298,2893427567,342871.081
+Riverside,SD-06-40-007,Hemet Unified,22736,27,Janet Jungnickel,jjungnickel@hemetusd.org,951-765-5100,5300,,,,646.8259057,2421540957,279930.2648
+Riverside,SD-06-40-008,Jurupa Unified,18015,25,Michelle Poirier,michelle_poirier@jusd.k12.ca.us,951-360-2766,599,,,,42.57891055,160870240.8,61876.36203
+Riverside,SD-06-40-009,Menifee Union,13831,17,Adriana Lopez,adriana.lopez@menifeeusd.org,951-679-8355,49168,,,,58.78264678,220357626.9,79773.32511
+Riverside,SD-06-40-010,Moreno Valley Unified,31344,39,Carla Lyder,clyder@mvusd.net,951-571-7500,17267,,,,76.57895675,288853191.7,101675.2019
+Riverside,SD-06-40-011,Nuview Union,2142,4,Judy Meza,jmeza@nuview.k12.ca.us,951-928-2758,1501,,,,43.1365626,162265871.1,69918.64498
+Riverside,SD-06-40-012,Palm Springs Unified,20416,28,Sarah Phelps,sphelps@psusd.us,760-322-4117,9,,,,497.5860439,1871398820,245356.9894
+Riverside,SD-06-40-013,Palo Verde Unified,3787,6,Rachel Angel,rangel@pvusd.us,760-922-4164,1230,,,,1063.101931,3995001970,294721.1857
+Riverside,SD-06-40-014,Perris Elementary,5538,9,Jodi Yager,jyager@perrisesd.org,951-657-7798,,,,,48.97310238,184036786.2,69799.70972
+Riverside,SD-06-40-015,Perris Union High,11973,9,Audrey Mitchell,audrey.mitchell@puhsd.org,951-943-6369,80241,,,,182.0527823,683683735,178401.6638
+Riverside,SD-06-40-016,Riverside Unified,39505,49,Adleit Asi,aasi@riversideunified.org,951-352-6740,82801,,,,91.7487017,346019792.9,113135.0823
+Riverside,SD-06-40-017,Romoland Elementary,4617,6,juan Valencia,jvalencia@romoland.net,951-928-6669,1261,,,,31.16047057,117023450.8,55424.35605
+Riverside,SD-06-40-018,San Jacinto Unified,11970,16,Tammy White,twhite@sanjacinto.k12.ca.us,951-654-9371,3799,,,,90.57479587,340909593.7,113467.5255
+Riverside,SD-06-40-019,Coachella Valley Unified,16276,22,Alex Pantoja,alex.pantoja@cvusd.us,760-848-1072,,,,,1219.96883,4563202513,370998.3303
+Riverside,SD-06-40-020,Lake Elsinore Unified,21257,25,Maria Calderon,maria.calderon@leusd.k12.ca.us,951-253-7020,7043,,,,135.6591877,508627216.7,129174.9092
+Riverside,SD-06-40-021,Temecula Valley Unified,28094,30,Brad Knipscheer,bknipscheer@tvusd.us,951-506-7916,,,,,158.0409547,590563004.4,123253.9529
+Riverside,SD-06-40-022,Murrieta Valley Unified,22317,21,Jill Lancaster,jlancaster@murrieta.k12.ca.us,951-696-1600,1145,,,,167.7467628,626907228.2,145326.7907
+Riverside,SD-06-40-023,Val Verde Unified,19361,23,Christopher Hutchinson,chutchinson@valverde.edu,951-940-6100,10859,,,,58.21195583,219115280.9,79219.58809
+San Diego,SD-06-38-01,San Diego Unified,114330,,Alicia Pitrone Hauser,aphauser@sandi.net,858-987-5382,n/a,,,,207.6171944,763378665.4,208890.4739
+San Diego,SD-06-38-02,Sweetwater Union High,36686,,Eric Span,eric.span@sweetwaterschools.org,619-691-5510,n/a,,,,153.5522962,562092366,147978.9753
+San Diego,SD-06-38-03,Poway Unified,34935,,Emily Cena,ecena@powayusd.com,858-668-2570,n/a,,,,100.247548,369996701.3,109096.2463
+San Diego,SD-06-38-04,Chula Vista Elementary,28964,,Jeff Landers,jeffrey.landers@cvesd.org,619-425-9600,1401,,,,102.0005523,373500325.6,137594.2381
+San Diego,SD-06-38-05,Grossmont Union High,21697,,Vince   Scimone,vscimone@guhsd.net,619-644-8183,n/a,,,,474.3191077,1742547566,241838.19
+San Diego,SD-06-38-06,Vista Unified,21524,,Karolyn Wasung,karolynwasung@vistausd.org,760-726-2170,92401,,,,38.75030753,143739910,69010.55731
+San Diego,SD-06-38-07,San Marcos Unified,19456,,Naomi Shadwell,Naomi.shadwell@smusd.org,760-752-1250,n/a,,,,41.76272549,154707055.2,87289.66582
+San Diego,SD-06-38-08,Cajon Valley Union,17947,,Shannon Mccarthy-Beasley,mccarthybeasleys@CAJONVALLEY.NET,619-588-4867,n/a,,,,65.77196437,241713053.1,112431.7147
+San Diego,SD-06-38-09,Oceanside Unified,17839,,Francis Mcinnis,francis.mcinnis@oside.us,760-966-4058,4058,,,,65.84521661,244527012.1,88102.05473
+San Diego,SD-06-38-10,Escondido Union,17061,,Anna Scimone,ascimone@eusd.org,760-432-2141,n/a,,,,77.48057539,286948385.9,119256.1698
+San Diego,SD-06-38-11,San Dieguito Union High,12364,,Jacqueline Chappell,Jacqueline.chappell@sduhsd.net,760-753-6241,3425,,,,82.64745373,305266060.7,88709.77922
+San Diego,SD-06-38-12,Dehesa Elementary,11667,,Brandy Kelley,brandy.kelley@dehesasd.net,619-444-2161,n/a,,,,20.48849027,75283594.67,47775.45111
+San Diego,SD-06-38-13,La Mesa-Spring Valley,11032,,Jill   Whittenberg,jill.whittenberg@lmsvsd.net,619-668-5764,n/a,,,,26.53454169,97429556.05,70791.4414
+San Diego,SD-06-38-14,Carlsbad Unified,10832,,Michael Hyde,michael.hyde@carlsbadusd.net,760-331-5000,5085,,,,29.29406674,108500348.8,53022.23603
+San Diego,SD-06-38-15,Escondido Union High,8916,,Christina Cazares,ccazares@euhsd.org,760-291-3240,n/a,,,,106.8315957,395546883,138878.8639
+San Diego,SD-06-38-16,Santee,6159,,Amanda Flamion,amanda.flamion@santeesd.net,619-258-2290,n/a,,,,26.85955803,98858393.19,49424.75229
+San Diego,SD-06-38-17,South Bay Union,5595,,Ana De Castro,adecastro@sbusd.org,619-207-9271,n/a,,,,14.97873469,54775093.46,35190.04425
+San Diego,SD-06-38-18,Fallbrook Union Elementary,5124,,Amy Haessly,ahaessly@fuesd.org,760-731-4355,n/a,,,,256.1176202,954141711.9,170356.8183
+San Diego,SD-06-38-19,Ramona City Unified,5077,,Jonas Rooth,jrooth@ramonausd.net,760-787-2047,n/a,,,,173.946629,642787201.3,149865.8532
+San Diego,SD-06-38-20,Lakeside Union Elementary,4842,,Kristie Summers,ksummers@lsusd.net,619-390-2630,n/a,,,,70.3495786,259224842.6,85641.79961
+San Diego,SD-06-38-21,National Elementary,4569,,Jon Hansen,jhansen@nsd.us,619-336-7735,n/a,,,,7.725881368,28317448.7,31631.46954
+San Diego,SD-06-38-22,Encinitas Union Elementary,4444,,Lea Bonelli,lea.bonelli@eusd.net,760-944-4300,2570,,,,23.77039822,87893890.61,51266.56747
+San Diego,SD-06-38-23,Mountain Empire Unified,4284,,Erin Miller,erin.miller@meusd.org,619-993-1204,125,,,,662.8625167,2433889476,225805.4809
+San Diego,SD-06-38-24,San Ysidro Elementary,4205,,Sally Spero,sarah.spero@sysdschools.org,619-428-4476,3011,,,,28.84690579,105498691.4,57510.90474
+San Diego,SD-06-38-25,Spencer Valley Elementary,3885,,Kathleen McKenzie,kathleen@svesd.net,(760) 765-0336,,,,,9.871517825,36535354.45,34773.50599
+San Diego,SD-06-38-26,Valley Center-Pauma Unified,3711,,Johnna Jenkins,jenkins.jo@vcpusd.org,760-749-6748,n/a,,,,302.3315362,1123497722,203090.2567
+San Diego,SD-06-38-27,Del Mar Union Elementary,3662,,Jamie Phillips,jphillips@dmusd.org,858-523-4799,3251,,,,15.65277212,57720427.19,42960.05547
+San Diego,SD-06-38-28,Lemon Grove,3122,,Jose Reyes - Esparza,jesparza@lemongrovesd.net,619-825-5693,n/a,,,,5.398279729,19814838.93,28024.03801
+San Diego,SD-06-38-29,Borrego Springs Unified,2837,,Catherine Paredes,cparedes@bsusd.net,760-767-5335,404,,,,386.0612079,1434593824,186018.5352
+San Diego,SD-06-38-30,Coronado Unified,2739,,Charity Campbell,charity.campbell@coronadousd.net,619-522-8907,2085,,,,7.316912915,26827585.74,60286.4666
+San Diego,SD-06-38-31,Solana Beach Elementary,2730,,John Paul (J.P.) Kachaluba,johnpaulkachaluba@sbsd.net,858-794-7119,n/a,,,,21.25564084,78464823.95,62140.68701
+San Diego,SD-06-38-32,Warner Unified,2528,,Andrea Graham,Andrea.Graham@warnerusd.net,760-782-3517,n/a,,,,430.9324777,1601442923,250798.5082
+San Diego,SD-06-38-33,Bonsall Unified,2231,,Kursten Orr,kursten.orr@bonsallusd.com,760-631-5200,1025,,,,70.5081132,262154986.5,107508.9223
+San Diego,SD-06-38-34,Fallbrook Union High,2064,,Judi Reynolds,jreynolds@fuhsd.net,760-723-6300,3701,,,,276.3395403,1029494987,179334.5558
+San Diego,SD-06-38-35,Julian Union Elementary,1949,,Trish Rott,trish.rott@juesd.net,760-765-3925,n/a,,,,618.0670888,2283854643,296314.6305
+San Diego,SD-06-38-36,Alpine Union Elementary,1539,,Kelly Massey,kmassey@alpineschools.net,619-445-3639,n/a,,,,95.71621199,351998630.3,99787.11829
+San Diego,SD-06-38-37,Jamul-Dulzura Union Elementary,801,,Joanne Vilarino,jvilarino@jdusd.org,619-669-7875,n/a,,,,163.2004831,598224657.6,132604.1314
+San Diego,SD-06-38-38,Cardiff Elementary,649,,Andrea Halford,andrea.halford@cardiffschools.com,760-632-5894,342,,,,3.276625061,12104638.93,16418.91832
+San Diego,SD-06-38-39,Rancho Santa Fe Elementary,543,,Allison Oppeltz,aoppeltz@rsf.k12.ca.us,(858) 756-1141,115,,,,18.69201749,69082280.02,51976.17578
+San Diego,SD-06-38-40,San Pasqual Union Elementary,527,,Jessica Hurtado,jessica.hurtado@sanpasqualunion.net,760-745-4931,1701,,,,29.35102034,108598497.2,61054.89638
+San Diego,SD-06-38-41,Vallecitos Elementary,190,,Dorothy Davis,ddavis@vallecitossd.net,760-728-7092,132,,,,20.23780012,75412483.5,37589.38032
+San Diego,SD-06-38-42,Julian Union High,118,,Yvonne Fleet,yfleet@juhsd.org,(760) 765-0606,203,,,,627.9386067,2320389998,269602.9436
+Butte,SD-08-49-01,Bangor Union Elementary,82,,Christina Atcheson,catcheson@bangorunion.org,530-679-2434,201,,,,39.94995797,173498047.8,74073.56436
+Butte,SD-08-49-02,Biggs Unified,548,,John Strattard,jstrattard@biggs.org,530-868-1281,8106,,,,134.2771443,584180575.8,117054.1527
+Butte,SD-08-49-03,Chico Unified,14407,,Vince Enserro,venserro@chicousd.org,530-891-3000,20701,,,,329.6342763,1448557063,232966.1485
+Butte,SD-08-49-04,Durham Unified,1026,,Dayna Gibbs,dgibbs@durhamunified.org,530-895-4697,6705,,,,181.783096,794276212.1,149729.9171
+Butte,SD-08-49-05,Golden Feather Union Elementary,72,,Travis Haskill,thaskill@bcoe.org,(530) 532-5674,,,,,211.5067803,927718354.3,192389.0288
+Butte,SD-08-49-06,Manzanita Elementary,327,,Brittany Lobo,blobo@mesd.net,530-846-5594,220,,,,11.34196137,49155706.61,32175.25222
+Butte,SD-08-49-07,Oroville City Elementary,2599,,Paul   Mabie,pmabie@ocesd.net,530-532-5690,4152,,,,178.8126652,779989540.7,211288.5357
+Butte,SD-08-49-08,Oroville Union High,2264,,Dale Carey,dcarey@ouhsd.net,(530) 538-2300,1103,,,,669.8331464,2926741708,321317.4069
+Butte,SD-08-49-09,Palermo Union Elementary,1283,,Ruth Anaya,ranaya@palermok8.org,(530) 533-4842,6,,,,68.80209954,298797809.6,97650.72869
+Butte,SD-08-49-10,Paradise Unified,2266,,David McCready,dmccready@pusdk12.org,(530) 872-6400,1233,,,,226.5634394,999654453.5,225937.9681
+Butte,SD-08-49-11,Thermalito Union Elementary,1520,,Cody Walker,cwalker@thermalito.org,(530) 538-2900,,,,,44.89292529,195713654.2,86467.94356
+Butte,SD-08-49-12,Pioneer Union Elementary,32,,Nicole Cardwell,ncardwell@puesd.org,(530) 589-1633,,,,,125.868718,551024301.5,155135.3331
+Butte,SD-08-49-13,Gridley Unified,1995,,Michelle Diaz,michellediaz@gusd.org,530-846-4172,,,,,96.87187723,420090674.1,110651.7551
+Colusa,SD-07-51-01,Colusa Unified,1464,,Stacie Velazquez,svelazquez@pierce.k12.ca.us,530-476-2892,13008,,,,145.6251109,629556916.1,161675.2835
+Colusa,SD-07-51-02,Maxwell Unified,350,,Danna Burrious,dburrious@maxwell.k12.ca.us,530-438-2052,,,,,387.8105335,1678875456,250722.8925
+Colusa,SD-07-51-03,Pierce Joint Unified,1494,,Stacie Velazquez,svelazquez@pierce.k12.ca.us,530-476-2892,13008,,,,348.2620234,1494865284,217073.3164
+Colusa,SD-07-51-04,Williams Unified,1370,,Kristi Ward,kward@williamsusd.net,530-473-2550,11121,,,,256.98989,1107402562,203807.5963
+Glenn,SD-07-48-01,Capay Joint Union Elementary,194,,Tyler Rutledge,trutledge@capayschool.org,530-865-1222,40,,,,23.4272023,102909165,49644.68904
+Glenn,SD-07-48-02,Hamilton Unified,715,,Erendida Moreno,emoreno@husdschools.org,530-826-3474,5038,,,,62.40471194,273434366.6,109257.4167
+Glenn,SD-07-48-03,Lake Elementary,1030,,Diana Carper,dcarper@lakeschool.org,530-865-1255,27,,,,10.90889318,47890959.29,31358.50178
+Glenn,SD-07-48-04,Orland Joint Unified,2242,,Cathy Cunningham,ccunningham@orlandusd.net,530-865-1291,n/a,,,,321.7434465,1411157371,272662.7982
+Glenn,SD-07-48-05,Plaza Elementary,194,,Jacklyn Orsua,jorsua@plazaschool.org,530-865-1250,26,,,,25.24012982,110555923.2,46718.93847
+Glenn,SD-07-48-06,Princeton Joint Unified,117,,Sheree Azevedo,sazevedo@pjusd.org,530-439-2261,706,,,,160.2443216,696673919,150655.6008
+Glenn,SD-07-48-07,Stony Creek Joint Unified,71,,Dusty Thompson,dthompson@glenncoe.org,530-934-6575,3058,,,,560.7247141,2446814479,300797.2603
+Glenn,SD-07-48-08,Willows Unified,1357,,Mike Boittarini,mbottarini@willowsunified.org,530-934-6611,7023,,,,307.8783256,1341656346,205183.3916
+Lassen,SD-07-45-01,Big Valley Joint Unified,117,,Robin Snipes,rsnipes@bigvalleyschool.org,530-294-5266,6000,,,,1216.439851,5569364856,398873.891
+Lassen,SD-07-45-02,Fort Sage Unified,502,,Lauretta Harkema,lharkema@fortsage.org,530-827-2129,n/a,,,,264.8041036,1169226660,209728.3359
+Lassen,SD-07-45-03,Janesville Union Elementary,313,,Rebekah Mckernan,rmckernan@janesvilleschool.org,530-253-3551,4528,,,,133.4981314,593889679.9,212243.3046
+Lassen,SD-07-45-04,Johnstonville Elementary,198,,Ferne Lee,FLEE@JOHNSTONVILLE.ORG,530-257-2471,4617,,,,22.86726121,102110116.8,58796.00211
+Lassen,SD-07-45-05,Lassen Union High,845,,Lesli Smith,lesli.smith@lassenhigh.org,530-251-1120,n/a,,,,2619.082492,11777212081,514183.8172
+Lassen,SD-07-45-06,Ravendale-Termo Elementary,6,,Michelle Brown,mbrown@susanvillesd.org,(530) 257-8200,4006,,,,781.5505834,3541699411,344257.0384
+Lassen,SD-07-45-07,Richmond Elementary,185,,Brian Boyer,bboyer@richmondelementary.com,530-257-2338,n/a,,,,55.69238702,248619927.4,80435.4136
+Lassen,SD-07-45-08,Shaffer Union Elementary,243,,Shannon Polan,spolan@shafferschool.com,530-254-6577,4802,,,,867.7708642,3885127859,357621.4467
+Lassen,SD-07-45-09,Susanville Elementary,1139,,Tonya Plummer,taplummer@susanvillesd.org,530-257-8200,n/a,,,,757.7032646,3405765087,275242.939
+Lassen,SD-07-45-10,Westwood Unified,192,,Trena Smith,tsmith@westwoodusd.org,530-256-2311,4775,,,,505.0669854,2265579258,287113.4497
+Modoc,SD-07-42-01,Modoc Joint Unified,810,,Jessica Boal,jboal@modoc.k12.ca.us,530-233-7201,109,,,,2569.067029,11894610346,540957.2559
+Modoc,SD-07-42-02,Surprise Valley Joint Unified,88,,Julie Ladd,kitchen@svjusd.org,530-279-6141,133,,,,837.5392771,3869725738,377137.8901
+Modoc,SD-07-42-03,Tulelake Basin Joint Unified,429,,Rosie Jochim,rjochim@tbjusd.org,530-667-2294,n/a,,,,738.2990693,3441951633,298202.9175
+Nevada,SD-07-54-01,Chicago Park Elementary,156,2,Katie Kohler,kkohler@chicagopark.org,530-346-2153,202,,,,6.491278749,27989273.27,25916.95348
+Nevada,SD-07-54-02,Clear Creek Elementary,163,1,Kindell Tygart,ktygart@clearcreek.org,530-273-3664,,,,,32.31103731,139251711.9,81408.82271
+Nevada,SD-07-54-03,Grass Valley Elementary,1551,5,william coats,wcoats@gvsd.us,530-272-2236,,,,,61.17494692,264292238.3,145523.3089
+Nevada,SD-07-54-04,Nevada City Elementary,705,2,Paige Moore,pmoore@ncsd.k12.ca.us,530-265-1823,,,,,164.1211976,710375353.2,201289.7986
+Nevada,SD-07-54-05,Nevada Joint Union High,2741,5,Theresa Ruiz,truiz@njuhsd.com,530-273-9788,,,,,798.5142584,3457318462,374966.0018
+Nevada,SD-07-54-06,Penn Valley Union Elementary,558,4,Donna Derrick,dderrick@pvuesd.org,530-432-7311,2302,,,,83.54487591,360766190.9,100352.6172
+Nevada,SD-07-54-07,Pleasant Ridge Union Elementary,1428,5,GREGG MOTARJEME,gmotarjeme@prsd.us,530-268-2800,0,,,,92.69202341,398873170.4,122459.1909
+Nevada,SD-07-54-08,Twin Ridges Elementary,110,2,Erin Riley,eriley@tresd.org,530-265-9052,204,,,,295.5849367,1283693710,277043.7997
+Nevada,SD-07-54-09,Union Hill Elementary,689,2,Susan Kane,skane@uhsd.k12.ca.us,530-273-0647,101,,,,5.969773834,25783279.21,30746.23238
+Placer,SD-07-55-01,Ackerman Charter,603,,Valerie Perry,vperry@ackerman.k12.ca.us,530-885-1974,n/a,,,,4.369422783,18731512.45,20531.87564
+Placer,SD-07-55-02,Alta-Dutch Flat Union Elementary,91,,Tara DiPietro,tdipietro@alta.k12.ca.us,(530) 389-8283,11,,,,106.3676375,459800804,124678.4447
+Placer,SD-07-55-03,Auburn Union Elementary,1452,,Nichole Degraaf,ndegraaf@auburn.k12.ca.us,530-745-8824,n/a,,,,60.06683734,257520981.4,111771.6538
+Placer,SD-07-55-04,Colfax Elementary,334,,,nutrition@puhsd.k12.ca.us,,,,,,78.13285982,336688418.3,128486.6919
+Placer,SD-07-55-05,Dry Creek Joint Elementary,6725,,,natashab@rcsdk8.org,,,,,,13.95133544,59484821.77,35805.44098
+Placer,SD-07-55-06,Eureka Union,3315,,Melissa Mercado,mmercado@eurekausd.org,(916) 774-1207,,,,,19.20189979,81859774.3,48386.18719
+Placer,SD-07-55-07,Foresthill Union Elementary,471,,Nicole Gallagher,ngallagher@fusd.org,530-367-3782,108,,,,496.7620236,2138266131,309490.8333
+Placer,SD-07-55-08,Loomis Union Elementary,2905,,Lynn Moore,lmoore@loomis-usd.k12.ca.us,916-652-1836,414,,,,53.46408302,228507123,121746.6525
+Placer,SD-07-55-09,Newcastle Elementary,2131,,Cirbie Krslovic,ckrslovic@newcastle.k12.ca.us,916-663-3307,2217,,,,8.063947648,34510057.6,32325.9419
+Placer,SD-07-55-10,Placer Hills Union Elementary,762,,Mary Reome,mreome@phusd.org,530-878-2606,3004,,,,51.82736279,222628391.2,80120.22812
+Placer,SD-07-55-11,Placer Union High,3975,,Crystal Eatherton,corear@puhsd.k12.ca.us,530-866-4472,n/a,,,,859.0541746,3696653419,442163.6547
+Placer,SD-07-55-12,Rocklin Unified,13206,,Charles Douglas,cdouglas@rocklinusd.org,916-624-1112,2,,,,18.77204245,80182007.66,42672.71817
+Placer,SD-07-55-13,Roseville City Elementary,12004,,Mohamed Elazazy,melazazy@rcsdk8.org,916-771-1675,50240,,,,42.57475814,181731633.3,94506.42857
+Placer,SD-07-55-14,Roseville Joint Union High,12626,,Jay Brown,jbrown@rjuhsd.us,916-782-5158,2022,,,,75.72799337,323076229.4,121541.5988
+Placer,SD-07-55-15,Tahoe-Truckee Unified,4135,,"Kat Soltanmorad, Rdn",ksoltanmorad@ttusd.org,530-582-2528,n/a,,,,620.8387611,2685672560,297828.5866
+Placer,SD-07-55-16,Western Placer Unified,10905,,Christina Lawson,clawson@wpusd.org,916-645-6373,n/a,,,,170.3777557,730240196.6,133590.4591
+Plumas,SD-07-47-01,Plumas Unified,2031,,Tracy Darue,tdarue@pcoe.k12.ca.us,530-283-6545,5505,,,,2091.731954,9247091503,616004.0057
+Shasta,SD-07-44-01,Anderson Union High,1643,,Chalynn Dotzenrod,chalynn.dotzenrod@cuesd.com,530-378-7000,7104,,,,239.738654,1073207328,232726.4313
+Shasta,SD-07-44-02,Bella Vista Elementary,338,,Teresa Bishop,tbishop@bveagles.com,530-549-4415,n/a,,,,86.09604737,388296716.3,103278.9606
+Shasta,SD-07-44-03,Black Butte Union Elementary,246,,Denise Murray,dmurray@blackbutteschool.org,530-474-3125,328,,,,185.970799,834326829,208027.5394
+Shasta,SD-07-44-04,Cascade Union Elementary,1453,,Chalynn Dotzenrod,chalynn.dotzenrod@cuesd.com,530-378-7000,7104,,,,27.48760998,123096271.5,70887.9723
+Shasta,SD-07-44-05,Castle Rock Union Elementary,40,,James Martin,jmartin@castlerockschool.net,530-261-0098,n/a,,,,185.0000885,844963226.5,157254.461
+Shasta,SD-07-44-06,Columbia Elementary,2192,,Deanna Mertle,dmertle@columbiasd.com,530-221-5224,720,,,,19.87261483,89393887.68,50646.44159
+Shasta,SD-07-44-07,Cottonwood Union Elementary,1190,,Chalynn Dotzenrod,CHALYNN.DOTZENROD@CUESD.COM,530-378-7000,7104,,,,148.0733308,662556514.1,230606.9239
+Shasta,SD-07-44-08,Enterprise Elementary,3538,,"Cindy Ksiazek, Sns",cksiazek@eesd.net,530-224-4100,8207,,,,12.09991261,54364767.96,42280.37664
+Shasta,SD-07-44-09,Fall River Joint Unified,1160,,Patricia Betz,pbetz@frjusd.org,530-336-5570,n/a,,,,1133.793652,5151053166,400884.3151
+Shasta,SD-07-44-10,French Gulch-Whiskeytown Elementary,15,,Renee Raley,rraley@frenchgulchschool.com,530-359-2151,92151,,,,195.4303115,882462996.3,175746.7546
+Shasta,SD-07-44-24,Gateway Unified,2298,,Sean Hays,shays@gwusd.org,530-245-7917,n/a,,,,656.779858,2979667877,338938.8734
+Shasta,SD-07-44-11,Grant Elementary,621,,Lorena Andersen,landersen@grantschoolcougars.com,530-246-3163,n/a,,,,25.08958069,112619128.2,54953.54024
+Shasta,SD-07-44-12,Happy Valley Union Elementary,496,,Larra Snyder,lsnyder@hvusd.net,530-357-2134,n/a,,,,37.22430951,166694582.6,75017.30501
+Shasta,SD-07-44-13,"Igo, Ono, Platina Union Elementary",29,,Angela Melton,amelton@rsdnmp.org,530-225-0011,n/a,,,,314.2332923,1406693592,235986.2161
+Shasta,SD-07-44-14,Junction Elementary,372,,Deanna Mertle,dmertle@columbiasd.com,530-221-5224,720,,,,17.14073775,76955566.85,44780.59611
+Shasta,SD-07-44-15,Millville Elementary,214,,Deanna Withey,dwithey@millvilleschool.net,530-547-4471,n/a,,,,95.92293503,431155604.5,103864.7362
+Shasta,SD-07-44-23,Mountain Union Elementary,86,,Malinda Martin,mmartin@muesd.org,530-337-6214,1001,,,,376.0649201,1708877010,250294.639
+Shasta,SD-07-44-16,North Cow Creek Elementary,256,,Jennifer Bickley,jbickley@northcowcreek.org,(530) 549-4488,,,,,16.46248007,74042530.74,48542.49743
+Shasta,SD-07-44-17,Oak Run Elementary,41,,Kerrie Stomps,kstomps@oakrunschool.org,530-472-3241,n/a,,,,54.13310422,244271594.4,98610.40863
+Shasta,SD-07-44-18,Pacheco Union Elementary,720,,David Flores,dflores@suhsd.net,(530) 224-4599,,,,,26.95340378,120859959.9,63947.85989
+Shasta,SD-07-44-19,Redding Elementary,3239,,Angela Melton,amelton@rsdnmp.org,530-225-0011,n/a,,,,26.28217135,118035505.8,62414.95907
+Shasta,SD-07-44-20,Shasta Union Elementary,103,,Angela Melton,amelton@rsdnmp.org,530-225-0011,n/a,,,,50.71170918,228474959.5,89903.1761
+Shasta,SD-07-44-21,Shasta Union High,5501,,Fred   Schafer,fschafer@suhsd.net,530-245-2628,n/a,,,,1837.428032,8279440454,919023.15
+Shasta,SD-07-44-22,Whitmore Union Elementary,63,,Linda Barneby,lbarneby@wujesd.org,530-472-3243,207,,,,361.9174163,1629469765,277058.8149
+Sierra,SD-07-50-01,Sierra-Plumas Joint Unified,403,,Adrienne Garza,aball@spjusd.org,530-993-1660,150,,,,1483.876951,6503353022,611233.0698
+Siskiyou,SD-07-41-01,Big Springs Union Elementary,120,,Kaylea Morris,kmorris@sisnet.ssku.k12.ca.us,530-459-3189,n/a,,,,87.06437122,403334876.9,91608.38009
+Siskiyou,SD-07-41-02,Bogus Elementary,15,,Erika Salvestro,esalvestro@sisnet.ssku.k12.ca.us,530-459-3163,n/a,,,,85.65129045,401056549.5,100743.7875
+Siskiyou,SD-07-41-22,Butte Valley Unified,302,,Destiny Campbell,dcampbell@bvalusd.org,530-397-3898,119,,,,1196.562794,5567534509,376035.5861
+Siskiyou,SD-07-41-03,Butteville Union Elementary,149,,Adrianne Treur,adrianne.treur@butteville.k12.ca.us,530-925-5342,n/a,,,,122.5850775,565664686.1,185434.0668
+Siskiyou,SD-07-41-04,Delphic Elementary,62,,Mireya Masson,mmasson@delphic.k12.ca.us,530-842-3653,n/a,,,,7.587346336,35274966.26,26486.67565
+Siskiyou,SD-07-41-05,Dunsmuir Elementary,76,,Danielle Halley,dhalley@dunsmuir.k12.ca.us,530-235-4828,123,,,,72.10412103,330325122.9,91112.985
+Siskiyou,SD-07-41-06,Dunsmuir Joint Union High,65,,Jeff Capps,jcapps@sisnet.ssku.k12.ca.us,530-235-4835,n/a,,,,257.1042095,1175288349,180193.616
+Siskiyou,SD-07-41-07,Gazelle Union Elementary,35,,Thomas Wilson,twilson@gazelle.k12.ca.us,530-435-2321,n/a,,,,84.54451988,390770883.5,80085.41235
+Siskiyou,SD-07-41-08,Grenada Elementary,207,,Keri Patti,Keri.Patti@grenada.k12.ca.us,530-436-0365,n/a,,,,56.28505383,261121390.8,78757.94197
+Siskiyou,SD-07-41-09,Happy Camp Union Elementary,115,,Carmynne Neimoyer,cneimoyer@happycamp.k12.ca.us,530-493-2267,300,,,,357.7010733,1669037657,202362.4478
+Siskiyou,SD-07-41-10,Hornbrook Elementary,38,,Stephanie Robinson,srobinson@hornbrookschool.org,530-475-3598,n/a,,,,239.9239795,1124051520,221672.2095
+Siskiyou,SD-07-41-24,Junction Elementary,23,,Terri Parks,tparks@junction.k12.ca.us,530-469-3373,n/a,,,,382.4357617,1769615306,244063.1217
+Siskiyou,SD-07-41-11,Klamath River Union Elementary,5,,Robyn Walsh,rwalsh@sisnet.ssku.k12.ca.us,530-496-3406,n/a,,,,295.6113813,1380203143,188636.0003
+Siskiyou,SD-07-41-12,Little Shasta Elementary,19,,Kim Sanchez,ksanchez@littleshasta.k12.ca.us,530-459-3269,n/a,,,,161.7048189,752175706.2,143815.1499
+Siskiyou,SD-07-41-13,McCloud Union Elementary,50,,Rosa Mero,rmero@sisnet.ssku.k12.ca.us,530-964-2133,111,,,,668.3381775,3070431626,241544.2038
+Siskiyou,SD-07-41-14,Montague Elementary,154,,Vanessa Nicholson,vnicholson@montague.k12.ca.us,530-459-3001,n/a,,,,38.2114916,178001380,102549.5867
+Siskiyou,SD-07-41-15,Mt. Shasta Union Elementary,506,,Holly Castaneda,hcastaneda@msusd.org,530-926-6007,n/a,,,,137.9292121,633667977.1,123283.4841
+Siskiyou,SD-07-41-23,Scott Valley Unified,624,,Kerry Towne,ktowne@svusd.us,530-468-2412,6009,,,,1482.609376,6831054139,461925.4378
+Siskiyou,SD-07-41-16,Seiad Elementary,14,,Savana Oliver,soliver@seiad.k12.ca.us,530-496-3308,0,,,,204.0873696,954063597.3,147522.9979
+Siskiyou,SD-07-41-17,Siskiyou Union High,515,,Morgan Hamm,mhamm@sisuhsd.net,530-925-9761,1104,,,,2138.443949,9889062751,798781.3707
+Siskiyou,SD-07-41-18,Weed Union Elementary,288,,Maria Sharp,msharp@weedelem.k12.ca.us,530-938-2715,110,,,,265.3830586,1226659696,252397.5919
+Siskiyou,SD-07-41-19,Willow Creek Elementary,40,,Joshua Zimmerman,jzimmerman@sisnet.ssku.k12.ca.us,530-459-3313,203,,,,90.63304449,423081786.4,137949.3863
+Siskiyou,SD-07-41-20,Yreka Union Elementary,869,,Renee Head,rhead@yrekausd.net,530-842-3561,336,,,,160.8441625,749498518.2,155802.215
+Siskiyou,SD-07-41-21,Yreka Union High,692,,Samuel Diggle,sdiggle@yuhsd.net,530-842-2521,403,,,,1308.06146,6098570721,454425.6529
+Sutter,SD-07-52-01,Brittan Elementary,495,,Katie Hunt,Cafeteria@brittan.k12.ca.us,530-822-2333,n/a,,,,64.55942837,278689692.3,109424.064
+Sutter,SD-07-52-02,Browns Elementary,132,,Heidi Guynes,heidig@sutter.k12.ca.us,(530) 633-2523,211,,,,32.54334333,139582550.1,58941.44444
+Sutter,SD-07-52-03,East Nicolaus Joint Union High,299,,Robbie Ward,rward@eastnicolaus.k12.ca.us,530-656-2255,129,,,,147.1383683,629419572.4,133142.4388
+Sutter,SD-07-52-04,Franklin Elementary,505,,Laurie Robertson,laurier@franklin.k12.ca.us,530-822-5151,n/a,,,,14.85393228,64006794.11,39424.59091
+Sutter,SD-07-52-05,Live Oak Unified,2026,,Sepon Istepanyan,sistepanyan@lousd.k12.ca.us,530-695-5400,1113,,,,92.58482371,400527029.4,124379.2508
+Sutter,SD-07-52-06,Marcum-Illinois Union Elementary,2667,,Shasta Ford,shastaf@sutter.k12.ca.us,530-656-2407,10,,,,61.24484544,261904606.8,109588.6212
+Sutter,SD-07-52-07,Meridian Elementary,1530,,Amanda Carey,amandaca@sutter.k12.ca.us,530-696-2604,n/a,,,,27.23625402,117436087.1,73259.51642
+Sutter,SD-07-52-08,Nuestro Elementary,813,,Baljinder Dhillon,baldhillon@sutter.k12.ca.us,(530) 822-5100,,,,,12.13793639,52408766.05,40870.84359
+Sutter,SD-07-52-09,Pleasant Grove Joint Union,157,,Jennifer Kendrix,jenniferk@sutter.k12.ca.us,(916) 655-3235,,,,,53.35017952,227932415.5,81229.29652
+Sutter,SD-07-52-10,Sutter Union High,795,,Brandee Barton,bbarton@sutterhigh.k12.ca.us,530-822-5161,303,,,,244.1369946,1050314620,241946.7426
+Sutter,SD-07-52-11,Winship-Robbins,2662,,Stacey Calonder,staceyb@sutter.k12.ca.us,530-738-4386,n/a,,,,125.3494435,537773280.5,147940.1866
+Sutter,SD-07-52-12,Yuba City Unified,12211,,Chelsey Slattery,cslattery@ycusd.org,530-822-5075,30100,,,,114.967397,494213357.1,127051.4498
+Tehama,SD-07-46-01,Antelope Elementary,798,4,Melissa Fite,mfite@antelope.org,530-527-1272,1206,,,,649.0529701,2896063049,437662.1553
+Tehama,SD-07-46-02,Corning Union Elementary,1954,6,Allison Sedlak,asedlak@cuesd.net,530-824-7715,2212,,,,164.8712031,726992787.2,218677.7477
+Tehama,SD-07-46-03,Corning Union High,1057,3,Stacie Magee,smagee@corninghs.org,530-824-8014,,,,,611.6433306,2694745544,307020.4816
+Tehama,SD-07-46-04,Evergreen Union,1197,6,Beth Pulfer,bpulfer@evergreenusd.org,530-347-3411,,,,,572.4662722,2549810788,346836.8947
+Tehama,SD-07-46-05,Flournoy Union Elementary,39,1,Maria Herrera,mhererra@flournoy.org,530-833-5331,,,,,393.0561858,1731107882,263043.6929
+Tehama,SD-07-46-06,Gerber Union Elementary,410,1,Pebbles Lomeli,plomeli@gerber.org,530-385-1041,,,,,61.77943927,273530617.3,116756.7106
+Tehama,SD-07-46-07,Kirkwood Elementary,103,1,Tammi Jensen,tjensen@kirkwoodca.org,530-824-7773,,,,,19.12181292,84118891.88,54998.656
+Tehama,SD-07-46-08,Lassen View Union Elementary,367,1,Lisa Rendon,lrendon@lassenview.org,530-527-5162,410,,,,364.2778853,1618370554,229240.0671
+Tehama,SD-07-46-09,Los Molinos Unified,519,3,Katie Baker,kbaker@lmusd.net,530-384-7900,2301,,,,315.5840337,1394380539,196110.9335
+Tehama,SD-07-46-10,Red Bluff Joint Union High,1709,2,Marissa Stevens,mstevens@rbhsd.org,530-529-8838,,,,,2144.808385,9541023039,647064.8776
+Tehama,SD-07-46-11,Red Bluff Union Elementary,1893,5,TINA EGAN,tegan@rbuesd.org,530-527-7200,110,,,,117.9174155,523315573.2,205343.4934
+Tehama,SD-07-46-12,Reeds Creek Elementary,190,1,Mistee Bumpus,mbumpus@reedscreek.org,530-527-6006,,,,,379.3144022,1679932458,241670.939
+Tehama,SD-07-46-13,Richfield Elementary,263,1,Michelle Thomas,mthomas@richfield.org,530-824-3354,,,,,23.58014655,104117302.3,50261.5204
+Trinity,SD-07-43-01,Burnt Ranch Elementary,85,,Monique Ambrosini,mambrosini@bresd.org,530-629-2543,n/a,,,,211.3637414,958788438.6,219940.0101
+Trinity,SD-07-43-02,Coffee Creek Elementary,8,,Courtney Bayley,cbayley@tcoek12.biz,(530) 623-2861,248,,,,356.5658827,1631052386,222966.7064
+Trinity,SD-07-43-03,Douglas City Elementary,165,,Tovah Jacobs,tjacobs@dcesd.org,530-623-6350,112,,,,132.5570499,596128342.1,131667.4066
+Trinity,SD-07-43-04,Junction City Elementary,72,,Caroline Crockett,ccrockett@jcesd.org,530-623-6381,201,,,,142.9714431,647206694.4,149578.0564
+Trinity,SD-07-43-05,Lewiston Elementary,66,,Rita Cook,rcook@lewistonesd.com,530-778-3984,n/a,,,,104.2641566,470679714.1,123184.8736
+Trinity,SD-07-43-08,Mountain Valley Unified,340,,Cassie Rourke,crourke@mvusd.us,530-628-5265,125,,,,628.2156275,2820181813,276335.6351
+Trinity,SD-07-43-07,Southern Trinity Joint Unified,77,,Jenna Thomas,jthomas@stjusd.org,707-574-6237,226,,,,876.6907156,3896091489,353172.5114
+Trinity,SD-07-43-09,Trinity Alps Unified,657,,Sheree Beans,sbeans@tausd.org,530-623-6104,n/a,,,,1710.938667,7768047446,610406.938
+Trinity,SD-07-43-06,Trinity Center Elementary,14,,Veronica Stewart,veronica@trinitycenterschool.org,(530) 266-3342,,,,,225.035528,1022746348,171652.1207
+Yuba,SD-07-53-01,Camptonville Elementary,586,,Lynn Coppock,LCoppock@cville.k12.ca.us,530-288-3277,n/a,,,,56.62418802,246293535.3,79862.50145
+Yuba,SD-07-53-02,Marysville Joint Unified,10539,,Amber Green,agreen@mjusd.com,530-749-6178,n/a,,,,469.5250293,2035279460,352981.0715
+Yuba,SD-07-53-03,Plumas Lake Elementary,1604,,Mary Delong,mdelong@plusd.org,530-743-4428,770,,,,40.33128167,173309482,89373.35304
+Yuba,SD-07-53-04,Wheatland,1333,,Megan Mcdonald,mmcdonald@wheatland.k12.ca.us,530-633-3130,1115,,,,115.6955489,498362966.5,148653.9878
+Yuba,SD-07-53-05,Wheatland Union High,1091,,Kuulei Moreno,kmoreno@wheatlandhigh.org,530-633-3100,164,,,,156.0268306,671672448.5,164000.4845
+Napa,SD-02-15-01,Calistoga Joint Unified,790,3,Rosa Rubio,rrubio@calistogajusd.org,707-942-4428,,,,,95.72637343,406680203.4,147068.2582
+Napa,SD-02-15-02,Howell Mountain Elementary,93,1,Jamie Anstey,janstey@hmesd.org,707-965-2423,,,,,15.84380508,67247153.65,40587.94251
+Napa,SD-02-15-03,Napa Valley Unified,"16,393",26,Kristen Tekell,kristen_tekell@nvusd.org,707-253-3541,,,,,274.390706,1157129117,353720.363
+Napa,SD-02-15-04,Pope Valley Union Elementary,48,1,Suevon Daniels,sdaniels@pvk8.org,707-965-2402,,,,,96.4999432,410226161.5,137571.0852
+Napa,SD-02-15-05,Saint Helena Unified,"1,103",5,Angela Baxter,abaxter@sthelenaunified.org,707-967-2722,,,,,315.5074925,1339976356,406598.431
