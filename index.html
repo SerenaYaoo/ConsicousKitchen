@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CK Farm to School Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap CSS for styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Leaflet CSS for map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+
+  <style>
+    /* Global styles */
+    body {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 14px;
+      background: #f9f7f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+    /* Welcome Modal */
+    #welcome-modal {
+      position: fixed;
+      z-index: 9999;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #welcome-modal .modal-content {
+      background: rgba(255,255,255,0.95);
+      border-radius: 10px;
+      padding: 2rem;
+      max-width: 600px;
+      text-align: center;
+    }
+    #welcome-modal h1 {
+      font-size: 1.8rem;
+      color: #4d784e;
+      margin-bottom: 1rem;
+    }
+    #welcome-modal p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    /* Filter Panel */
+    .filter-panel {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    /* Availability Modal */
+    #availability-modal {
+      position: fixed;
+      z-index: 9999;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .custom-modal {
+      display: none; /* Hidden by default; shown via JS */
+      position: fixed;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5); /* Backdrop */
+      justify-content: center;
+      align-items: center;
+    }
+    .custom-modal-content {
+      background: #fff;
+      max-width: 600px;
+      width: 90%;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      position: relative;
+      text-align: left;
+    }
+    .custom-modal-content h2 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    .custom-modal-content p {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+    .custom-modal-close {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      color: #888;
+      cursor: pointer;
+    }
+    .custom-modal-close:hover {
+      color: #333;
+    }
+    /* Header Container */
+    .header-container {
+      background-color: #f4f4f4; 
+      border-bottom: 2px solid #ddd; 
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+    }
+    .header-logo {
+      max-height: 100px;
+      width: auto;
+      margin-right: 1rem;
+    }
+    .header-title {
+      font-size: 1.8rem;
+      color: #4d784e; 
+      font-weight: bold;
+      margin: 0;
+    }
+    .nav-links {
+      margin-top: 0.5rem;
+    }
+    .nav-links a {
+      margin-right: 1rem;
+      color: #4d784e;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+    .nav-links a.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    /* Map Container */
+    #map {
+      height: 450px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    /* Scrollable Table Containers */
+    #farm-table-container,
+    #school-table-container {
+      max-height: 450px;
+      overflow-y: auto;
+      overflow-x: auto;
+      margin-bottom: 2rem;
+    }
+    /* Table Styling */
+    table {
+      width: 100%;
+      min-width: 900px;
+    }
+    table th,
+    table td {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+    /* Toggle Buttons */
+    .toggle-btn {
+      background-color: #4d784e;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+    .toggle-btn.active {
+      background-color: #3f6240;
+    }
+    /* Logo Styling */
+    .logo {
+      display: block;
+      margin: 0 auto 1.5rem auto;
+      max-width: 150px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Welcome Modal -->
+<div id="welcome-modal">
+  <div class="modal-content">
+    <img src="images.jpeg" alt="Your Logo" class="logo">
+    <h1>Welcome to Conscious Kitchen (CK) Farm to School Project</h1>
+    <p>
+      Thank you for exploring Conscious Kitchen’s (CK) Farm to School Project. This dashboard and map allow you to explore organic strawberry farms and school districts in California—helping to connect school meal programs to local organic farms.
+      <br><br>
+      Click on <strong>“View this week’s produce availability list”</strong> to place an order with our coordinator.
+      <br><br>
+      We encourage you to explore <strong>CK verified farms</strong> as these are farmers we have worked with and recommend.
+    </p>
+    <button id="close-modal" class="btn btn-success mt-3">Explore Dashboard</button>
+  </div>
+</div>
+
+<!-- Header Container -->
+<div class="header-container">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-auto text-center">
+        <img src="images.jpeg" alt="Your Logo" class="header-logo">
+      </div>
+      <div class="col">
+        <h1 class="header-title mb-0">Conscious Kitchen (CK) Farm to School Project</h1>
+        <div class="nav-links">
+          <a href="#" id="link-dashboard" class="active">Dashboard</a>
+          <a href="#" id="link-availability">View this week’s produce availability list</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Availability Modal -->
+<div id="availability-modal" class="custom-modal" style="display:none;">
+  <div class="custom-modal-content">
+    <button id="close-availability" class="custom-modal-close">&times;</button>
+    <h2>View this week’s produce availability list</h2>
+    <p>
+      Check out this week’s full availability list, and reach out with any questions or orders to 
+      <a href="mailto:caralee@turninggreen.org">Caralee Ellis</a> at 
+      <a href="mailto:caralee@turninggreen.org">caralee@turninggreen.org</a>.
+    </p>
+    <a 
+      href="https://docs.google.com/spreadsheets/d/1AWKITmLgdrIXU62stEJysknO5nL52depUFFJfsscNOo/edit?gid=905251083#gid=905251083" 
+      target="_blank" 
+      class="btn btn-primary"
+    >
+      View Full Availability List
+    </a>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Filter Panel -->
+  <div class="filter-panel">
+    <div class="row">
+      <div class="col-md-4 mb-2">
+        <div class="input-group">
+          <input id="search-county" list="county-options" type="text" class="form-control" placeholder="Search by County">
+          <div class="input-group-append">
+            <button id="clear-county" class="btn btn-outline-secondary" type="button">×</button>
+          </div>
+        </div>
+        <datalist id="county-options">
+          <option value="Alameda">
+          <option value="Butte">
+          <option value="Humboldt">
+          <option value="Los Angeles">
+          <option value="Madera">
+          <option value="Monterey">
+          <option value="Orange">
+          <option value="Placer">
+          <option value="Sacramento">
+          <option value="San Benito">
+          <option value="San Diego">
+          <option value="San Francisco">
+          <option value="San Luis Obispo">
+          <option value="San Mateo">
+          <option value="Santa Barbara">
+          <option value="Santa Clara">
+          <option value="Santa Cruz">
+          <option value="Sonoma">
+          <option value="Sutter">
+          <option value="Ventura">
+          <option value="Yolo">
+        </datalist>
+      </div>
+      <div class="col-md-4 mb-2">
+        <input id="search-school" type="text" class="form-control" placeholder="Search by School District">
+      </div>
+      <div class="col-md-4 mb-2">
+        <select id="radius-select" class="form-control">
+          <option value="999999">All Distances</option>
+          <option value="50">Within 50 miles</option>
+          <option value="150">Within 150 miles</option>
+          <option value="200">Within 200 miles</option>
+        </select>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-6 mb-2">
+        <label>Strawberry Acreage (min): <span id="acreage-value">0</span></label>
+        <input id="acreage-slider" type="range" class="form-control-range" min="0" max="500" value="0">
+      </div>
+      <div class="col-md-6 mb-2 text-right">
+        <!-- Two separate toggle buttons: one for Table, one for Map -->
+        <button id="toggle-ck-table" class="toggle-btn">Show All Farms (Table)</button>
+        <button id="toggle-ck-map" class="toggle-btn ml-2">Show Only CK Verified Farms (Map)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- Organic Strawberry Farms Table (Scrollable) -->
+  <div id="farm-table-container" class="table-container">
+    <h2>Organic Strawberry Farms</h2>
+    <table id="farm-table" class="table table-striped table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th>Farm Name</th>
+          <th>CK Verified</th>
+          <th>County</th>
+          <th>Contact</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Strawberry Acreage</th>
+          <th>Total Acreage</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- School Districts Table (Scrollable) -->
+  <div id="school-table-container" class="table-container">
+    <h2>School Districts</h2>
+    <table id="school-table" class="table table-striped table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th>County</th>
+          <th>District Name</th>
+          <th>FSD Name</th>
+          <th>FSD Email</th>
+          <th>FSD Phone #</th>
+          <th>Student Population</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<!-- Papa Parse for CSV loading -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+<!-- Leaflet JS for map -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+<script>
+  /***** GLOBAL DATA *****/
+  let farmsData = [];
+  let schoolDistrictsData = [];
+  let dataLoadCount = 0;
+
+  // Two separate booleans for filtering farms
+  // Table: default to showing only CK verified farms (true)
+  let tableShowOnlyCK = true;
+  // Map: default to showing all farms (false)
+  let mapShowOnlyCK = false;
+
+  /***** LOAD CSV FILES *****/
+  Papa.parse("Farm2.csv", {
+    download: true,
+    header: true,
+    dynamicTyping: true,
+    skipEmptyLines: true,
+    complete: function(results) {
+      console.log("Farms CSV raw data:", results.data.slice(0,5));
+      farmsData = results.data.map(row => ({
+        County: row["County"] || "",
+        FarmName: row["Farm Name"] || "",
+        CKVerified: (row["CK Verified"] || "").toLowerCase(),
+        Contact: row["Contact"] || "",
+        Phone: row["Phone"] || "",
+        Email: row["Email"] || "",
+        StrawberryAcreage: isNaN(parseFloat(row["Strawberry Acerage"])) ? "N/A" : parseFloat(row["Strawberry Acerage"]),
+        TotalAcreage: isNaN(parseFloat(row["Total Acerage"])) ? "N/A" : parseFloat(row["Total Acerage"]),
+        GAPCertification: row["GAP Certified"] || "",
+        Latitude: parseFloat(row["Latitude"]) || 0,
+        Longitude: parseFloat(row["Longitude"]) || 0,
+      }));
+      onDataLoaded();
+    },
+    error: function(err) {
+      console.error("Error loading Farm2.csv:", err);
+    }
+  });
+
+  Papa.parse("FoodServices2.csv", {
+    download: true,
+    header: true,
+    dynamicTyping: true,
+    skipEmptyLines: true,
+    complete: function(results) {
+      console.log("Food Services CSV loaded:", results.data.slice(0,5));
+      schoolDistrictsData = results.data.map(row => ({
+        County: (row["County "] || "").trim(),
+        DistrictName: row["District Name"] || "",
+        FSDName: row["FSD Name"] || "",
+        FSDEmail: row["FSD Email"] || "",
+        FSDPhone: row["FSD Phone #"] || "",
+        FSDExtension: row["FSD Extension"] || "",
+        StudentPopulation: row["Student Population "] || ""
+      }));
+      onDataLoaded();
+    },
+    error: function(err) {
+      console.error("Error loading FoodServices2.csv:", err);
+    }
+  });
+
+  function onDataLoaded() {
+    dataLoadCount++;
+    if (dataLoadCount === 2) {
+      updateDashboard();
+    }
+  }
+
+  /***** DOM ELEMENTS *****/
+  const welcomeModal = document.getElementById('welcome-modal');
+  const closeModalBtn = document.getElementById('close-modal');
+  const searchCountyInput = document.getElementById('search-county');
+  const searchSchoolInput = document.getElementById('search-school');
+  const radiusSelect = document.getElementById('radius-select');
+  const acreageSlider = document.getElementById('acreage-slider');
+  const acreageValueDisplay = document.getElementById('acreage-value');
+  const toggleCKTableBtn = document.getElementById('toggle-ck-table');
+  const toggleCKMapBtn = document.getElementById('toggle-ck-map');
+  const farmTableBody = document.querySelector('#farm-table tbody');
+  const schoolTableBody = document.querySelector('#school-table tbody');
+
+  /***** EVENT LISTENERS *****/
+  closeModalBtn.addEventListener('click', () => {
+    welcomeModal.style.display = 'none';
+  });
+  searchCountyInput.addEventListener('input', updateDashboard);
+  searchSchoolInput.addEventListener('input', updateDashboard);
+  radiusSelect.addEventListener('change', updateDashboard);
+  acreageSlider.addEventListener('input', () => {
+    acreageValueDisplay.textContent = acreageSlider.value;
+    updateDashboard();
+  });
+  toggleCKTableBtn.addEventListener('click', () => {
+    tableShowOnlyCK = !tableShowOnlyCK;
+    toggleCKTableBtn.textContent = tableShowOnlyCK 
+      ? "Show All Farms (Table)" 
+      : "Show Only CK Verified Farms (Table)";
+    updateDashboard();
+  });
+  toggleCKMapBtn.addEventListener('click', () => {
+    mapShowOnlyCK = !mapShowOnlyCK;
+    toggleCKMapBtn.textContent = mapShowOnlyCK 
+      ? "Show Only CK Verified Farms (Map)" 
+      : "Show All Farms (Map)";
+    updateDashboard();
+  });
+  document.getElementById('clear-county').addEventListener('click', () => {
+    searchCountyInput.value = "";
+    updateDashboard();
+  });
+  document.getElementById('link-availability').addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('link-dashboard').classList.remove('active');
+    document.getElementById('link-availability').classList.add('active');
+    document.getElementById('availability-modal').style.display = 'flex';
+  });
+  document.getElementById('link-dashboard').addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('link-dashboard').classList.add('active');
+    document.getElementById('link-availability').classList.remove('active');
+    document.getElementById('availability-modal').style.display = 'none';
+  });
+  document.getElementById('close-availability').addEventListener('click', () => {
+    document.getElementById('availability-modal').style.display = 'none';
+    document.getElementById('link-dashboard').classList.add('active');
+    document.getElementById('link-availability').classList.remove('active');
+  });
+
+  /***** DISTANCE CALCULATION (HAVERSINE) *****/
+  function toRad(x) { return x * Math.PI / 180; }
+  function calculateDistance(lat1, lon1, lat2, lon2) {
+    const R = 3958.8; // in miles
+    const dLat = toRad(lat2 - lat1);
+    const dLon = toRad(lon2 - lon1);
+    const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+              Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+              Math.sin(dLon/2) * Math.sin(dLon/2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    return R * c;
+  }
+
+  // Central coordinate for filtering (approx center of CA)
+  const searchCenter = { lat: 36.7783, lon: -119.4179 };
+
+  /***** INITIALIZE LEAFLET MAP *****/
+  let map, markerGroup;
+  document.addEventListener('DOMContentLoaded', () => {
+    map = L.map('map').setView([searchCenter.lat, searchCenter.lon], 6);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+    markerGroup = L.layerGroup().addTo(map);
+  });
+
+  function updateMapMarkers(filteredFarms) {
+    if (!markerGroup) return;
+    markerGroup.clearLayers();
+    // For the map, use the map-specific filter result
+    filteredFarms.forEach(farm => {
+      if (farm.Latitude && farm.Longitude) {
+        const marker = L.marker([farm.Latitude, farm.Longitude])
+          .bindPopup(`
+            <strong>${farm.FarmName}</strong><br>
+            County: ${farm.County}<br>
+            Contact: ${farm.Contact}<br>
+            Phone: ${farm.Phone}<br>
+            Email: ${farm.Email}<br>
+            Acreage: ${farm.StrawberryAcreage}<br>
+            Total Acreage: ${farm.TotalAcreage}
+          `);
+        markerGroup.addLayer(marker);
+      }
+    });
+  }
+
+function updateDashboard() {
+  console.log("Total farms loaded:", farmsData.length);
+
+  // Determine if school district search is active
+  let schoolActive = searchSchoolInput.value.trim() !== "";
+  // Also get the county search term (applies to both farms and school districts)
+  const countySearchTerm = searchCountyInput.value.trim().toLowerCase();
+  const schoolSearchTerm = searchSchoolInput.value.trim().toLowerCase();
+
+  // Precompute allowed counties for full (non-CK filtered) display when school district search is active.
+  // For each school district that matches the search, check if its county has any non‑verified farms.
+  let allowedCountiesForAll = new Set();
+  if (schoolActive) {
+    schoolDistrictsData.forEach(sd => {
+      if (sd.DistrictName.toLowerCase().includes(schoolSearchTerm)) {
+        let county = sd.County.toLowerCase();
+        // Find all farms in this county
+        let farmsInCounty = farmsData.filter(farm => farm.County.toLowerCase() === county);
+        // If there's at least one farm that is NOT CK verified, mark this county to show all farms
+        let hasNonCK = farmsInCounty.some(farm => (farm.CKVerified || "").toLowerCase().trim() !== "yes");
+        if (hasNonCK) {
+          allowedCountiesForAll.add(county);
+        }
+      }
+    });
+  }
+
+  // -- Filter for Farms Table --
+  let filteredFarmsTable = farmsData.filter(farm => {
+    // Determine CK match:
+    // If school district search is active, then:
+    // - If the farm's county is in allowedCountiesForAll, show it regardless of CK status.
+    // - Otherwise, only show if CK verified.
+    let ckVal = (farm.CKVerified || "").toLowerCase().trim();
+    let ckMatch;
+    if (schoolActive) {
+      if (allowedCountiesForAll.has(farm.County.toLowerCase())) {
+        ckMatch = true; // Show all farms in this county
+      } else {
+        ckMatch = (ckVal === "yes");
+      }
+    } else {
+      ckMatch = tableShowOnlyCK ? (ckVal === "yes") : true;
+    }
+    
+    // County search filter: match farm's county to the county search term
+    const countyMatch = farm.County.toLowerCase().includes(countySearchTerm);
+    
+    // Radius filtering from searchCenter
+    const radiusVal = parseFloat(radiusSelect.value);
+    const distance = calculateDistance(searchCenter.lat, searchCenter.lon, farm.Latitude, farm.Longitude);
+    const radiusMatch = (radiusVal === 999999) || (distance <= radiusVal);
+    
+    // Acreage slider: include farms with acreage >= slider value,
+    // or if acreage is "N/A", include only if slider is 0.
+    const minAcre = parseFloat(acreageSlider.value);
+    const acreageMatch = (typeof farm.StrawberryAcreage === "number" && farm.StrawberryAcreage >= minAcre)
+                         || (typeof farm.StrawberryAcreage !== "number" && minAcre === 0);
+    
+    return ckMatch && countyMatch && radiusMatch && acreageMatch;
+  });
+
+  console.log("Filtered farms (table):", filteredFarmsTable.length);
+
+  // Sort table: CK verified first, then by Strawberry Acreage descending
+  filteredFarmsTable.sort((a, b) => {
+    const aCK = (a.CKVerified || "").toLowerCase().trim() === "yes";
+    const bCK = (b.CKVerified || "").toLowerCase().trim() === "yes";
+    if (aCK && !bCK) return -1;
+    if (!aCK && bCK) return 1;
+    const aAcre = (typeof a.StrawberryAcreage === "number" ? a.StrawberryAcreage : 0);
+    const bAcre = (typeof b.StrawberryAcreage === "number" ? b.StrawberryAcreage : 0);
+    return bAcre - aAcre;
+  });
+
+  // Populate Farms Table
+  farmTableBody.innerHTML = "";
+  if (filteredFarmsTable.length === 0) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td colspan="8" class="text-center">No matching farms in the current county</td>`;
+    farmTableBody.appendChild(tr);
+  } else {
+    filteredFarmsTable.forEach(farm => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${farm.FarmName}</td>
+        <td>${farm.CKVerified}</td>
+        <td>${farm.County}</td>
+        <td>${farm.Contact}</td>
+        <td>${farm.Phone}</td>
+        <td>${farm.Email}</td>
+        <td>${farm.StrawberryAcreage}</td>
+        <td>${farm.TotalAcreage}</td>
+      `;
+      farmTableBody.appendChild(tr);
+    });
+  }
+
+
+// If a school district search is active, we already computed allowedCounties in the table filter section.
+// (If not, allowedCounties may be empty; so we can simply use the county search term.)
+let filteredFarmsMap = farmsData.filter(farm => {
+  // Map CK Filter: if mapShowOnlyCK is true, only include farms with "yes"; otherwise, all.
+  const ckVal = (farm.CKVerified || "").toLowerCase().trim();
+  const ckMatch = mapShowOnlyCK ? (ckVal === "yes") : true;
+
+  // Determine effective county match:
+  let countyMatchMap = true;
+  if (schoolActive) {
+    // If a school district search is active, use the allowedCounties (computed earlier in table filtering)
+    countyMatchMap = allowedCounties.has(farm.County.toLowerCase());
+  } else {
+    countyMatchMap = farm.County.toLowerCase().includes(countySearchTerm);
+  }
+
+  // For map, if a school district search is active, override radius to show all
+  let effectiveRadius = parseFloat(radiusSelect.value);
+  if (schoolActive) {
+    effectiveRadius = 999999;
+  }
+  const distance = calculateDistance(searchCenter.lat, searchCenter.lon, farm.Latitude, farm.Longitude);
+  const radiusMatch = (effectiveRadius === 999999) || (distance <= effectiveRadius);
+
+  return ckMatch && countyMatchMap && radiusMatch;
+});
+
+
+  // Map sorting: if school district search is active, sort by distance ascending; otherwise, sort by CK then distance ascending.
+  if (schoolActive) {
+    filteredFarmsMap.sort((a, b) => {
+      const distanceA = calculateDistance(searchCenter.lat, searchCenter.lon, a.Latitude, a.Longitude);
+      const distanceB = calculateDistance(searchCenter.lat, searchCenter.lon, b.Latitude, b.Longitude);
+      return distanceA - distanceB;
+    });
+  } else {
+    filteredFarmsMap.sort((a, b) => {
+      const aCK = (a.CKVerified || "").toLowerCase().trim() === "yes";
+      const bCK = (b.CKVerified || "").toLowerCase().trim() === "yes";
+      if (aCK && !bCK) return -1;
+      if (!aCK && bCK) return 1;
+      const distanceA = calculateDistance(searchCenter.lat, searchCenter.lon, a.Latitude, a.Longitude);
+      const distanceB = calculateDistance(searchCenter.lat, searchCenter.lon, b.Latitude, b.Longitude);
+      return distanceA - distanceB;
+    });
+  }
+
+  // Update Map Markers
+  updateMapMarkers(filteredFarmsMap);
+
+  // -- School Districts Filtering --
+  let filteredSchools = schoolDistrictsData.filter(sd => {
+    const countyMatch = sd.County.toLowerCase().includes(searchCountyInput.value.toLowerCase());
+    const districtMatch = !searchSchoolInput.value.trim() || 
+                          sd.DistrictName.toLowerCase().includes(searchSchoolInput.value.toLowerCase());
+    return countyMatch && districtMatch;
+  });
+  
+  // Sort school districts by County, then District Name
+  filteredSchools.sort((a, b) => {
+    if (a.County.toLowerCase() < b.County.toLowerCase()) return -1;
+    if (a.County.toLowerCase() > b.County.toLowerCase()) return 1;
+    return a.DistrictName.toLowerCase().localeCompare(b.DistrictName.toLowerCase());
+  });
+  
+  // Populate School Districts Table
+  schoolTableBody.innerHTML = "";
+  if(filteredSchools.length === 0) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td colspan="6" class="text-center">No matching school districts</td>`;
+    schoolTableBody.appendChild(tr);
+  } else {
+    filteredSchools.forEach(sd => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${sd.County}</td>
+        <td>${sd.DistrictName}</td>
+        <td>${sd.FSDName}</td>
+        <td>${sd.FSDEmail}</td>
+        <td>${sd.FSDPhone}</td>
+        <td>${sd.StudentPopulation}</td>
+      `;
+      schoolTableBody.appendChild(tr);
+    });
+  }
+}
+
+</script>
+</body>
+</html>

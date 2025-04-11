@@ -907,10 +907,10 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Longitude:qk]' field-type='quantitative' max='-12673036.755045017' min='-13907132.401024777' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk]' field-type='quantitative' max='4756284.9765209323' min='3792657.4353213124' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-            <encoding attr='space' class='1' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk]' field-type='quantitative' fold='true' max='4756284.9765209323' min='3792657.4353213124' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-            <encoding attr='space' class='1' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Longitude:qk]' field-type='quantitative' fold='true' max='-12673036.755045017' min='-13907132.401024777' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Longitude:qk]' field-type='quantitative' max='-12663873.98643223' min='-13932906.807698155' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk]' field-type='quantitative' max='5234759.0407815315' min='3321632.2403618195' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='1' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Latitude:qk]' field-type='quantitative' fold='true' max='5234759.0407815315' min='3321632.2403618195' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='1' field='[federated.0r3ww4t1llvobc17f9u8t0xcr25d].[none:Longitude:qk]' field-type='quantitative' fold='true' max='-12663873.98643223' min='-13932906.807698155' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
           </style-rule>
           <style-rule element='map-layer'>
             <format attr='enabled' id='b01002_001e' value='false' />
@@ -2187,20 +2187,12 @@
     </dashboard>
     <dashboard enable-sort-zone-taborder='true' name='Dashboard 3'>
       <style />
-      <size maxheight='800' maxwidth='1300' minheight='800' minwidth='1300' sizing-mode='fixed' />
+      <size maxheight='900' maxwidth='1300' minheight='900' minwidth='1300' sizing-mode='fixed' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone h='98222' id='7' param='horz' type-v2='layout-flow' w='98770' x='615' y='889'>
             <zone h='98222' id='5' type-v2='layout-basic' w='98770' x='615' y='889'>
-              <zone h='98222' id='9' name='Sheet 6' w='49385' x='50000' y='889'>
-                <zone-style>
-                  <format attr='border-color' value='#000000' />
-                  <format attr='border-style' value='none' />
-                  <format attr='border-width' value='0' />
-                  <format attr='margin' value='4' />
-                </zone-style>
-              </zone>
-              <zone forceUpdate='' h='98222' id='30' param='https://deft-semifreddo-2b0d16.netlify.app/' type-v2='web' w='49385' x='615' y='889'>
+              <zone h='98222' id='9' name='Sheet 6' w='98770' x='615' y='889'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -2587,7 +2579,7 @@
           <zoom type='fit-width' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='9' />
       <simple-id uuid='{03E84338-A840-4CAD-9831-58AF29D798C8}' />
     </window>
     <window class='worksheet' name='Sheet 2'>
@@ -2758,11 +2750,11 @@
       </cards>
       <simple-id uuid='{4B3DAA58-D0E7-40EA-B692-75CDEDA6C911}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 3'>
+    <window class='dashboard' name='Dashboard 3'>
       <viewpoints>
         <viewpoint name='Sheet 6' />
       </viewpoints>
-      <active id='30' />
+      <active id='-1' />
       <simple-id uuid='{E5200912-E317-41F3-8479-8192FD70B11A}' />
     </window>
     <window class='worksheet' name='Sheet 8'>
@@ -2797,10 +2789,10 @@
           <zoom type='fit-width' />
         </viewpoint>
       </viewpoints>
-      <active id='9' />
+      <active id='5' />
       <simple-id uuid='{B30BE3EF-304F-481C-9853-FD2B90DF1FA5}' />
     </window>
-    <window class='dashboard' name='Dashboard 5'>
+    <window class='dashboard' maximized='true' name='Dashboard 5'>
       <viewpoints />
       <active id='10' />
       <simple-id uuid='{4C752F3D-8BFE-465C-8DB7-AD7B464D7088}' />
